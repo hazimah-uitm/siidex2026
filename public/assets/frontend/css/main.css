@@ -1166,11 +1166,9 @@ section,
 /* Highlight card (last paragraph) */
 .info-card.highlight {
   border-left: 4px solid #e96722;
-  background: linear-gradient(
-    to right,
-    rgba(215, 34, 40, 0.05),
-    #ffffff
-  );
+  background: linear-gradient(to right,
+      rgba(215, 34, 40, 0.05),
+      #ffffff);
 }
 
 /* Text styling */
@@ -1363,6 +1361,45 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-bottom: 0;
 }
+
+/*--------------------------------------------------------------
+# Kategori Section
+--------------------------------------------------------------*/
+.kategori-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.kategori-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.kategori-number {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e96722;
+  opacity: 0.15;
+}
+
+.kategori-card h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.kategori-card p {
+  font-size: 14px;
+  color: #555;
+}
+
 
 /*--------------------------------------------------------------
 # Venue Section

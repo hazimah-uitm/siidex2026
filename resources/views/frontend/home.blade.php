@@ -52,7 +52,7 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="#hero" class="active">Utama<br></a></li>
-                    <li><a href="#speakers">Tentang Kami</a></li>
+                    <li><a href="#speakers">Latar Belakang</a></li>
                     <li><a href="#schedule">Tentatif</a></li>
                     <li><a href="#venue">Kategori</a></li>
                     {{-- <li><a href="#hotels">Hotels</a></li>
@@ -218,7 +218,8 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="info-card">
                             <p>
-                                Penganjuran terakhir SIIDEx telah berjaya dianjurkan pada Oktober 2019, dengan penyertaan
+                                Penganjuran terakhir SIIDEx telah berjaya dianjurkan pada Oktober 2019, dengan
+                                penyertaan
                                 yang tinggi serta menghasilkan inovasi-inovasi yang memberi impak signifikan. Namun,
                                 kesinambungan program ini terjejas akibat pandemik COVID-19, yang membataskan
                                 penganjuran acara berskala besar dan penglibatan antarabangsa.
@@ -249,269 +250,76 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Event Schedule<br></h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Tentatif Program<br></h2>
             </div><!-- End Section Title -->
 
-            <div class="container">
+            {{-- <div class="container"> --}}
 
-                <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
-                    </li>
-                    <li class="nav-item">
+            <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">14 September
+                        2026</a>
+                </li>
+                {{-- <li class="nav-item">
                         <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
-                    </li>
-                </ul>
+                    </li> --}}
+            </ul>
 
-                <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
-                    <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet
-                        officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+                {{-- <h3 class="sub-heading">
+                    Tentatif program adalah seperti berikut:
+                </h3> --}}
 
-                    <!-- Schdule Day 1 -->
-                    <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+                <!-- Schedule Day 1 -->
+                <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>09:30 AM</time></div>
-                            <div class="col-md-10">
-                                <h4>Registration</h4>
-                                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>08:00 pagi</time></div>
+                        <div class="col-md-8">
+                            <h4>Pendaftaran Peserta</h4>
                         </div>
+                    </div>
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-1-2.jpg') }}"
-                                        alt="Brenden Legros">
-                                </div>
-                                <h4>Keynote <span>Brenden Legros</span></h4>
-                                <p>Facere provident incidunt quos voluptas.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>09:00 pagi</time></div>
+                        <div class="col-md-8">
+                            <h4>Majlis Perasmian</h4>
                         </div>
+                    </div>
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-2-2.jpg') }}"
-                                        alt="Hubert Hirthe">
-                                </div>
-                                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>10:00 pagi</time></div>
+                        <div class="col-md-8">
+                            <h4>Sesi Penilaian Juri</h4>
                         </div>
+                    </div>
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-3-2.jpg') }}"
-                                        alt="Cole Emmerich">
-                                </div>
-                                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>12:30 tengah hari</time></div>
+                        <div class="col-md-8">
+                            <h4>Rehat</h4>
                         </div>
+                    </div>
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>02:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-4-2.jpg') }}"
-                                        alt="Jack Christiansen">
-                                </div>
-                                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>02:00 petang</time></div>
+                        <div class="col-md-8">
+                            <h4>Pameran dan Penilaian</h4>
                         </div>
+                    </div>
 
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>03:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-5.jpg') }}"
-                                        alt="Alejandrin Littel">
-                                </div>
-                                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-                            </div>
+                    <div class="row schedule-item">
+                        <div class="col-md-4"><time>04:00 petang</time></div>
+                        <div class="col-md-8">
+                            <h4>Tamat Program</h4>
                         </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>04:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-6.jpg') }}"
-                                        alt="Willow Trantow">
-                                </div>
-                                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-                            </div>
-                        </div>
-
-                    </div><!-- End Schdule Day 1 -->
-
-                    <!-- Schdule Day 2 -->
-                    <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-1-2.jpg') }}"
-                                        alt="Brenden Legros">
-                                </div>
-                                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                                <p>Facere provident incidunt quos voluptas.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-2-2.jpg') }}"
-                                        alt="Hubert Hirthe">
-                                </div>
-                                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-3-2.jpg') }}"
-                                        alt="Cole Emmerich">
-                                </div>
-                                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>02:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-4-2.jpg') }}"
-                                        alt="Jack Christiansen">
-                                </div>
-                                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>03:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-5.jpg') }}"
-                                        alt="Alejandrin Littel">
-                                </div>
-                                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>04:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-6.jpg') }}"
-                                        alt="Willow Trantow">
-                                </div>
-                                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-                            </div>
-                        </div>
-
-                    </div><!-- End Schdule Day 2 -->
-
-                    <!-- Schdule Day 3 -->
-                    <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>10:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-2-2.jpg') }}"
-                                        alt="Hubert Hirthe">
-                                </div>
-                                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-                                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>11:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-3-2.jpg') }}"
-                                        alt="Cole Emmerich">
-                                </div>
-                                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
-                                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>12:00 AM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-1-2.jpg') }}"
-                                        alt="Brenden Legros">
-                                </div>
-                                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-                                <p>Facere provident incidunt quos voluptas.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>02:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-4-2.jpg') }}"
-                                        alt="Jack Christiansen">
-                                </div>
-                                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
-                                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>03:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-5.jpg') }}"
-                                        alt="Alejandrin Littel">
-                                </div>
-                                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
-                                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
-                            </div>
-                        </div>
-
-                        <div class="row schedule-item">
-                            <div class="col-md-2"><time>04:00 PM</time></div>
-                            <div class="col-md-10">
-                                <div class="speaker">
-                                    <img src="{{ asset('public/assets/frontend/img/speakers/speaker-6.jpg') }}"
-                                        alt="Willow Trantow">
-                                </div>
-                                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
-                                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
-                            </div>
-                        </div>
-
-                    </div><!-- End Schdule Day 3 -->
-
-                </div>
+                    </div>
+                </div><!-- End Schedule Day 1 -->
+            </div>
 
             </div>
         </section><!-- /Schedule Section -->
@@ -521,120 +329,71 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Event Venue<br></h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
+                <h2>Kategori Penyertaan</h2>
+            </div>
 
-            <div class="container-fluid" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="row g-0">
-                    <div class="col-lg-6 venue-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                            frameborder="0" style="border:0" allowfullscreen=""></iframe>
-                    </div>
+                <div class="row gy-4">
 
-                    <div class="col-lg-6 venue-info">
-                        <div class="row justify-content-center">
-                            <div class="col-11 col-lg-8 position-relative">
-                                <h3>Downtown Conference Center, New York</h3>
-                                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae
-                                    ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus.
-                                    Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
-                            </div>
+                    <!-- Kategori 1 -->
+                    <div class="col-lg-6">
+                        <div class="kategori-card">
+                            <span class="kategori-number">01</span>
+                            <h4>Inovasi Pengajaran dan Pembelajaran</h4>
+                            <p>
+                                Merujuk kepada pembangunan kaedah, alat, sistem, atau pendekatan baharu yang
+                                bertujuan meningkatkan keberkesanan proses pengajaran dan pembelajaran dalam
+                                bidang pendidikan.
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Kategori 2 -->
+                    <div class="col-lg-6">
+                        <div class="kategori-card">
+                            <span class="kategori-number">02</span>
+                            <h4>Inovasi</h4>
+                            <p>
+                                Merujuk kepada penambahbaikan atau pengubahsuaian terhadap produk, proses,
+                                teknologi, atau perkhidmatan sedia ada bagi meningkatkan fungsi, kecekapan,
+                                atau nilai penggunaannya.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori 3 -->
+                    <div class="col-lg-6">
+                        <div class="kategori-card">
+                            <span class="kategori-number">03</span>
+                            <h4>Ciptaan (Invention)</h4>
+                            <p>
+                                Merujuk kepada penciptaan sesuatu produk, teknologi, atau kaedah yang benar-benar
+                                baharu dan asli hasil daripada penyelidikan dan pembangunan.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori 4 -->
+                    <div class="col-lg-6">
+                        <div class="kategori-card">
+                            <span class="kategori-number">04</span>
+                            <h4>Reka Bentuk (Design)</h4>
+                            <p>
+                                Merujuk kepada pembangunan konsep atau reka bentuk kreatif yang menekankan
+                                aspek fungsi, estetika, ergonomik, dan pengalaman pengguna dalam menghasilkan
+                                sesuatu produk atau sistem.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
 
-            <div class="container-fluid venue-gallery-container" data-aos="fade-up" data-aos-delay="100">
-                <div class="row g-0">
+        </section>
 
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-1.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-1.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-2.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-2.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-3.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-3.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-4.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-4.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-5.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-5.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-6.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-6.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-7.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-7.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="venue-gallery">
-                            <a href="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-8.jpg') }}"
-                                class="glightbox" data-gall="venue-gallery">
-                                <img src="{{ asset('public/assets/frontend/img/venue-gallery/venue-gallery-8.jpg') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </section><!-- /Venue Section -->
+        <!-- /Venue Section -->
 
         <!-- Hotels Section -->
         {{-- <section id="hotels" class="hotels section">
@@ -1008,91 +767,66 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Hubungi Kami</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
+            </div>
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-6">
-                        <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                            data-aos="fade-up" data-aos-delay="200">
-                            <i class="bi bi-geo-alt"></i>
-                            <h3>Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
-                        </div>
-                    </div><!-- End Info Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                            data-aos="fade-up" data-aos-delay="300">
-                            <i class="bi bi-telephone"></i>
-                            <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
-                        </div>
-                    </div><!-- End Info Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                            data-aos="fade-up" data-aos-delay="400">
-                            <i class="bi bi-envelope"></i>
-                            <h3>Email Us</h3>
-                            <p>info@example.com</p>
-                        </div>
-                    </div><!-- End Info Item -->
-
-                </div>
-
-                <div class="row gy-4 mt-1">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <!-- LEFT: MAP -->
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                            frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen=""
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div><!-- End Google Maps -->
+                            frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 400px;"
+                            allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
 
+                    <!-- RIGHT: INFO -->
                     <div class="col-lg-6">
-                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                            data-aos-delay="400">
-                            <div class="row gy-4">
 
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control"
-                                        placeholder="Your Name" required="">
+                        <div class="row gy-4">
+
+                            <!-- Address -->
+                            <div class="col-12">
+                                <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                    data-aos="fade-up" data-aos-delay="300">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h3>Address</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
                                 </div>
-
-                                <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email"
-                                        placeholder="Your Email" required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                        required="">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                                </div>
-
-                                <div class="col-md-12 text-center">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                    <button type="submit">Send Message</button>
-                                </div>
-
                             </div>
-                        </form>
-                    </div><!-- End Contact Form -->
+
+                            <!-- Call Us -->
+                            <div class="col-md-6">
+                                <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                    data-aos="fade-up" data-aos-delay="400">
+                                    <i class="bi bi-telephone"></i>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="col-md-6">
+                                <div class="info-item d-flex flex-column justify-content-center align-items-center"
+                                    data-aos="fade-up" data-aos-delay="500">
+                                    <i class="bi bi-envelope"></i>
+                                    <h3>Email Us</h3>
+                                    <p>info@example.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </section><!-- /Contact Section -->
+        </section>
+        <!-- /Contact Section -->
 
     </main>
 
