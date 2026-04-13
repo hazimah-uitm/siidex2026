@@ -563,6 +563,15 @@ h6 {
   }
 }
 
+@media (max-width: 1199px) {
+  .header .cta-btn {
+    order: 2;
+    margin: 0 15px 0 0;
+    padding: 6px 15px;
+    font-size: 13px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -1177,6 +1186,93 @@ section,
   font-size: 15.5px;
   line-height: 1.8;
   color: #333;
+}
+
+.info-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 28px 24px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Highlight card (last paragraph) */
+.info-card.highlight {
+  border-left: 4px solid #e96722;
+  background: linear-gradient(to right,
+      rgba(215, 34, 40, 0.05),
+      #ffffff);
+}
+
+/* Text styling */
+.info-card p {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.history-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.history-year {
+    font-size: 32px;
+    font-weight: 700;
+    color: #e96722;
+    line-height: 1;
+    padding-top: 10px;
+    position: sticky;
+    top: 100px;
+}
+
+.history-content,
+.highlight-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.highlight-card {
+    background: linear-gradient(135deg, #f8fbff, #ffffff);
+}
+
+.history-content p,
+.highlight-card p {
+    margin-bottom: 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .history-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .history-year {
+        position: static;
+        font-size: 26px;
+        padding-top: 0;
+    }
 }
 
 /*--------------------------------------------------------------
