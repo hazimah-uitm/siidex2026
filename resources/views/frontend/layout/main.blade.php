@@ -53,11 +53,11 @@
                 <ul>
                     <li><a href="#hero" class="active">Utama<br></a></li>
                     <li><a href="#speakers">Latar Belakang</a></li>
-                    <li><a href="#schedule">Tentatif</a></li>
-                    <li><a href="#venue">Kategori</a></li>
-                    {{-- <li><a href="#hotels">Hotels</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                    <li><a href="#schedule">Tarikh Penting</a></li>
+                    <li><a href="#venue">Kategori Penyertaan</a></li>
+                    <li><a href="#hotels">Yuran</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="#">Dropdown 1</a></li>

@@ -69,18 +69,27 @@
         <div class="about-info mt-auto mb-3 position-relative">
             <div class="container position-relative" data-aos="fade-up">
                 <div class="row">
-                    <div class="col-lg-6">
+
+                    <div class="col-lg-3">
                         <h3>Penganjur</h3>
-                        <p>Bahagian Penyelidikan & Jaringan Industri (BPJI), UiTM Cawangan Sarawak</p>
+                        <p>UiTM Cawangan Sarawak</p>
                     </div>
+
+                    <div class="col-lg-3">
+                        <h3>Penganjur Bersama</h3>
+                        <p>UiTM Cawangan Pulau Pinang</p>
+                    </div>
+
                     <div class="col-lg-3">
                         <h3>Lokasi</h3>
                         <p>Hotel Waterfront, Kuching, Sarawak</p>
                     </div>
+
                     <div class="col-lg-3">
                         <h3>Tarikh</h3>
                         <p>14 September 2026</p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -198,81 +207,119 @@
     <!-- Schedule Section -->
     <section id="schedule" class="schedule section">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Tentatif Program<br></h2>
-        </div><!-- End Section Title -->
-
-        {{-- <div class="container"> --}}
-
-        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-            <li class="nav-item">
-                <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">14 September
-                    2026</a>
-            </li>
-            {{-- <li class="nav-item">
-                        <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
-                    </li> --}}
-        </ul>
-
-        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
-            {{-- <h3 class="sub-heading">
-                    Tentatif program adalah seperti berikut:
-                </h3> --}}
-
-            <!-- Schedule Day 1 -->
-            <div role="tabpanel" class="col-lg-6 tab-pane fade show active" id="day-1">
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>08:00 pagi</time></div>
-                    <div class="col-md-8">
-                        <h4>Pendaftaran Peserta</h4>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>09:00 pagi</time></div>
-                    <div class="col-md-8">
-                        <h4>Majlis Perasmian</h4>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>10:00 pagi</time></div>
-                    <div class="col-md-8">
-                        <h4>Sesi Penilaian Juri</h4>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>12:30 tengah hari</time></div>
-                    <div class="col-md-8">
-                        <h4>Rehat</h4>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>02:00 petang</time></div>
-                    <div class="col-md-8">
-                        <h4>Pameran dan Penilaian</h4>
-                    </div>
-                </div>
-
-                <div class="row schedule-item">
-                    <div class="col-md-4"><time>04:00 petang</time></div>
-                    <div class="col-md-8">
-                        <h4>Tamat Program</h4>
-                    </div>
-                </div>
-            </div><!-- End Schedule Day 1 -->
+            <h2>Tarikh Penting<br></h2>
         </div>
 
+        <div class="container">
+            <div class="row g-4 align-items-start">
+
+                <!-- LEFT: Tentatif -->
+                <div class="col-lg-8">
+                    <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">
+                                14 September 2026
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+                        <div role="tabpanel" class="tab-pane fade show active" id="day-1">
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>08:00 pagi</time></div>
+                                <div class="col-md-8">
+                                    <h4>Pendaftaran Peserta</h4>
+                                </div>
+                            </div>
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>09:00 pagi</time></div>
+                                <div class="col-md-8">
+                                    <h4>Majlis Perasmian</h4>
+                                </div>
+                            </div>
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>10:00 pagi</time></div>
+                                <div class="col-md-8">
+                                    <h4>Sesi Penilaian Juri</h4>
+                                </div>
+                            </div>
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>12:30 tengah hari</time></div>
+                                <div class="col-md-8">
+                                    <h4>Rehat</h4>
+                                </div>
+                            </div>
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>02:00 petang</time></div>
+                                <div class="col-md-8">
+                                    <h4>Pameran dan Penilaian</h4>
+                                </div>
+                            </div>
+
+                            <div class="row schedule-item">
+                                <div class="col-md-4"><time>04:00 petang</time></div>
+                                <div class="col-md-8">
+                                    <h4>Tamat Program</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Tarikh Penting -->
+                <div class="col-lg-4">
+                    <div class="important-dates-box" data-aos="fade-left" data-aos-delay="250">
+                        {{-- <h3 class="important-title">Tarikh Penting</h3> --}}
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-calendar-event"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>15 April - 30 Jun 2026</h4>
+                                <p>Pendaftaran, Pembayaran dan Penghantaran Abstrak Lanjutan (Tarikh Tutup)</p>
+                            </div>
+                        </div>
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>14 September 2026</h4>
+                                <p>SIIDEX 2026 (8.00 pagi – 5.00 petang)</p>
+                                <small>Hotel Waterfront, Kuching, Sarawak</small>
+                            </div>
+                        </div>
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-award"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>15 September 2026</h4>
+                                <p>SeAIM’26 – Seminar Antarabangsa</p>
+                                <small>
+                                    <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1"
+                                        target="_blank">
+                                        Laman Rasmi SeAIM’26
+                                    </a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section><!-- /Schedule Section -->
+    </section>
+    <!-- /Schedule Section -->
 
     <!-- Venue Section -->
     <section id="venue" class="venue section">
@@ -346,62 +393,62 @@
     <!-- /Venue Section -->
 
     <!-- Hotels Section -->
-    {{-- <section id="hotels" class="hotels section">
+    <section id="hotels" class="hotels section">
 
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Hotels</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Hotels</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div><!-- End Section Title -->
 
-            <div class="container">
+        <div class="container">
 
-                <div class="row gy-4">
+            <div class="row gy-4">
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card h-100">
-                            <div class="card-img">
-                                <img src="{{ asset('public/assets/frontend/img/hotels-1.jpg') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <h3><a href="#" class="stretched-link">Non quibusdam blanditiis</a></h3>
-                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                            <p>0.4 Mile from the Venue</p>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-img">
+                            <img src="{{ asset('public/assets/frontend/img/hotels-1.jpg') }}" alt=""
+                                class="img-fluid">
                         </div>
-                    </div><!-- End Card Item -->
+                        <h3><a href="#" class="stretched-link">Non quibusdam blanditiis</a></h3>
+                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>0.4 Mile from the Venue</p>
+                    </div>
+                </div><!-- End Card Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card h-100">
-                            <div class="card-img">
-                                <img src="{{ asset('public/assets/frontend/img/hotels-2.jpg') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <h3><a href="#" class="stretched-link">Aspernatur assumenda</a></h3>
-                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                            <p>0.5 Mile from the Venue</p>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100">
+                        <div class="card-img">
+                            <img src="{{ asset('public/assets/frontend/img/hotels-2.jpg') }}" alt=""
+                                class="img-fluid">
                         </div>
-                    </div><!-- End Card Item -->
+                        <h3><a href="#" class="stretched-link">Aspernatur assumenda</a></h3>
+                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>0.5 Mile from the Venue</p>
+                    </div>
+                </div><!-- End Card Item -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card h-100">
-                            <div class="card-img">
-                                <img src="{{ asset('public/assets/frontend/img/hotels-3.jpg') }}" alt=""
-                                    class="img-fluid">
-                            </div>
-                            <h3><a href="#" class="stretched-link">Dolores ut ut voluptatibu</a></h3>
-                            <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                            <p>0.6 Mile from the Venue</p>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100">
+                        <div class="card-img">
+                            <img src="{{ asset('public/assets/frontend/img/hotels-3.jpg') }}" alt=""
+                                class="img-fluid">
                         </div>
-                    </div><!-- End Card Item -->
-
-                </div>
+                        <h3><a href="#" class="stretched-link">Dolores ut ut voluptatibu</a></h3>
+                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>0.6 Mile from the Venue</p>
+                    </div>
+                </div><!-- End Card Item -->
 
             </div>
 
-        </section> --}}
+        </div>
+
+    </section>
     <!-- /Hotels Section -->
 
     <!-- Gallery Section -->
@@ -641,75 +688,57 @@
     <!-- Buy Tickets Section -->
     <section id="buy-tickets" class="buy-tickets section light-background">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Buy Tickets<br></h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+            <h2>Yuran Penyertaan</h2>
+        </div>
 
         <div class="container">
 
+            <!-- Student -->
             <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Standard Access</h3>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>Student</h3>
+                    <p>(Tempatan / Antarabangsa)</p>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup>150<span> / month</span></h4>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM200</h4>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                        <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                        <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span>
-                        </li>
-                    </ul>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                </div>
-            </div><!-- End Pricing Item -->
+            </div>
 
+            <!-- UiTM Staff -->
             <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Premium Access<br></h3>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>UiTM Staff</h3>
+                    <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup>250<span> / month</span></h4>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM300</h4>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                        <li><i class="bi bi-check"></i> <strong>Nec feugiat nisl pretium</strong></li>
-                        <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                    </ul>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                </div>
-            </div><!-- End Pricing Item -->
+            </div>
 
+            <!-- Professional -->
             <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h3>Pro Access<br></h3>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>Profesional</h3>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <h4><sup>$</sup>350<span> / month</span></h4>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM400</h4>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <ul>
-                        <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
-                        <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
-                        <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
-                    </ul>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
                 </div>
-                <div class="col-lg-3 d-flex align-items-center justify-content-center">
-                    <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                </div>
-            </div><!-- End Pricing Item -->
+            </div>
 
         </div>
 
-    </section><!-- /Buy Tickets Section -->
+    </section>
+    <!-- /Buy Tickets Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
