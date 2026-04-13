@@ -393,7 +393,7 @@
     <!-- /Venue Section -->
 
     <!-- Hotels Section -->
-    <section id="hotels" class="hotels section">
+    {{-- <section id="hotels" class="hotels section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -448,7 +448,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
     <!-- /Hotels Section -->
 
     <!-- Gallery Section -->
@@ -536,7 +536,7 @@
     <!-- /Gallery Section -->
 
     <!-- Sponsors Section -->
-    <section id="sponsors" class="sponsors section light-background">
+    {{-- <section id="sponsors" class="sponsors section light-background">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -592,10 +592,11 @@
 
         </div>
 
-    </section><!-- /Sponsors Section -->
+    </section> --}}
+    <!-- /Sponsors Section -->
 
     <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    {{-- <section id="faq" class="faq section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -683,7 +684,8 @@
 
         </div>
 
-    </section><!-- /Faq Section -->
+    </section> --}}
+    <!-- /Faq Section -->
 
     <!-- Buy Tickets Section -->
     <section id="buy-tickets" class="buy-tickets section light-background">
@@ -753,28 +755,18 @@
             <div class="row gy-4">
 
                 <!-- LEFT: MAP -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                {{-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
                         frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 400px;"
                         allowfullscreen="" loading="lazy">
                     </iframe>
-                </div>
+                </div> --}}
 
                 <!-- RIGHT: INFO -->
-                <div class="col-lg-6">
+                {{-- <div class="col-lg-6">
 
                     <div class="row gy-4">
-
-                        <!-- Address -->
-                        <div class="col-12">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="300">
-                                <i class="bi bi-geo-alt"></i>
-                                <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-                        </div>
 
                         <!-- Call Us -->
                         <div class="col-md-6">
@@ -791,13 +783,22 @@
                             <div class="info-item d-flex flex-column justify-content-center align-items-center"
                                 data-aos="fade-up" data-aos-delay="500">
                                 <i class="bi bi-envelope"></i>
-                                <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <h3>Secretariat SIIDEX 2026</h3>
+                                <p>siidex2026@gmail.com</p>
                             </div>
                         </div>
 
                     </div>
 
+                </div> --}}
+
+                <div class="col-md-12">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                        data-aos-delay="500">
+                        <i class="bi bi-envelope"></i>
+                        <h3>Secretariat SIIDEX 2026</h3>
+                        <p>siidex2026@gmail.com</p>
+                    </div>
                 </div>
 
             </div>
