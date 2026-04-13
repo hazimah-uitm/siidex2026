@@ -81,7 +81,7 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="cta-btn" href="#buy-tickets">Daftar Sekarang</a>
+            <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">Daftar Sekarang</a>
 
         </div>
     </header>
