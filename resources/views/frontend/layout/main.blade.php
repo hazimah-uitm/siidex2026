@@ -53,9 +53,14 @@
                 <ul>
                     <li><a href="#hero" class="active">Utama<br></a></li>
                     <li><a href="#speakers">Latar Belakang</a></li>
-                    <li><a href="#schedule">Tarikh Penting</a></li>
-                    <li><a href="#venue">Kategori Penyertaan</a></li>
-                    <li><a href="#buy-tickets">Yuran</a></li>
+                    <li class="dropdown"><a href="#"><span>Info Penyertaan</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#schedule">Tarikh Penting</a></li>
+                            <li><a href="#venue">Kategori Penyertaan</a></li>
+                            <li><a href="#buy-tickets">Yuran</a></li>
+                            <li><a href="#faq">Anugerah</a></li>
+                        </ul>
                     <li><a href="#gallery">Galeri</a></li>
                     {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -92,7 +97,7 @@
 
     <footer id="footer" class="footer dark-background">
 
-        <div class="footer-top">
+        {{-- <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4 col-md-6 footer-about">
@@ -153,7 +158,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="copyright text-center">
             <div
