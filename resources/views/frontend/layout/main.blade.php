@@ -123,7 +123,7 @@
                     <div class="col-lg-3 col-md-6 footer-links text-center">
                         <h4>Penganjur Bersama</h4>
                         <div class="footer-logo d-flex flex-wrap justify-content-center gap-2">
-                            <img src="{{ asset('public/assets/frontend/img/logo.png') }}" alt="">
+                            <img src="{{ asset('public/assets/frontend/img/footer/cohost.png') }}" alt="">
                         </div>
                     </div>
 

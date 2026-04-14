@@ -514,58 +514,73 @@
 
 
     <!-- Buy Tickets Section -->
-    <section id="buy-tickets" class="buy-tickets section light-background">
+<section id="buy-tickets" class="buy-tickets section light-background">
 
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Yuran Penyertaan</h2>
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Yuran Penyertaan</h2>
+    </div>
+
+    <div class="container">
+
+        <!-- Student -->
+        <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                <h3>Pelajar</h3>
+                <p>(Tempatan / Antarabangsa)</p>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <h4>RM200</h4>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
+            </div>
         </div>
 
-        <div class="container">
-
-            <!-- Student -->
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Pelajar</h3>
-                    <p>(Tempatan / Antarabangsa)</p>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM200</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
-                </div>
+        <!-- UiTM Staff -->
+        <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                <h3>Staf UiTM</h3>
+                <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
             </div>
-
-            <!-- UiTM Staff -->
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Staf UiTM</h3>
-                    <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM300</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
-                </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <h4>RM300</h4>
             </div>
-
-            <!-- Professional -->
-            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Profesional</h3>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM400</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
-                </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
             </div>
-
         </div>
 
-    </section>
+        <!-- Professional -->
+        <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                <h3>Profesional</h3>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <h4>RM400</h4>
+            </div>
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
+            <div class="col-lg-12 text-center">
+                <a href="https://example.com/register" target="_blank" class="btn btn-primary me-2 mb-2">
+                    Daftar Sekarang
+                </a>
+                <a href="{{ asset('public/assets/frontend/files/template-abstract.docx') }}" target="_blank" class="btn btn-outline-primary me-2 mb-2">
+                    Muat Turun Template Abstract
+                </a>
+                <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank" class="btn btn-outline-primary mb-2">
+                    Muat Turun Template Poster
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
     <!-- /Buy Tickets Section -->
 
 
