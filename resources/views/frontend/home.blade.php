@@ -721,11 +721,11 @@
             <h2>Hubungi Kami</h2>
         </div>
 
-        <div class="container" data-aos="fade-up" data-aos-delay="50">
+        <div class="container">
 
             <div class="row gy-4">
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.541492842449!2d110.42655855882104!3d1.4495685796954996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba330de57a569%3A0x3f3010e46d089769!2sBangunan%20Pentadbiran%2C%20UiTM%20Cawangan%20Sarawak%2C%20Kampus%20Samarahan%202!5e0!3m2!1sen!2smy!4v1776070463137!5m2!1sen!2smy"
                         frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 400px;"
@@ -737,8 +737,7 @@
 
                     <div class="row gy-4">
                         <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="100">
+                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
                                 <i class="bi bi-building"></i>
                                 <h3>Alamat</h3>
                                 <p>Pejabat Bahagian PJI, UiTM Kampus Samarahan 2</p>
@@ -748,8 +747,7 @@
 
                     <div class="row gy-4">
                         <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="150">
+                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Hubungi Kami</h3>
                                 <p>016-8001883</p>
@@ -759,8 +757,7 @@
 
                     <div class="row gy-4">
                         <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="200">
+                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Secretariat SIIDEX 2026</h3>
                                 <p>siidex2026@gmail.com</p>
