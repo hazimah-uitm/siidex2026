@@ -525,7 +525,7 @@
             <!-- Student -->
             <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Student</h3>
+                    <h3>Pelajar</h3>
                     <p>(Tempatan / Antarabangsa)</p>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center justify-content-center">
@@ -539,7 +539,7 @@
             <!-- UiTM Staff -->
             <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>UiTM Staff</h3>
+                    <h3>Staf UiTM</h3>
                     <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center justify-content-center">
@@ -717,7 +717,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title">
             <h2>Hubungi Kami</h2>
         </div>
 
