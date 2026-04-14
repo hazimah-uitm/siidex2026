@@ -102,7 +102,7 @@
                 <div class="row gy-4">
 
                     <!-- ABOUT (KEKAL) -->
-                    <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="col-lg-3 col-md-6 footer-about">
                         <a href="index.html" class="logo d-flex flex-column align-items-start">
                             <span class="sitename">SIIDEx 2026</span>
                         </a>
@@ -112,7 +112,7 @@
                     </div>
 
                     <!-- PENGANJUR -->
-                    <div class="col-lg-2 col-md-6 footer-links text-center">
+                    <div class="col-lg-3 col-md-6 footer-links text-center">
                         <h4>Penganjur</h4>
                         <div class="footer-logo">
                             <img src="{{ asset('public/assets/frontend/img/footer/host.png') }}" alt="">
