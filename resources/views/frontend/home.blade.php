@@ -585,8 +585,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3"
-                                alt="Gold Medal">
+                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Gold Medal">
                             <h4 class="fw-bold">Emas</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -601,8 +600,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3"
-                                alt="Silver Medal">
+                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Silver Medal">
                             <h4 class="fw-bold">Perak</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -617,8 +615,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3"
-                                alt="Bronze Medal">
+                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Bronze Medal">
                             <h4 class="fw-bold">Gangsa</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -720,17 +717,15 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Hubungi Kami</h2>
         </div>
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="container" data-aos="fade-up" data-aos-delay="50">
 
             <div class="row gy-4">
 
-                <!-- LEFT: MAP -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.541492842449!2d110.42655855882104!3d1.4495685796954996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba330de57a569%3A0x3f3010e46d089769!2sBangunan%20Pentadbiran%2C%20UiTM%20Cawangan%20Sarawak%2C%20Kampus%20Samarahan%202!5e0!3m2!1sen!2smy!4v1776070463137!5m2!1sen!2smy"
                         frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 400px;"
@@ -738,49 +733,39 @@
                     </iframe>
                 </div>
 
-                <!-- RIGHT: INFO -->
                 <div class="col-lg-6">
 
                     <div class="row gy-4">
-
-                        <!-- Call Us -->
                         <div class="col-md-12 mb-2">
                             <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="400">
+                                data-aos="fade-up" data-aos-delay="100">
                                 <i class="bi bi-building"></i>
                                 <h3>Alamat</h3>
                                 <p>Pejabat Bahagian PJI, UiTM Kampus Samarahan 2</p>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="row gy-4">
-
-                        <!-- Call Us -->
                         <div class="col-md-12 mb-2">
                             <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="400">
+                                data-aos="fade-up" data-aos-delay="150">
                                 <i class="bi bi-telephone"></i>
                                 <h3>Hubungi Kami</h3>
                                 <p>016-8001883</p>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="row gy-4">
-
-                        <!-- Email -->
                         <div class="col-md-12 mb-2">
                             <div class="info-item d-flex flex-column justify-content-center align-items-center"
-                                data-aos="fade-up" data-aos-delay="500">
+                                data-aos="fade-up" data-aos-delay="200">
                                 <i class="bi bi-envelope"></i>
                                 <h3>Secretariat SIIDEX 2026</h3>
                                 <p>siidex2026@gmail.com</p>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
