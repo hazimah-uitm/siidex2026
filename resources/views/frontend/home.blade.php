@@ -600,7 +600,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Gold Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3" alt="Gold Medal">
                             <h4 class="fw-bold">Emas</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -615,7 +615,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Silver Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}"  class="img-fluid mb-3" alt="Silver Medal">
                             <h4 class="fw-bold">Perak</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -630,7 +630,7 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="https://placehold.co/120x120?text=Image" class="img-fluid mb-3" alt="Bronze Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}"  class="img-fluid mb-3" alt="Bronze Medal">
                             <h4 class="fw-bold">Gangsa</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -651,7 +651,7 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Galleri</h2>
+            <h2>Galeri</h2>
         </div><!-- End Section Title -->
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">

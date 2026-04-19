@@ -708,6 +708,22 @@ h6 {
     object-fit: contain;
 }
 
+/* Footer top jadi putih */
+.footer .footer-top {
+  background-color: #ffffff !important; /* putih solid */
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* Optional: tambah shadow sikit supaya nampak naik */
+.footer .footer-top {
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.03);
+}
+
+.footer .copyright {
+  padding: 40px 0 30px 0; /* tambah ruang atas */
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

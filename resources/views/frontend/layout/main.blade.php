@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <meta charset="utf-8">
@@ -51,42 +51,36 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Utama<br></a></li>
-                    <li><a href="#speakers">Latar Belakang</a></li>
-                    <li class="dropdown"><a href="#"><span>Info Penyertaan</span> <i
-                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
+                    <li><a href="#speakers">{{ __('messages.background') }}</a></li>
+                    <li class="dropdown">
+                        <a href="#">
+                            <span>{{ __('messages.participation_info') }}</span>
+                            <i class="bi bi-chevron-down toggle-dropdown"></i>
+                        </a>
                         <ul>
-                            <li><a href="#schedule">Tarikh Penting</a></li>
-                            <li><a href="#venue">Kategori Penyertaan</a></li>
-                            <li><a href="#buy-tickets">Yuran</a></li>
-                            <li><a href="#faq">Anugerah</a></li>
+                            <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
+                            <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
+                            <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
+                            <li><a href="#faq">{{ __('messages.awards') }}</a></li>
                         </ul>
-                    <li><a href="#gallery">Galeri</a></li>
-                    {{-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i
-                                class="bi bi-chevron-down toggle-dropdown"></i></a>
-                        <ul>
-                            <li><a href="#">Dropdown 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
-                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Dropdown 1</a></li>
-                                    <li><a href="#">Deep Dropdown 2</a></li>
-                                    <li><a href="#">Deep Dropdown 3</a></li>
-                                    <li><a href="#">Deep Dropdown 4</a></li>
-                                    <li><a href="#">Deep Dropdown 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Dropdown 2</a></li>
-                            <li><a href="#">Dropdown 3</a></li>
-                            <li><a href="#">Dropdown 4</a></li>
-                        </ul>
-                    </li> --}}
-                    <li><a href="#contact">Hubungi Kami</a></li>
+                    </li>
+                    <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>
+                    <li><a href="#contact">{{ __('messages.contact_us') }}</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">Daftar Sekarang</a>
+            <div class="d-flex align-items-center">
+                <div class="me-3">
+                    <a href="{{ route('lang.switch', 'en') }}" class="btn btn-sm btn-outline-light">EN</a>
+                    <a href="{{ route('lang.switch', 'ms') }}" class="btn btn-sm btn-outline-light">BM</a>
+                </div>
+
+                <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
+                    {{ __('messages.register_now') }}
+                </a>
+            </div>
 
         </div>
     </header>
@@ -97,7 +91,7 @@
 
     <footer id="footer">
 
-        <div class="footer-top footer light-background">
+        <div class="footer-top footer">
             <div class="container">
                 <div class="row gy-4">
 
@@ -106,30 +100,27 @@
                         <a href="index.html" class="logo d-flex flex-column align-items-start">
                             <span class="sitename">SIIDEx 2026</span>
                         </a>
-                         <div class="footer-logo">
+                        <div class="footer-logo">
                             <img src="{{ asset('public/assets/frontend/img/footer/logo.png') }}" alt="">
                         </div>
                     </div>
 
-                    <!-- PENGANJUR -->
                     <div class="col-lg-3 col-md-6 footer-links text-center">
-                        <h4>Penganjur</h4>
+                        <h4>{{ __('messages.organizer') }}</h4>
                         <div class="footer-logo">
                             <img src="{{ asset('public/assets/frontend/img/footer/host.png') }}" alt="">
                         </div>
                     </div>
 
-                    <!-- PENGANJUR BERSAMA -->
                     <div class="col-lg-3 col-md-6 footer-links text-center">
-                        <h4>Penganjur Bersama</h4>
+                        <h4>{{ __('messages.co_organizer') }}</h4>
                         <div class="footer-logo d-flex flex-wrap justify-content-center gap-2">
                             <img src="{{ asset('public/assets/frontend/img/footer/cohost.png') }}" alt="">
                         </div>
                     </div>
 
-                    <!-- SUPPORTED BY -->
                     <div class="col-lg-3 col-md-6 footer-links text-center">
-                        <h4>Dengan Sokongan</h4>
+                        <h4>{{ __('messages.supported_by') }}</h4>
                         <div class="footer-logo d-flex flex-wrap justify-content-center gap-2">
                             <img src="{{ asset('public/assets/frontend/img/footer/supported-1.jpg') }}" alt="">
                             <img src="{{ asset('public/assets/frontend/img/footer/supported-2.png') }}" alt="">
@@ -147,7 +138,7 @@
 
                 <div class="d-flex flex-column align-items-center align-items-lg-start">
                     <div>
-                        © 2026 <a href="https://sarawak.uitm.edu.my/">UiTM Cawangan Sarawak</a>
+                        © 2026 <a href="https://sarawak.uitm.edu.my/">{{ __('messages.uitm_sarawak') }}</a>
                     </div>
                     {{-- <div class="credits">
             <!-- All the links in the footer should remain intact. -->
