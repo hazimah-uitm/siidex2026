@@ -397,128 +397,6 @@
 
     </section>
 
-    <!-- Hotels Section -->
-    <section id="committee" class="committee section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Jawatankuasa Penganjur</h2>
-        </div>
-
-        <div class="container">
-            <div class="row gy-4">
-
-                <!-- Pengerusi 1 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="committee-card text-center">
-                        <h4 class="role">Pengerusi 1</h4>
-                        <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
-                    </div>
-                </div>
-
-                <!-- Pengerusi 2 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                    <div class="committee-card text-center">
-                        <h4 class="role">Pengerusi 2</h4>
-                        <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
-                    </div>
-                </div>
-
-                <!-- Timbalan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="committee-card text-center">
-                        <h4 class="role">Timbalan Pengerusi</h4>
-                        <h3 class="name">Dr. Lee Wen Chiat</h3>
-                    </div>
-                </div>
-
-                <!-- Setiausaha -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
-                    <div class="committee-card text-center">
-                        <h4 class="role">Setiausaha</h4>
-                        <h3 class="name">Madam Hanita Tambi</h3>
-                    </div>
-                </div>
-
-                <!-- Bendahari -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="committee-card text-center">
-                        <h4 class="role">Bendahari</h4>
-                        <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Jawatankuasa Kecil -->
-            <div class="row gy-4 mt-4">
-
-                {{-- <div class="col-12 text-center mb-3">
-                    <h3 class="sub-title">Jawatankuasa Kecil</h3>
-                </div> --}}
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Teknikal</h4>
-                        <p class="name">Encik Mohd Shahrizi bin Razali</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Promosi & Publisiti</h4>
-                        <p class="name">Chrisna Pindah</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Pendaftaran</h4>
-                        <p class="name">Dr. Lee Wen Chiat<br>Jenny Yap</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Penajaan</h4>
-                        <p class="name">Ts. Dr. Nurzawani Md Sofwan</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Logistik</h4>
-                        <p class="name">Dr. Hadi Jumaat</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Acara & Protokol</h4>
-                        <p class="name">Abdul Hafiz Abdul Khalid</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Penjurian</h4>
-                        <p class="name">Dr. Rudy Tawie</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">Penerbitan</h4>
-                        <p class="name">AP Dr. Ting Siew King</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-    <!-- /Hotels Section -->
-
     <!-- Sponsors Section -->
     {{-- <section id="sponsors" class="sponsors section light-background">
 
@@ -862,4 +740,127 @@
 
     </section>
     <!-- /Contact Section -->
+
+    
+    <!-- Hotels Section -->
+    <section id="committee" class="committee section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Jawatankuasa Penganjur</h2>
+        </div>
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Pengerusi 1 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Pengerusi 1</h4>
+                        <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
+                    </div>
+                </div>
+
+                <!-- Pengerusi 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Pengerusi 2</h4>
+                        <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
+                    </div>
+                </div>
+
+                <!-- Timbalan -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Timbalan Pengerusi</h4>
+                        <h3 class="name">Dr. Lee Wen Chiat</h3>
+                    </div>
+                </div>
+
+                <!-- Setiausaha -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Setiausaha</h4>
+                        <h3 class="name">Madam Hanita Tambi</h3>
+                    </div>
+                </div>
+
+                <!-- Bendahari -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Bendahari</h4>
+                        <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Jawatankuasa Kecil -->
+            <div class="row gy-4 mt-4">
+
+                {{-- <div class="col-12 text-center mb-3">
+                    <h3 class="sub-title">Jawatankuasa Kecil</h3>
+                </div> --}}
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Teknikal</h4>
+                        <p class="name">Encik Mohd Shahrizi bin Razali</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Promosi & Publisiti</h4>
+                        <p class="name">Chrisna Pindah</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Pendaftaran</h4>
+                        <p class="name">Dr. Lee Wen Chiat<br>Jenny Yap</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penajaan</h4>
+                        <p class="name">Ts. Dr. Nurzawani Md Sofwan</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Logistik</h4>
+                        <p class="name">Dr. Hadi Jumaat</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Acara & Protokol</h4>
+                        <p class="name">Abdul Hafiz Abdul Khalid</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penjurian</h4>
+                        <p class="name">Dr. Rudy Tawie</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penerbitan</h4>
+                        <p class="name">AP Dr. Ting Siew King</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- /Hotels Section -->
 @endsection
