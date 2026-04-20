@@ -3,6 +3,7 @@
 return [
     'home' => 'Utama',
     'background' => 'Latar Belakang',
+    'theme_text' => '“Mencipta, Berinovasi dan Merealisasikan Idea untuk Masa Depan yang Lebih Baik”',
     'participation_info' => 'Info Penyertaan',
     'important_dates' => 'Tarikh Penting',
     'participation_category' => 'Kategori Penyertaan',

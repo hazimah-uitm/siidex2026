@@ -18,8 +18,12 @@
                     <h2 data-aos="fade-up" data-aos-delay="100">
                         SARAWAK
                         <span>INVENTION, INNOVATION & DESIGN</span>
-                        EXPO KE-6<br>
+                        EXPO KE-5<br>
                     </h2>
+
+                    <p class="event-theme" data-aos="fade-up" data-aos-delay="150">
+                        {{ __('messages.theme_text') }}
+                    </p>
 
                     <div data-aos="fade-up" data-aos-delay="200" class="mt-3">
                         <div class="countdown-wrapper">
@@ -77,7 +81,10 @@
 
                     <div class="col-lg-3">
                         <h3>Penganjur Bersama</h3>
-                        <p>UiTM Cawangan Pulau Pinang</p>
+                        <p>UiTM Cawangan Pulau Pinang <br><a
+                                href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
+                                Laman Rasmi SeAIM’26
+                            </a></p>
                     </div>
 
                     <div class="col-lg-3">
@@ -123,6 +130,49 @@
             <div class="row g-4 align-items-start">
 
                 <!-- LEFT: Tentatif -->
+                <div class="col-lg-4">
+                    <div class="important-dates-box" data-aos="fade-right" data-aos-delay="250">
+                        {{-- <h3 class="important-title">Tarikh Penting</h3> --}}
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-calendar-event"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>15 April - 30 Jun 2026</h4>
+                                <p>Pendaftaran, Pembayaran dan Penghantaran Abstrak</p>
+                            </div>
+                        </div>
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-calendar-check"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>14 September 2026</h4>
+                                <p>SIIDEX 2026 (8.00 pagi – 5.00 petang)</p>
+                                <small>Hotel Waterfront, Kuching, Sarawak</small>
+                            </div>
+                        </div>
+
+                        <div class="important-date-item">
+                            <div class="date-icon">
+                                <i class="bi bi-award"></i>
+                            </div>
+                            <div class="date-content">
+                                <h4>15 September 2026</h4>
+                                <p>SeAIM’26 – Seminar Antarabangsa</p>
+                                <small>
+                                    <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
+                                        Laman Rasmi SeAIM’26
+                                    </a>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Tarikh Penting -->
                 <div class="col-lg-8">
                     <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
                         <li class="nav-item">
@@ -177,50 +227,6 @@
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
-                </div>
-
-                <!-- RIGHT: Tarikh Penting -->
-                <div class="col-lg-4">
-                    <div class="important-dates-box" data-aos="fade-left" data-aos-delay="250">
-                        {{-- <h3 class="important-title">Tarikh Penting</h3> --}}
-
-                        <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-calendar-event"></i>
-                            </div>
-                            <div class="date-content">
-                                <h4>15 April - 30 Jun 2026</h4>
-                                <p>Pendaftaran, Pembayaran dan Penghantaran Abstrak</p>
-                            </div>
-                        </div>
-
-                        <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-calendar-check"></i>
-                            </div>
-                            <div class="date-content">
-                                <h4>14 September 2026</h4>
-                                <p>SIIDEX 2026 (8.00 pagi – 5.00 petang)</p>
-                                <small>Hotel Waterfront, Kuching, Sarawak</small>
-                            </div>
-                        </div>
-
-                        <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-award"></i>
-                            </div>
-                            <div class="date-content">
-                                <h4>15 September 2026</h4>
-                                <p>SeAIM’26 – Seminar Antarabangsa</p>
-                                <small>
-                                    <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1"
-                                        target="_blank">
-                                        Laman Rasmi SeAIM’26
-                                    </a>
-                                </small>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -337,7 +343,7 @@
                 <!-- Kategori 1 -->
                 <div class="col-lg-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">01</span>
+                        <span class="kategori-number">KATEGORI A</span>
                         <h4>Inovasi Pengajaran dan Pembelajaran</h4>
                         <p>
                             Merujuk kepada pembangunan kaedah, alat, sistem, atau pendekatan baharu yang
@@ -350,7 +356,7 @@
                 <!-- Kategori 2 -->
                 <div class="col-lg-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">02</span>
+                        <span class="kategori-number">KATEGORI B</span>
                         <h4>Inovasi</h4>
                         <p>
                             Merujuk kepada penambahbaikan atau pengubahsuaian terhadap produk, proses,
@@ -363,7 +369,7 @@
                 <!-- Kategori 3 -->
                 <div class="col-lg-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">03</span>
+                        <span class="kategori-number">KATEGORI C</span>
                         <h4>Ciptaan (Invention)</h4>
                         <p>
                             Merujuk kepada penciptaan sesuatu produk, teknologi, atau kaedah yang benar-benar
@@ -375,7 +381,7 @@
                 <!-- Kategori 4 -->
                 <div class="col-lg-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">04</span>
+                        <span class="kategori-number">KATEGORI D</span>
                         <h4>Reka Bentuk (Design)</h4>
                         <p>
                             Merujuk kepada pembangunan konsep atau reka bentuk kreatif yang menekankan
@@ -391,65 +397,126 @@
 
     </section>
 
-    <!-- /Venue Section -->
-
     <!-- Hotels Section -->
-    {{-- <section id="hotels" class="hotels section">
+    <section id="committee" class="committee section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Hotels</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
+            <h2>Jawatankuasa Penganjur</h2>
+        </div>
 
         <div class="container">
-
             <div class="row gy-4">
 
+                <!-- Pengerusi 1 -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card h-100">
-                        <div class="card-img">
-                            <img src="{{ asset('public/assets/frontend/img/hotels-1.jpg') }}" alt=""
-                                class="img-fluid">
-                        </div>
-                        <h3><a href="#" class="stretched-link">Non quibusdam blanditiis</a></h3>
-                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.4 Mile from the Venue</p>
+                    <div class="committee-card text-center">
+                        <h4 class="role">Pengerusi 1</h4>
+                        <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
                     </div>
-                </div><!-- End Card Item -->
+                </div>
 
+                <!-- Pengerusi 2 -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Pengerusi 2</h4>
+                        <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
+                    </div>
+                </div>
+
+                <!-- Timbalan -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card h-100">
-                        <div class="card-img">
-                            <img src="{{ asset('public/assets/frontend/img/hotels-2.jpg') }}" alt=""
-                                class="img-fluid">
-                        </div>
-                        <h3><a href="#" class="stretched-link">Aspernatur assumenda</a></h3>
-                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.5 Mile from the Venue</p>
+                    <div class="committee-card text-center">
+                        <h4 class="role">Timbalan Pengerusi</h4>
+                        <h3 class="name">Dr. Lee Wen Chiat</h3>
                     </div>
-                </div><!-- End Card Item -->
+                </div>
 
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card h-100">
-                        <div class="card-img">
-                            <img src="{{ asset('public/assets/frontend/img/hotels-3.jpg') }}" alt=""
-                                class="img-fluid">
-                        </div>
-                        <h3><a href="#" class="stretched-link">Dolores ut ut voluptatibu</a></h3>
-                        <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
-                        <p>0.6 Mile from the Venue</p>
+                <!-- Setiausaha -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Setiausaha</h4>
+                        <h3 class="name">Madam Hanita Tambi</h3>
                     </div>
-                </div><!-- End Card Item -->
+                </div>
+
+                <!-- Bendahari -->
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="committee-card text-center">
+                        <h4 class="role">Bendahari</h4>
+                        <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
+                    </div>
+                </div>
 
             </div>
 
+            <!-- Jawatankuasa Kecil -->
+            <div class="row gy-4 mt-4">
+
+                {{-- <div class="col-12 text-center mb-3">
+                    <h3 class="sub-title">Jawatankuasa Kecil</h3>
+                </div> --}}
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Teknikal</h4>
+                        <p class="name">Encik Mohd Shahrizi bin Razali</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Promosi & Publisiti</h4>
+                        <p class="name">Chrisna Pindah</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Pendaftaran</h4>
+                        <p class="name">Dr. Lee Wen Chiat<br>Jenny Yap</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penajaan</h4>
+                        <p class="name">Ts. Dr. Nurzawani Md Sofwan</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Logistik</h4>
+                        <p class="name">Dr. Hadi Jumaat</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Acara & Protokol</h4>
+                        <p class="name">Abdul Hafiz Abdul Khalid</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penjurian</h4>
+                        <p class="name">Dr. Rudy Tawie</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card small text-center">
+                        <h4 class="role">Penerbitan</h4>
+                        <p class="name">AP Dr. Ting Siew King</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-    </section> --}}
+    </section>
     <!-- /Hotels Section -->
 
     <!-- Sponsors Section -->
@@ -514,73 +581,75 @@
 
 
     <!-- Buy Tickets Section -->
-<section id="buy-tickets" class="buy-tickets section light-background">
+    <section id="buy-tickets" class="buy-tickets section light-background">
 
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Yuran Penyertaan</h2>
-    </div>
-
-    <div class="container">
-
-        <!-- Student -->
-        <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                <h3>Pelajar</h3>
-                <p>(Tempatan / Antarabangsa)</p>
-            </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <h4>RM200</h4>
-            </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
-            </div>
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Yuran Penyertaan</h2>
         </div>
 
-        <!-- UiTM Staff -->
-        <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="150">
-            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                <h3>Staf UiTM</h3>
-                <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
+        <div class="container">
+
+            <!-- Student -->
+            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>Pelajar</h3>
+                    <p>(Tempatan / Antarabangsa)</p>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM200</h4>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
+                </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <h4>RM300</h4>
+
+            <!-- UiTM Staff -->
+            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>Staf UiTM</h3>
+                    <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM300</h4>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
+                </div>
             </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
+
+            <!-- Professional -->
+            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
+                    <h3>Profesional</h3>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <h4>RM400</h4>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
+                </div>
             </div>
+
+            <!-- Action Buttons -->
+            <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
+                <div class="col-lg-12 text-center">
+                    <a href="https://example.com/register" target="_blank" class="btn btn-primary me-2 mb-2">
+                        Daftar Sekarang
+                    </a>
+                    <a href="{{ asset('public/assets/frontend/files/template-abstract.docx') }}" target="_blank"
+                        class="btn btn-outline-primary me-2 mb-2">
+                        Muat Turun Template Abstract
+                    </a>
+                    <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank"
+                        class="btn btn-outline-primary mb-2">
+                        Muat Turun Template Poster
+                    </a>
+                </div>
+            </div>
+
         </div>
 
-        <!-- Professional -->
-        <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                <h3>Profesional</h3>
-            </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <h4>RM400</h4>
-            </div>
-            <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
-            </div>
-        </div>
-
-        <!-- Action Buttons -->
-        <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
-            <div class="col-lg-12 text-center">
-                <a href="https://example.com/register" target="_blank" class="btn btn-primary me-2 mb-2">
-                    Daftar Sekarang
-                </a>
-                <a href="{{ asset('public/assets/frontend/files/template-abstract.docx') }}" target="_blank" class="btn btn-outline-primary me-2 mb-2">
-                    Muat Turun Template Abstract
-                </a>
-                <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank" class="btn btn-outline-primary mb-2">
-                    Muat Turun Template Poster
-                </a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
+    </section>
     <!-- /Buy Tickets Section -->
 
 
@@ -600,7 +669,8 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3" alt="Gold Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3"
+                                alt="Gold Medal">
                             <h4 class="fw-bold">Emas</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -615,7 +685,8 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}"  class="img-fluid mb-3" alt="Silver Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}" class="img-fluid mb-3"
+                                alt="Silver Medal">
                             <h4 class="fw-bold">Perak</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
@@ -630,7 +701,8 @@
                     <div class="card text-center shadow-sm border-0 h-100">
 
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}"  class="img-fluid mb-3" alt="Bronze Medal">
+                            <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}" class="img-fluid mb-3"
+                                alt="Bronze Medal">
                             <h4 class="fw-bold">Gangsa</h4>
                             <p class="text-muted">
                                 Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.

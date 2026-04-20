@@ -3,6 +3,7 @@
 return [
     'home' => 'Home',
     'background' => 'Background',
+    'theme_text' => '“Creating, Innovating and Realising Ideas for a Better Future”',
     'participation_info' => 'Participation Info',
     'important_dates' => 'Important Dates',
     'participation_category' => 'Participation Category',

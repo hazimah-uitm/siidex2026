@@ -293,6 +293,25 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+.event-theme {
+  font-size: 16px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 520px;
+  line-height: 1.6;
+  border-left: 3px solid var(--accent-color);
+  padding-left: 14px;
+}
+
+@media (max-width: 768px) {
+  .event-theme {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}
+
 /* language */
 .language-toggle {
   display: flex;
@@ -1767,6 +1786,10 @@ section,
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .kategori-card:hover {
@@ -1776,12 +1799,12 @@ section,
 
 .kategori-number {
   position: absolute;
-  top: 20px;
-  right: 25px;
-  font-size: 40px;
-  font-weight: bold;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+  font-weight: 600;
   color: #e96722;
-  opacity: 0.15;
+  opacity: 0.7;
 }
 
 .kategori-card h4 {
@@ -1792,6 +1815,7 @@ section,
 .kategori-card p {
   font-size: 14px;
   color: #555;
+  margin-bottom: auto; /* 🔥 tolak label ke bawah */
 }
 
 
@@ -1917,6 +1941,54 @@ section,
 
 .hotels .card:hover .card-img img {
   transform: scale(1.1);
+}
+
+.committee-card {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  border: 1px solid #e5e7eb; /* soft grey */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+.committee-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.committee-card .role {
+  font-size: 13px;
+  color: var(--accent-color); /* ikut theme kau */
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.committee-card .name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937; /* dark grey (nice readable) */
+  line-height: 1.4;
+}
+
+/* versi kecil */
+.committee-card.small {
+  padding: 20px 15px;
+}
+
+.committee-card.small .name {
+  font-size: 15px;
+  color: #374151;
+}
+
+/* subtitle */
+.sub-title {
+  color: #1f2937;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
