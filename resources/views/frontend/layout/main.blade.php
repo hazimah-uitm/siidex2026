@@ -40,59 +40,76 @@
 
 <body class="index-page">
 
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center me-auto">
-                {{-- <img src="{{ asset('public/assets/frontend/img/logo.png') }}" alt=""> --}}
-                <!-- Uncomment the line below if you also wish to use an text logo -->
-                <h1 class="sitename">{{ config('app.name') }}</h1>
+        <a href="index.html" class="logo d-flex align-items-center">
+            <h1 class="sitename">{{ config('app.name') }}</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
+                <li><a href="#speakers">{{ __('messages.background') }}</a></li>
+                <li class="dropdown">
+                    <a href="#">
+                        <span>{{ __('messages.participation_info') }}</span>
+                        <i class="bi bi-chevron-down toggle-dropdown"></i>
+                    </a>
+                    <ul>
+                        <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
+                        <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
+                        <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
+                        <li><a href="#faq">{{ __('messages.awards') }}</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>
+                <li><a href="#contact">{{ __('messages.contact_us') }}</a></li>
+
+                <!-- language switch untuk mobile -->
+                <li class="mobile-language-toggle d-xl-none">
+                    <div class="language-toggle mobile-lang-box">
+                        <i class="bi bi-globe2 me-2"></i>
+                        <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
+
+                        <label class="switch mx-2">
+                            <input type="checkbox"
+                                onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
+                                {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
+                            <span class="slider"></span>
+                        </label>
+
+                        <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
+                    </div>
+                </li>
+            </ul>
+
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <div class="d-flex align-items-center header-actions">
+            <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
+                {{ __('messages.register_now') }}
             </a>
 
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
-                    <li><a href="#speakers">{{ __('messages.background') }}</a></li>
-                    <li class="dropdown">
-                        <a href="#">
-                            <span>{{ __('messages.participation_info') }}</span>
-                            <i class="bi bi-chevron-down toggle-dropdown"></i>
-                        </a>
-                        <ul>
-                            <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
-                            <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
-                            <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
-                            <li><a href="#faq">{{ __('messages.awards') }}</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>
-                    <li><a href="#contact">{{ __('messages.contact_us') }}</a></li>
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
+            <!-- desktop sahaja -->
+            <div class="language-toggle ms-3 d-none d-xl-flex">
+                <i class="bi bi-globe2 me-2 text-white"></i>
+                <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
 
-            <div class="d-flex align-items-center header-actions">
-                <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
-                    {{ __('messages.register_now') }}
-                </a>
+                <label class="switch mx-2">
+                    <input type="checkbox"
+                        onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
+                        {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
+                    <span class="slider"></span>
+                </label>
 
-                <div class="language-toggle ms-3">
-                    <i class="bi bi-globe2 me-2 text-white"></i>
-                    <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
-
-                    <label class="switch mx-2">
-                        <input type="checkbox"
-                            onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
-                            {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
-                        <span class="slider"></span>
-                    </label>
-
-                    <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
-                </div>
+                <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
             </div>
-
         </div>
-    </header>
+
+    </div>
+</header>
 
     <main class="main">
         @yield('content')
