@@ -634,8 +634,8 @@
             <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
                 <div class="container text-center">
 
-                    <a href="https://example.com/register" target="_blank" class="btn btn-main me-2 mb-2">
-                        Daftar Sekarang
+                    <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank" class="btn btn-main me-2 mb-2">
+                        {{ __('messages.register_now') }}
                     </a>
 
                     <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}" target="_blank"
