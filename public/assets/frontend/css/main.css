@@ -276,6 +276,78 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+/* TOGGLE SWITCH */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 20px;
+    top: 0; left: 0; right: 0; bottom: 0;
+    transition: .3s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.switch input:checked + .slider {
+    background-color: #ff6a00; /* ikut theme kau (orange CTA) */
+}
+
+.switch input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+.language-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+  white-space: nowrap;
+}
+
+.language-toggle span {
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.language-toggle .active-lang {
+  color: #fff;
+  font-weight: 700;
+}
+
+.language-toggle i {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;

@@ -71,15 +71,24 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-            <div class="d-flex align-items-center">
-                <div class="me-3">
-                    <a href="{{ route('lang.switch', 'en') }}" class="btn btn-sm btn-outline-light">EN</a>
-                    <a href="{{ route('lang.switch', 'ms') }}" class="btn btn-sm btn-outline-light">BM</a>
-                </div>
-
+            <div class="d-flex align-items-center header-actions">
                 <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
                     {{ __('messages.register_now') }}
                 </a>
+
+                <div class="language-toggle ms-3">
+                    <i class="bi bi-globe2 me-2 text-white"></i>
+                    <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
+
+                    <label class="switch mx-2">
+                        <input type="checkbox"
+                            onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
+                            {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
+                        <span class="slider"></span>
+                    </label>
+
+                    <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
+                </div>
             </div>
 
         </div>
@@ -141,12 +150,13 @@
                         © 2026 <a href="https://sarawak.uitm.edu.my/">{{ __('messages.uitm_sarawak') }}</a>
                     </div>
                     {{-- <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
-          </div> --}}
+                        <!-- All the links in the footer should remain intact. -->
+                        <!-- You can delete the links only if you purchased the pro version. -->
+                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+                            href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -178,7 +188,7 @@
             if (el.innerText !== value) {
                 el.classList.add("flip");
 
-                setTimeout(function() {
+                setTimeout(function () {
                     el.innerText = value;
                     el.classList.remove("flip");
                 }, 150);
