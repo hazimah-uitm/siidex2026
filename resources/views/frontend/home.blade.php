@@ -638,15 +638,15 @@
                         Daftar Sekarang
                     </a>
 
-                    <a href="{{ asset('public/assets/frontend/files/template-abstract.docx') }}" target="_blank"
+                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}" target="_blank"
                         class="btn btn-outline-main me-2 mb-2">
                         Muat Turun Templat Abstrak
                     </a>
 
-                    <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank"
+                    {{-- <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank"
                         class="btn btn-outline-main mb-2">
                         Muat Turun Templat Poster
-                    </a>
+                    </a> --}}
 
                 </div>
             </div>
