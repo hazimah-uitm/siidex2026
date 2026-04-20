@@ -632,18 +632,22 @@
 
             <!-- Action Buttons -->
             <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
-                <div class="col-lg-12 text-center">
-                    <a href="https://example.com/register" target="_blank" class="btn btn-primary me-2 mb-2">
+                <div class="container text-center">
+
+                    <a href="https://example.com/register" target="_blank" class="btn btn-main me-2 mb-2">
                         Daftar Sekarang
                     </a>
+
                     <a href="{{ asset('public/assets/frontend/files/template-abstract.docx') }}" target="_blank"
-                        class="btn btn-outline-primary me-2 mb-2">
-                        Muat Turun Template Abstract
+                        class="btn btn-outline-main me-2 mb-2">
+                        Muat Turun Templat Abstrak
                     </a>
+
                     <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank"
-                        class="btn btn-outline-primary mb-2">
-                        Muat Turun Template Poster
+                        class="btn btn-outline-main mb-2">
+                        Muat Turun Templat Poster
                     </a>
+
                 </div>
             </div>
 
@@ -651,8 +655,6 @@
 
     </section>
     <!-- /Buy Tickets Section -->
-
-
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">

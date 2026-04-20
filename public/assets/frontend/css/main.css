@@ -2268,6 +2268,48 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Highlight Section
+--------------------------------------------------------------*/
+.cta-banner-white {
+  background: #fff;
+  padding: 70px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.cta-text {
+  color: #555;
+  font-weight: 500;
+}
+
+/* Main button */
+.btn-main {
+  background: #e96722;
+  color: #fff;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  background: #cf5a1c;
+}
+
+/* Outline */
+.btn-outline-main {
+  border: 2px solid #e96722;
+  color: #e96722;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-weight: 500;
+}
+
+.btn-outline-main:hover {
+  background: #e96722;
+  color: #fff;
+}
+/*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item {
