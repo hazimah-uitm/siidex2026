@@ -626,57 +626,144 @@
         </div>
 
         <div class="container">
-            <div class="row gy-4">
 
-                <!-- GOLD -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card text-center shadow-sm border-0 h-100">
+            <!-- =========================
+                 BEST AWARDS BY CATEGORY
+            ========================== -->
 
+            <div class="row gy-4 mb-4">
+
+                <!-- Category 1 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3"
-                                alt="Gold Medal">
-                            <h4 class="fw-bold">Emas</h4>
-                            <p class="text-muted">
-                                Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
-                            </p>
+                            <div class="award-icon-wrap mb-3">
+                                <i class="bi bi-mortarboard-fill"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Anugerah Inovasi Pengajaran dan Pembelajaran Terbaik
+                            </h4>
                         </div>
-
                     </div>
                 </div>
 
-                <!-- SILVER -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="card text-center shadow-sm border-0 h-100">
-
+                <!-- Category 2 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}" class="img-fluid mb-3"
-                                alt="Silver Medal">
-                            <h4 class="fw-bold">Perak</h4>
-                            <p class="text-muted">
-                                Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
-                            </p>
+                            <div class="award-icon-wrap mb-3">
+                                <i class="bi bi-lightbulb-fill"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Anugerah Inovasi Terbaik
+                            </h4>
                         </div>
-
                     </div>
                 </div>
 
-                <!-- BRONZE -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="card text-center shadow-sm border-0 h-100">
-
+                <!-- Category 3 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
-                            <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}" class="img-fluid mb-3"
-                                alt="Bronze Medal">
-                            <h4 class="fw-bold">Gangsa</h4>
-                            <p class="text-muted">
-                                Pingat & sijil penyertaan berdasarkan keputusan penilaian juri.
-                            </p>
+                            <div class="award-icon-wrap mb-3">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Anugerah Produk Ciptaan Terbaik
+                            </h4>
                         </div>
+                    </div>
+                </div>
 
+                <!-- Category 4 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
+                        <div class="p-4">
+                            <div class="award-icon-wrap mb-3">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h4 class="fw-bold">
+                                Anugerah Reka Bentuk Terbaik
+                            </h4>
+                        </div>
                     </div>
                 </div>
 
             </div>
+
+            <!-- Note for Best Awards -->
+            <div class="row mb-5" data-aos="fade-up" data-aos-delay="280">
+                <div class="col-12">
+                    <div class="awards-alert-note">
+                        <i class="bi bi-megaphone-fill me-2"></i>
+                        Setiap Anugerah Terbaik mengikut kategori akan disampaikan semasa
+                        <strong>Majlis Penutupan pada 15 September 2026</strong>.
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================
+                 MEDALS
+            ========================== -->
+
+            <div class="row gy-4">
+
+                <!-- GOLD -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card">
+                        <div class="p-4">
+                            <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3"
+                                alt="Gold Medal">
+                            <h4 class="fw-bold">Emas</h4>
+                            <p class="text-muted mb-0">
+                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SILVER -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card">
+                        <div class="p-4">
+                            <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}" class="img-fluid mb-3"
+                                alt="Silver Medal">
+                            <h4 class="fw-bold">Perak</h4>
+                            <p class="text-muted mb-0">
+                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BRONZE -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
+                    <div class="card text-center shadow-sm border-0 h-100 award-card">
+                        <div class="p-4">
+                            <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}" class="img-fluid mb-3"
+                                alt="Bronze Medal">
+                            <h4 class="fw-bold">Gangsa</h4>
+                            <p class="text-muted mb-0">
+                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Note for medals -->
+            <div class="row mt-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-12">
+                    <div class="awards-alert-note online-note">
+                        <i class="bi bi-info-circle-fill me-2"></i>
+                        Bagi Anugerah <strong>Emas, Perak dan Gangsa</strong>, pemberian adalah
+                        <strong>secara dalam talian sahaja</strong>.
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </section>

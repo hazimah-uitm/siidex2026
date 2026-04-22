@@ -2074,88 +2074,99 @@ section,
 }
 
 /*--------------------------------------------------------------
-# awards Section
+# Awards Section
 --------------------------------------------------------------*/
-.awards .awards-container .awards-item {
-  background-color: var(--surface-color);
-  position: relative;
-  padding: 20px;
-  margin-bottom: 15px;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-radius: 5px;
-  overflow: hidden;
+.awards .awards-subtitle h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 10px;
 }
 
-.awards .awards-container .awards-item:last-child {
+.awards .awards-subtitle p {
   margin-bottom: 0;
+  color: var(--default-color);
 }
 
-.awards .awards-container .awards-item h3 {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0 30px 0 0;
-  transition: 0.3s;
-  cursor: pointer;
+.awards .award-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.awards .award-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
+}
+
+.awards .award-card img {
+  max-height: 180px;
+  object-fit: contain;
+}
+
+.awards .special-award-card {
+  background: #fff;
+}
+
+.awards .award-icon-wrap {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent-color), white 88%);
+  color: var(--accent-color);
   display: flex;
   align-items: center;
+  justify-content: center;
+  font-size: 30px;
 }
 
-.awards .awards-container .awards-item h3 .num {
-  color: var(--accent-color);
-  padding-right: 5px;
+.awards .special-award-card h4,
+.awards .award-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.awards .awards-container .awards-item h3:hover {
-  color: var(--accent-color);
+.awards .awards-alert-note {
+  background: color-mix(in srgb, var(--accent-color), white 92%);
+  border-left: 4px solid var(--accent-color);
+  border-radius: 12px;
+  padding: 16px 20px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--default-color);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
 }
 
-.awards .awards-container .awards-item .awards-content {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: 0.3s ease-in-out;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.awards .awards-container .awards-item .awards-content p {
-  margin-bottom: 0;
-  overflow: hidden;
-}
-
-.awards .awards-container .awards-item .awards-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 16px;
-  line-height: 0;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.awards .awards-container .awards-item .awards-toggle:hover {
+.awards .awards-alert-note i {
   color: var(--accent-color);
 }
 
-.awards .awards-container .awards-active {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
-  border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+.awards .online-note {
+  background: color-mix(in srgb, #f8771b, white 92%);
+  border-left-color: #f8771b;
 }
 
-.awards .awards-container .awards-active h3 {
-  color: var(--accent-color);
+.awards .online-note i {
+  color: #f8771b;
 }
 
-.awards .awards-container .awards-active .awards-content {
-  grid-template-rows: 1fr;
-  visibility: visible;
-  opacity: 1;
-  padding-top: 10px;
+@media (max-width: 991.98px) {
+  .awards .awards-subtitle h3 {
+    font-size: 24px;
+  }
 }
 
-.awards .awards-container .awards-active .awards-toggle {
-  transform: rotate(90deg);
-  color: var(--accent-color);
+@media (max-width: 575.98px) {
+  .awards .awards-subtitle h3 {
+    font-size: 22px;
+  }
+
+  .awards .award-icon-wrap {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
 }
 
 /*--------------------------------------------------------------
