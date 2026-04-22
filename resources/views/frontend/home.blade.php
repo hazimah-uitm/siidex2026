@@ -275,7 +275,7 @@
             <div class="background-intro" data-aos="fade-up">
                 <div class="intro-card">
                     <p>
-                        Sarawak Invention, Innovation & Design Expo (SIIDEx) 2026 adalah SIIDEx yang ke-5 dianjurkan
+                        Sarawak Invention, Innovation & Design Exposition (SIIDEx) 2026 adalah SIIDEx yang ke-5 dianjurkan
                         oleh Universiti Teknologi MARA (UiTM) Cawangan Sarawak bersama UiTM Cawangan Pulau Pinang.
                         SIIDEx 2026 akan berlangsung pada 14 September 2026 dan bertempat di Waterfront Hotel, Kuching
                         Sarawak, Malaysia. Ia merupakan pertandingan inovasi utama yang ditubuhkan untuk
@@ -322,7 +322,7 @@
                             </div>
                             <div class="cat-content">
                                 <div class="cat-label">Kategori C</div>
-                                <div class="cat-name">Produk Ciptaan</div>
+                                <div class="cat-name">Ciptaan</div>
                             </div>
                         </div>
 
@@ -431,17 +431,14 @@
     <!-- category Section -->
     <section id="category" class="category section">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Kategori Penyertaan</h2>
         </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row g-4">
 
-            <div class="row gy-4">
-
-                <!-- Kategori 1 -->
-                <div class="col-lg-6">
+                <div class="col-12 col-md-6">
                     <div class="kategori-card">
                         <span class="kategori-number">KATEGORI A</span>
                         <h4>Inovasi Pengajaran dan Pembelajaran</h4>
@@ -453,8 +450,7 @@
                     </div>
                 </div>
 
-                <!-- Kategori 2 -->
-                <div class="col-lg-6">
+                <div class="col-12 col-md-6">
                     <div class="kategori-card">
                         <span class="kategori-number">KATEGORI B</span>
                         <h4>Inovasi</h4>
@@ -466,11 +462,10 @@
                     </div>
                 </div>
 
-                <!-- Kategori 3 -->
-                <div class="col-lg-6">
+                <div class="col-12 col-md-6">
                     <div class="kategori-card">
                         <span class="kategori-number">KATEGORI C</span>
-                        <h4>Ciptaan (Invention)</h4>
+                        <h4>Ciptaan</h4>
                         <p>
                             Merujuk kepada penciptaan sesuatu produk, teknologi, atau kaedah yang benar-benar
                             baharu dan asli hasil daripada penyelidikan dan pembangunan.
@@ -478,11 +473,10 @@
                     </div>
                 </div>
 
-                <!-- Kategori 4 -->
-                <div class="col-lg-6">
+                <div class="col-12 col-md-6">
                     <div class="kategori-card">
                         <span class="kategori-number">KATEGORI D</span>
-                        <h4>Reka Bentuk (Design)</h4>
+                        <h4>Reka Bentuk</h4>
                         <p>
                             Merujuk kepada pembangunan konsep atau reka bentuk kreatif yang menekankan
                             aspek fungsi, estetika, ergonomik, dan pengalaman pengguna dalam menghasilkan
@@ -490,11 +484,8 @@
                         </p>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
     <!-- Buy Tickets Section -->
@@ -728,8 +719,8 @@
         <div class="container">
 
             <!-- =========================
-                                             BEST AWARDS BY CATEGORY
-                                        ========================== -->
+                                                     BEST AWARDS BY CATEGORY
+                                                ========================== -->
 
             <div class="row gy-4 mb-4">
 
@@ -804,8 +795,8 @@
 
 
             <!-- =========================
-                                             MEDALS
-                                        ========================== -->
+                                                     MEDALS
+                                                ========================== -->
 
             <div class="row gy-4">
 

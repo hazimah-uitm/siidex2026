@@ -122,11 +122,11 @@
                 <div class="row gy-4">
 
                     <!-- ABOUT (KEKAL) -->
-                    <div class="col-lg-3 col-md-6 footer-about">
-                        <a href="index.html" class="logo d-flex flex-column align-items-start">
+                    <div class="col-lg-3 col-md-6 footer-about text-center">
+                        {{-- <a href="index.html" class="logo d-flex flex-column align-items-start">
                             <span class="sitename">SIIDEx 2026</span>
-                        </a>
-                        <div class="footer-logo">
+                        </a> --}}
+                        <div class="footer-logo siidex-logo mb-2">
                             <img src="{{ asset('public/assets/frontend/img/footer/logo.png') }}" alt="">
                         </div>
                     </div>
@@ -162,9 +162,9 @@
 
         <div class="copyright text-center footer dark-background">
             <div
-                class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+                class="container d-flex flex-column flex-lg-row justify-content-center align-items-center ">
 
-                <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <div class="d-flex flex-column align-items-center mt-1 mb-1">
                     <div>
                         © 2026 <a href="https://sarawak.uitm.edu.my/">{{ __('messages.uitm_sarawak') }}</a>
                     </div>
