@@ -16,9 +16,9 @@
 
                 <div class="col-lg-6">
                     <h2 data-aos="fade-up" data-aos-delay="100">
-                        SARAWAK
-                        <span>INVENTION, INNOVATION & DESIGN</span>
-                        EXPO KE-5<br>
+                        {{ __('messages.hero_title_line_1') }}
+                        <span>{{ __('messages.hero_title_line_2') }}</span>
+                        {{ __('messages.hero_title_line_3') }}<br>
                     </h2>
 
                     <p class="event-theme" data-aos="fade-up" data-aos-delay="150">
@@ -31,41 +31,42 @@
                                 <div class="col-6 col-md-3">
                                     <div class="countdown-box">
                                         <h3 id="days" class="countdown-number">00</h3>
-                                        <span class="countdown-text">Hari</span>
+                                        <span class="countdown-text">{{ __('messages.countdown_days') }}</span>
                                     </div>
                                 </div>
 
                                 <div class="col-6 col-md-3">
                                     <div class="countdown-box">
                                         <h3 id="hours" class="countdown-number">00</h3>
-                                        <span class="countdown-text">Jam</span>
+                                        <span class="countdown-text">{{ __('messages.countdown_hours') }}</span>
                                     </div>
                                 </div>
 
                                 <div class="col-6 col-md-3">
                                     <div class="countdown-box">
                                         <h3 id="minutes" class="countdown-number">00</h3>
-                                        <span class="countdown-text">Minit</span>
+                                        <span class="countdown-text">{{ __('messages.countdown_minutes') }}</span>
                                     </div>
                                 </div>
 
                                 <div class="col-6 col-md-3">
                                     <div class="countdown-box">
                                         <h3 id="seconds" class="countdown-number">00</h3>
-                                        <span class="countdown-text">Saat</span>
+                                        <span class="countdown-text">{{ __('messages.countdown_seconds') }}</span>
                                     </div>
                                 </div>
                             </div>
 
                             <p id="countdown-ended" class="mt-3 mb-0 fw-semibold d-none">
-                                Acara sedang berlangsung!
+                                {{ __('messages.countdown_ended') }}
                             </p>
                         </div>
                     </div>
+
                     {{-- <div data-aos="fade-up" data-aos-delay="300">
-                            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
-                                class="glightbox pulsating-play-btn mt-3"></a>
-                        </div> --}}
+                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                            class="glightbox pulsating-play-btn mt-3"></a>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -75,31 +76,34 @@
                 <div class="row">
 
                     <div class="col-lg-3">
-                        <h3>Penganjur</h3>
-                        <p>UiTM Cawangan Sarawak</p>
+                        <h3>{{ __('messages.organizer') }}</h3>
+                        <p>{{ __('messages.hero_organizer_text') }}</p>
                     </div>
 
                     <div class="col-lg-3">
-                        <h3>Penganjur Bersama</h3>
-                        <p>UiTM Cawangan Pulau Pinang <br><a
-                                href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
-                                Laman Rasmi SeAIM’26
-                            </a></p>
+                        <h3>{{ __('messages.co_organizer') }}</h3>
+                        <p>
+                            {{ __('messages.hero_co_organizer_text') }} <br>
+                            <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
+                                {{ __('messages.hero_official_site') }}
+                            </a>
+                        </p>
                     </div>
 
                     <div class="col-lg-3">
-                        <h3>Lokasi</h3>
-                        <p>Hotel Waterfront, Kuching, Sarawak</p>
+                        <h3>{{ __('messages.location') }}</h3>
+                        <p>{{ __('messages.hero_location_text') }}</p>
                     </div>
 
                     <div class="col-lg-3">
-                        <h3>Tarikh</h3>
-                        <p>14 September 2026</p>
+                        <h3>{{ __('messages.date') }}</h3>
+                        <p>{{ __('messages.hero_date_text') }}</p>
                     </div>
 
                 </div>
             </div>
         </div>
+
         <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28 " preserveAspectRatio="none">
             <defs>
@@ -116,8 +120,7 @@
                 <use xlink:href="#wave-path" x="50" y="9"></use>
             </g>
         </svg>
-    </section><!-- /Hero Section -->
-
+    </section>
 
     <!-- Schedule Section -->
     <section id="schedule" class="schedule section">
@@ -128,15 +131,15 @@
                 <!-- LEFT: Tarikh Penting -->
                 <div class="col-lg-4">
                     <div class="important-dates-box compact-dates" data-aos="fade-right" data-aos-delay="100">
-                        <h3 class="important-title">Tarikh Penting</h3>
+                        <h3 class="important-title">{{ __('messages.important_dates_title') }}</h3>
 
                         <div class="important-date-item">
                             <div class="date-icon">
                                 <i class="bi bi-calendar-event"></i>
                             </div>
                             <div class="date-content">
-                                <h4>15 April - 30 Jun 2026</h4>
-                                <p>Pendaftaran, pembayaran dan penghantaran abstrak</p>
+                                <h4>{{ __('messages.date_range_registration') }}</h4>
+                                <p>{{ __('messages.date_desc_registration') }}</p>
                             </div>
                         </div>
 
@@ -145,9 +148,9 @@
                                 <i class="bi bi-calendar-check"></i>
                             </div>
                             <div class="date-content">
-                                <h4>14 September 2026</h4>
-                                <p>SIIDEX 2026</p>
-                                <small>8.00 pagi – 5.00 petang • Hotel Waterfront, Kuching</small>
+                                <h4>{{ __('messages.date_siidex') }}</h4>
+                                <p>{{ __('messages.date_desc_siidex') }}</p>
+                                <small>{{ __('messages.date_siidex_time') }}</small>
                             </div>
                         </div>
 
@@ -156,11 +159,11 @@
                                 <i class="bi bi-mic-fill"></i>
                             </div>
                             <div class="date-content">
-                                <h4>15 September 2026</h4>
-                                <p>SeAIM’26 – Seminar Antarabangsa</p>
+                                <h4>{{ __('messages.date_seaim') }}</h4>
+                                <p>{{ __('messages.date_desc_seaim') }}</p>
                                 <small>
                                     <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
-                                        Laman Rasmi SeAIM’26
+                                        {{ __('messages.seaim_official_site') }}
                                     </a>
                                 </small>
                             </div>
@@ -174,81 +177,81 @@
 
                         <div class="schedule-card-header">
                             <div>
-                                <h3>Tentatif SIIDEx 2026</h3>
+                                <h3>{{ __('messages.tentative_title') }}</h3>
                             </div>
-                            <span class="schedule-badge">14 SEPTEMBER 2026</span>
+                            <span class="schedule-badge">{{ __('messages.tentative_badge_date') }}</span>
                         </div>
 
                         <div class="schedule-timeline">
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>08:00 pagi</span>
+                                    <span>{{ __('messages.time_0800') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Pendaftaran Peserta</h4>
+                                        <h4>{{ __('messages.event_registration') }}</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>09:00 pagi</span>
+                                    <span>{{ __('messages.time_0900') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Majlis Perasmian</h4>
+                                        <h4>{{ __('messages.event_opening') }}</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>10:00 pagi</span>
+                                    <span>{{ __('messages.time_1000') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Sesi Penilaian Juri</h4>
+                                        <h4>{{ __('messages.event_judging') }}</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>12:30 tengah hari</span>
+                                    <span>{{ __('messages.time_1230') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Rehat</h4>
+                                        <h4>{{ __('messages.event_break') }}</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>02:00 petang</span>
+                                    <span>{{ __('messages.time_1400') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Pameran dan Penilaian</h4>
+                                        <h4>{{ __('messages.event_exhibition') }}</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="schedule-timeline-item">
                                 <div class="schedule-time">
-                                    <span>04:00 petang</span>
+                                    <span>{{ __('messages.time_1600') }}</span>
                                 </div>
                                 <div class="schedule-line"></div>
                                 <div class="schedule-detail">
                                     <div class="schedule-event-card">
-                                        <h4>Tamat Program</h4>
+                                        <h4>{{ __('messages.event_end') }}</h4>
                                     </div>
                                 </div>
                             </div>
@@ -266,7 +269,7 @@
     <!-- background-info Section -->
     <section id="background-info" class="background-info section light-background">
         <div class="container section-title" data-aos="fade-up">
-            <h2>Latar Belakang</h2>
+            <h2>{{ __('messages.background_title') }}</h2>
         </div>
 
         <div class="container">
@@ -274,24 +277,14 @@
             <!-- Intro -->
             <div class="background-intro" data-aos="fade-up">
                 <div class="intro-card">
-                    <p>
-                        Sarawak Invention, Innovation & Design Exposition (SIIDEx) 2026 adalah SIIDEx yang ke-5 dianjurkan
-                        oleh Universiti Teknologi MARA (UiTM) Cawangan Sarawak bersama UiTM Cawangan Pulau Pinang.
-                        SIIDEx 2026 akan berlangsung pada 14 September 2026 dan bertempat di Waterfront Hotel, Kuching
-                        Sarawak, Malaysia. Ia merupakan pertandingan inovasi utama yang ditubuhkan untuk
-                        memupuk budaya kreativiti, inovasi, dan pengkomersialan pengetahuan di kalangan penyelidik,
-                        pendidik, pelajar, serta pengamal industri. Melalui SIIDEx, pameran produk inovasi dan ciptaan
-                        boleh dipamerkan kepada orang ramai dan dipertandingkan.
-                        Pertandingan pameran produk membolehkan peserta berpeluang mendapat anugerah yang diiktiraf oleh
-                        universiti dan
-                        menggunakan platform tersebut untuk berkomunikasi dengan peserta industri dan akademik.
-                    </p>
+                    <p>{{ __('messages.background_intro') }}</p>
                 </div>
-                <!-- Kategori Section -->
+
+                <!-- Kategori -->
                 <div class="category-wrapper mt-4" data-aos="fade-up">
 
                     <div class="category-header text-center mb-3">
-                        <h5>Kategori Pertandingan</h5>
+                        <h5>{{ __('messages.category_title') }}</h5>
                     </div>
 
                     <div class="category-grid">
@@ -301,8 +294,8 @@
                                 <i class="bi bi-mortarboard"></i>
                             </div>
                             <div class="cat-content">
-                                <div class="cat-label">Kategori A</div>
-                                <div class="cat-name">Inovasi Pengajaran dan Pembelajaran</div>
+                                <div class="cat-label">{{ __('messages.category_a_label') }}</div>
+                                <div class="cat-name">{{ __('messages.category_a_name') }}</div>
                             </div>
                         </div>
 
@@ -311,8 +304,8 @@
                                 <i class="bi bi-lightbulb"></i>
                             </div>
                             <div class="cat-content">
-                                <div class="cat-label">Kategori B</div>
-                                <div class="cat-name">Inovasi</div>
+                                <div class="cat-label">{{ __('messages.category_b_label') }}</div>
+                                <div class="cat-name">{{ __('messages.category_b_name') }}</div>
                             </div>
                         </div>
 
@@ -321,8 +314,8 @@
                                 <i class="bi bi-box-seam"></i>
                             </div>
                             <div class="cat-content">
-                                <div class="cat-label">Kategori C</div>
-                                <div class="cat-name">Ciptaan</div>
+                                <div class="cat-label">{{ __('messages.category_c_label') }}</div>
+                                <div class="cat-name">{{ __('messages.category_c_name') }}</div>
                             </div>
                         </div>
 
@@ -331,8 +324,8 @@
                                 <i class="bi bi-palette"></i>
                             </div>
                             <div class="cat-content">
-                                <div class="cat-label">Kategori D</div>
-                                <div class="cat-name">Reka Bentuk</div>
+                                <div class="cat-label">{{ __('messages.category_d_label') }}</div>
+                                <div class="cat-name">{{ __('messages.category_d_name') }}</div>
                             </div>
                         </div>
 
@@ -345,80 +338,34 @@
 
                 <div class="timeline-item" data-aos="fade-up">
                     <div class="timeline-year">
-                        <span>2016</span>
+                        <span>{{ __('messages.year_2016') }}</span>
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-card">
-                            <p>
-                                Sejarah SIIDEx bermula pada tahun 2016 dengan tujuan untuk membudayakan produk inovasi dan
-                                ciptaan cikgu dan pelajar. SIIDEx pertama melibatkan beberapa sekolah menengah dan bertempat
-                                di
-                                Dewan Jubli, kampus Samarahan UiTM dan berlangsung dari 29 hingga 30 January 2016.
-                                Pertandingan
-                                dan pameran ini adalah usaha Unit Penyelidikan dan Bisnes Inovasi (RIBU), Unit Industri,
-                                Komuniti, dan Jaringan Alumni (ICAN) dan Pasukan Gerakan Kualiti Pelajar (PGKP) UiTM Sarawak
-                                dengan kerjasama Invention and Design Association of Sarawak (IDEAS) dan Unit Pembangunana
-                                Sumber Manusia Sarawak (WDU). Dalam SiIDEx pertama, terdapat 410 peserta dengan 88 produk
-                                yang
-                                dibahagikan kepada 39 produk staf, 35 produk belia dan 14 produk ciptaan pelajar sekolah
-                                menengah.
-                            </p>
+                            <p>{{ __('messages.history_2016') }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
                     <div class="timeline-year">
-                        <span>2018</span>
+                        <span>{{ __('messages.year_2018') }}</span>
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-card">
-                            <p>
-                                Kejayaan SIIDEx pertama pada tahun 2016 telah mendapat banyak permintaan daripada
-                                sekolah-sekolah di Kuching dan Samarahan untuk mengadakan SIIDEx sekali lagi pada tahun yang
-                                seterusnya. Ekoran itu, SIIDEx yang kedua bertema “Empowerment throguh Invention, Innovation
-                                and
-                                Design” telah diadakan di Penview Convention Centre Demak, Kuching dari 2 March hingga 4
-                                March
-                                2018. Terdapat 707 peserta dengan 154 produk telah dipamerkan. Antara aktiviti yang
-                                ditunjukkan
-                                pada SIIDEx 2018 adalah ucapan motivasi dan perkongsian cara komersialisasi produk, kuiz
-                                Sains,
-                                Teknologi, Kejuruteraan dan Matematik (STEM).
-                            </p>
+                            <p>{{ __('messages.history_2018') }}</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
                     <div class="timeline-year">
-                        <span>2019</span>
+                        <span>{{ __('messages.year_2019') }}</span>
                     </div>
                     <div class="timeline-content">
                         <div class="timeline-card">
-                            <p>
-                                Maklum balas daripada SIIDEx 2018 menunjukkan produk inovasi sekolah perlu dipertingkatkan
-                                dan
-                                inisiatif perlu diambil untuk menghasilkan produk yang berkualiti tinggi di antara pelajar.
-                                Justeru itu, UiTM Sarawak bersama MESTR, Jabatan Pendidikan Sarawak dan Sarawak Multimedia
-                                Authority (SMA) menganjurkan Sarawak Invention, Innovation and Design Expo (SIIDEx) 2019
-                                sebagai
-                                satu platform untuk mempromosi dan meningkatkan minat pelajar sekolah menengah dalam bidang
-                                Sains dan Teknologi.
-                            </p>
-                            <p class="mt-2">
-                                Empat tahap aktiviti telah dirancang untuk SIIDEx 2019 untuk mencapai objektif tersebut.
-                                SIIDEx
-                                2019 bermula dengan bengkel Mentor. Terdapat 19 mentor telah terlibat dan diberi
-                                tanggungjawab
-                                untuk membimbing sekolah menghasilkan produk. Tahap yang kedua melibatkan bengkel Inovasi
-                                sekolah tang telah berlangsung di tiga zon di Sarawak. Seramai 183 sekolah di seluruh
-                                Sarawak
-                                telah menyertai bengkel ini. Bagi memastikan produk berkualiti telah dihasilkan, SIIDEx 2019
-                                mengadakan pertandingan Mini SIIDEx 2019 di setiap zon. Seramai 102 sekolah telah menyertai
-                                pertandingan dan 26 produk telah dipilih untuk dipertandingkan di SIIDEx 2019 utama yang
-                                bertempat di Pusat Konvensyen CIDB, Kuching dari 21 hingga 23 Oktober 2019.
-                            </p>
+                            <p>{{ __('messages.history_2019_part1') }}</p>
+                            <p class="mt-2">{{ __('messages.history_2019_part2') }}</p>
                         </div>
                     </div>
                 </div>
@@ -432,7 +379,7 @@
     <section id="category" class="category section">
 
         <div class="container section-title" data-aos="fade-up">
-            <h2>Kategori Penyertaan</h2>
+            <h2>{{ __('messages.participation_category_title') }}</h2>
         </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -440,173 +387,159 @@
 
                 <div class="col-12 col-md-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">KATEGORI A</span>
-                        <h4>Inovasi Pengajaran dan Pembelajaran</h4>
-                        <p>
-                            Merujuk kepada pembangunan kaedah, alat, sistem, atau pendekatan baharu yang
-                            bertujuan meningkatkan keberkesanan proses pengajaran dan pembelajaran dalam
-                            bidang pendidikan.
-                        </p>
+                        <span class="kategori-number">{{ __('messages.category_a_label') }}</span>
+                        <h4>{{ __('messages.category_a_title') }}</h4>
+                        <p>{{ __('messages.category_a_desc') }}</p>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">KATEGORI B</span>
-                        <h4>Inovasi</h4>
-                        <p>
-                            Merujuk kepada penambahbaikan atau pengubahsuaian terhadap produk, proses,
-                            teknologi, atau perkhidmatan sedia ada bagi meningkatkan fungsi, kecekapan,
-                            atau nilai penggunaannya.
-                        </p>
+                        <span class="kategori-number">{{ __('messages.category_b_label') }}</span>
+                        <h4>{{ __('messages.category_b_title') }}</h4>
+                        <p>{{ __('messages.category_b_desc') }}</p>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">KATEGORI C</span>
-                        <h4>Ciptaan</h4>
-                        <p>
-                            Merujuk kepada penciptaan sesuatu produk, teknologi, atau kaedah yang benar-benar
-                            baharu dan asli hasil daripada penyelidikan dan pembangunan.
-                        </p>
+                        <span class="kategori-number">{{ __('messages.category_c_label') }}</span>
+                        <h4>{{ __('messages.category_c_title') }}</h4>
+                        <p>{{ __('messages.category_c_desc') }}</p>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6">
                     <div class="kategori-card">
-                        <span class="kategori-number">KATEGORI D</span>
-                        <h4>Reka Bentuk</h4>
-                        <p>
-                            Merujuk kepada pembangunan konsep atau reka bentuk kreatif yang menekankan
-                            aspek fungsi, estetika, ergonomik, dan pengalaman pengguna dalam menghasilkan
-                            sesuatu produk atau sistem.
-                        </p>
+                        <span class="kategori-number">{{ __('messages.category_d_label') }}</span>
+                        <h4>{{ __('messages.category_d_title') }}</h4>
+                        <p>{{ __('messages.category_d_desc') }}</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- Buy Tickets Section -->
-<section id="fee" class="fee section light-background">
+    <section id="fee" class="fee section light-background">
 
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Yuran Penyertaan</h2>
-    </div>
-
-    <div class="container">
-        <div class="row gy-4">
-
-            <!-- Early Bird -->
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="pricing-column featured">
-                    <div class="pricing-header">
-                        <h3>Early Bird</h3>
-                        <p class="fw-bold">15 April 2026 - 31 Mei 2026</p>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Pelajar</div>
-
-                        <div class="price-line">
-                            <span class="price-label">Tempatan</span>
-                            <span class="price-value">RM 200</span>
-                        </div>
-
-                        <div class="price-line">
-                            <span class="price-label">Antarabangsa</span>
-                            <span class="price-value">USD 60</span>
-                        </div>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Staf UiTM</div>
-
-                        <div class="price-line single-price">
-                            <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
-                            <span class="price-value">RM 300</span>
-                        </div>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Profesional</div>
-
-                        <div class="price-line">
-                            <span class="price-label">Tempatan</span>
-                            <span class="price-value">RM 400</span>
-                        </div>
-
-                        <div class="price-line">
-                            <span class="price-label">Antarabangsa</span>
-                            <span class="price-value">USD 110</span>
-                        </div>
-                    </div>
-
-                    <div class="pricing-action">
-                        <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee btn-fee-light">
-                            Buat Pembayaran
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Normal Price -->
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-                <div class="pricing-column">
-                    <div class="pricing-header">
-                        <h3>Normal Price</h3>
-                        <p class="fw-bold">1 Jun 2026 - 31 Julai 2026</p>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Pelajar</div>
-
-                        <div class="price-line">
-                            <span class="price-label">Tempatan</span>
-                            <span class="price-value">RM 300</span>
-                        </div>
-
-                        <div class="price-line">
-                            <span class="price-label">Antarabangsa</span>
-                            <span class="price-value">USD 80</span>
-                        </div>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Staf UiTM</div>
-
-                        <div class="price-line single-price">
-                            <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
-                            <span class="price-value">RM 400</span>
-                        </div>
-                    </div>
-
-                    <div class="price-row">
-                        <div class="price-title">Profesional</div>
-
-                        <div class="price-line">
-                            <span class="price-label">Tempatan</span>
-                            <span class="price-value">RM 500</span>
-                        </div>
-
-                        <div class="price-line">
-                            <span class="price-label">Antarabangsa</span>
-                            <span class="price-value">USD 130</span>
-                        </div>
-                    </div>
-
-                    <div class="pricing-action">
-                        <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
-                            Buat Pembayaran
-                        </a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Yuran Penyertaan</h2>
         </div>
-    </div>
-</section>
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Early Bird -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-column featured">
+                        <div class="pricing-header">
+                            <h3>Early Bird</h3>
+                            <p class="fw-bold">15 April 2026 - 31 Mei 2026</p>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Pelajar</div>
+
+                            <div class="price-line">
+                                <span class="price-label">Tempatan</span>
+                                <span class="price-value">RM 200</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">Antarabangsa</span>
+                                <span class="price-value">USD 60</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Staf UiTM</div>
+
+                            <div class="price-line single-price">
+                                <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
+                                <span class="price-value">RM 300</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Profesional</div>
+
+                            <div class="price-line">
+                                <span class="price-label">Tempatan</span>
+                                <span class="price-value">RM 400</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">Antarabangsa</span>
+                                <span class="price-value">USD 110</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-action">
+                            <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee btn-fee-light">
+                                Buat Pembayaran
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Normal Price -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="pricing-column">
+                        <div class="pricing-header">
+                            <h3>Normal Price</h3>
+                            <p class="fw-bold">1 Jun 2026 - 31 Julai 2026</p>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Pelajar</div>
+
+                            <div class="price-line">
+                                <span class="price-label">Tempatan</span>
+                                <span class="price-value">RM 300</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">Antarabangsa</span>
+                                <span class="price-value">USD 80</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Staf UiTM</div>
+
+                            <div class="price-line single-price">
+                                <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
+                                <span class="price-value">RM 400</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">Profesional</div>
+
+                            <div class="price-line">
+                                <span class="price-label">Tempatan</span>
+                                <span class="price-value">RM 500</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">Antarabangsa</span>
+                                <span class="price-value">USD 130</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-action">
+                            <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
+                                Buat Pembayaran
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!-- Registrations Section -->
     <section id="registrations" class="registrations section">
@@ -717,8 +650,8 @@
         <div class="container">
 
             <!-- =========================
-                                                     BEST AWARDS BY CATEGORY
-                                                ========================== -->
+                                                                         BEST AWARDS BY CATEGORY
+                                                                    ========================== -->
 
             <div class="row gy-4 mb-4">
 
@@ -793,8 +726,8 @@
 
 
             <!-- =========================
-                                                     MEDALS
-                                                ========================== -->
+                                                                         MEDALS
+                                                                    ========================== -->
 
             <div class="row gy-4">
 
