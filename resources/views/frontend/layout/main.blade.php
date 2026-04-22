@@ -25,7 +25,7 @@
     <link href="{{ asset('public/assets/frontend/vendor/aos/aos.css') }}" rel="stylesheet">
     <link href="{{ asset('public/assets/frontend/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ asset('public/assets/frontend/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- Main CSS File -->
     <link href="{{ asset('public/assets/frontend/css/main.css') }}" rel="stylesheet">
 
@@ -40,76 +40,76 @@
 
 <body class="index-page">
 
-<header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo d-flex align-items-center">
-            <h1 class="sitename">{{ config('app.name') }}</h1>
-        </a>
-
-        <nav id="navmenu" class="navmenu">
-            <ul>
-                <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
-                <li><a href="#speakers">{{ __('messages.background') }}</a></li>
-                <li class="dropdown">
-                    <a href="#">
-                        <span>{{ __('messages.participation_info') }}</span>
-                        <i class="bi bi-chevron-down toggle-dropdown"></i>
-                    </a>
-                    <ul>
-                        <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
-                        <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
-                        <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
-                        <li><a href="#faq">{{ __('messages.awards') }}</a></li>
-                    </ul>
-                </li>
-                <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>
-                <li><a href="#contact">{{ __('messages.contact_us') }}</a></li>
-
-                <!-- language switch untuk mobile -->
-                <li class="mobile-language-toggle d-xl-none">
-                    <div class="language-toggle mobile-lang-box">
-                        <i class="bi bi-globe2 me-2"></i>
-                        <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
-
-                        <label class="switch mx-2">
-                            <input type="checkbox"
-                                onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
-                                {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
-                            <span class="slider"></span>
-                        </label>
-
-                        <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
-                    </div>
-                </li>
-            </ul>
-
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
-
-        <div class="d-flex align-items-center header-actions">
-            <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
-                {{ __('messages.register_now') }}
+            <a href="index.html" class="logo d-flex align-items-center">
+                <h1 class="sitename">{{ config('app.name') }}</h1>
             </a>
 
-            <!-- desktop sahaja -->
-            <div class="language-toggle ms-3 d-none d-xl-flex">
-                <i class="bi bi-globe2 me-2 text-white"></i>
-                <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
+                    <li><a href="#speakers">{{ __('messages.background') }}</a></li>
+                    <li class="dropdown">
+                        <a href="#">
+                            <span>{{ __('messages.participation_info') }}</span>
+                            <i class="bi bi-chevron-down toggle-dropdown"></i>
+                        </a>
+                        <ul>
+                            <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
+                            <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
+                            <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
+                            <li><a href="#faq">{{ __('messages.awards') }}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>
+                    <li><a href="#contact">{{ __('messages.contact_us') }}</a></li>
 
-                <label class="switch mx-2">
-                    <input type="checkbox"
-                        onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
-                        {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
-                    <span class="slider"></span>
-                </label>
+                    <!-- language switch untuk mobile -->
+                    <li class="mobile-language-toggle d-xl-none">
+                        <div class="language-toggle mobile-lang-box">
+                            <i class="bi bi-globe2 me-2"></i>
+                            <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
 
-                <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
+                            <label class="switch mx-2">
+                                <input type="checkbox"
+                                    onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
+                                    {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
+                                <span class="slider"></span>
+                            </label>
+
+                            <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
+                        </div>
+                    </li>
+                </ul>
+
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <div class="d-flex align-items-center header-actions">
+                <a class="cta-btn" href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank">
+                    {{ __('messages.register_now') }}
+                </a>
+
+                <!-- desktop sahaja -->
+                <div class="language-toggle ms-3 d-none d-xl-flex">
+                    <i class="bi bi-globe2 me-2 text-white"></i>
+                    <span class="{{ app()->getLocale() == 'en' ? 'active-lang' : '' }}">EN</span>
+
+                    <label class="switch mx-2">
+                        <input type="checkbox"
+                            onchange="window.location.href=this.checked ? '{{ route('lang.switch', 'ms') }}' : '{{ route('lang.switch', 'en') }}'"
+                            {{ app()->getLocale() == 'ms' ? 'checked' : '' }}>
+                        <span class="slider"></span>
+                    </label>
+
+                    <span class="{{ app()->getLocale() == 'ms' ? 'active-lang' : '' }}">BM</span>
+                </div>
             </div>
-        </div>
 
-    </div>
-</header>
+        </div>
+    </header>
 
     <main class="main">
         @yield('content')
@@ -149,8 +149,10 @@
                         <h4>{{ __('messages.supported_by') }}</h4>
                         <div class="footer-logo d-flex flex-wrap justify-content-center gap-2">
                             <img src="{{ asset('public/assets/frontend/img/footer/supported-1.jpg') }}" alt="">
-                            <img src="{{ asset('public/assets/frontend/img/footer/supported-2.png') }}" alt="">
-                            <img src="{{ asset('public/assets/frontend/img/footer/supported-3.jpg') }}" alt="">
+                            <img src="{{ asset('public/assets/frontend/img/footer/supported-2.png') }}"
+                                alt="">
+                            <img src="{{ asset('public/assets/frontend/img/footer/supported-3.jpg') }}"
+                                alt="">
                         </div>
                     </div>
 
@@ -205,7 +207,7 @@
             if (el.innerText !== value) {
                 el.classList.add("flip");
 
-                setTimeout(function () {
+                setTimeout(function() {
                     el.innerText = value;
                     el.classList.remove("flip");
                 }, 150);

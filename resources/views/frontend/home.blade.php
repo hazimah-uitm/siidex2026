@@ -236,7 +236,7 @@
     <!-- /Schedule Section -->
 
     <!-- Speakers Section -->
-    <section id="speakers" class="speakers section">
+    <section id="speakers" class="speakers section light-background">
         <div class="container section-title" data-aos="fade-up">
             <h2>Latar Belakang</h2>
         </div>
@@ -397,67 +397,6 @@
 
     </section>
 
-    <!-- Sponsors Section -->
-    {{-- <section id="sponsors" class="sponsors section light-background">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Sponsors</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-        </div><!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="row g-0 clients-wrap">
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-1.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-2.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-3.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-4.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-5.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-6.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-7.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="{{ asset('public/assets/frontend/img/clients/client-8.png') }}" class="img-fluid"
-                        alt="">
-                </div><!-- End Client Item -->
-
-            </div>
-
-        </div>
-
-    </section> --}}
-    <!-- /Sponsors Section -->
-
-
     <!-- Buy Tickets Section -->
     <section id="buy-tickets" class="buy-tickets section light-background">
 
@@ -466,73 +405,215 @@
         </div>
 
         <div class="container">
+            <div class="row gy-4">
 
-            <!-- Student -->
-            <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Pelajar</h3>
-                    <p>(Tempatan / Antarabangsa)</p>
+                <!-- Early Bird -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-column featured">
+                        <div class="pricing-header">
+                            <h3>Early Bird</h3>
+                            <p>15/04/2026 - 31/05/2026</p>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Pelajar</div>
+                                <div class="price-desc">Tempatan</div>
+                                <div class="price-desc">Antarabangsa</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 200
+                                </div>
+                                <div class="price-value">
+                                    USD 60
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Staf UiTM</div>
+                                <div class="price-desc">(UiTM Sarawak &amp; UiTM Penang sahaja)</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 300
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Profesional</div>
+                                <div class="price-desc">Tempatan</div>
+                                <div class="price-desc">Antarabangsa</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 400
+                                </div>
+                                <div class="price-value">
+                                    USD 110
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM200</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/student" target="_blank" class="buy-btn">Bayar</a>
+
+                <!-- Normal Price -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                    <div class="pricing-column">
+                        <div class="pricing-header">
+                            <h3>Normal Price</h3>
+                            <p>01/06/2026 - 31/07/2026</p>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Pelajar</div>
+                                <div class="price-desc">Tempatan</div>
+                                <div class="price-desc">Antarabangsa</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 300
+                                </div>
+                                <div class="price-value">
+                                    USD 80
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Staf UiTM</div>
+                                <div class="price-desc">(UiTM Sarawak &amp; UiTM Penang sahaja)</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 400
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="price-row row align-items-center">
+                            <div class="col-md-7">
+                                <div class="price-title">Profesional</div>
+                                <div class="price-desc">Tempatan</div>
+                                <div class="price-desc">Antarabangsa</div>
+                            </div>
+                            <div class="col-md-5 text-md-end">
+                                <div class="price-value">
+                                    RM 500
+                                </div>
+                                <div class="price-value">
+                                    USD 130
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <!-- UiTM Staff -->
-            <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="150">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Staf UiTM</h3>
-                    <p class="text-white">(UiTM Sarawak & UiTM Penang sahaja)</p>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM300</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/staff" target="_blank" class="buy-btn">Bayar</a>
-                </div>
-            </div>
-
-            <!-- Professional -->
-            <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 d-flex align-items-center justify-content-center flex-column">
-                    <h3>Profesional</h3>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <h4>RM400</h4>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <a href="https://example.com/professional" target="_blank" class="buy-btn">Bayar</a>
-                </div>
-            </div>
-
-            <!-- Action Buttons -->
-            <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
-                <div class="container text-center">
-
-                    <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank" class="btn btn-main me-2 mb-2">
-                        {{ __('messages.register_now') }}
-                    </a>
-
-                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}" target="_blank"
-                        class="btn btn-outline-main me-2 mb-2">
-                        Muat Turun Templat Abstrak
-                    </a>
-
-                    {{-- <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}" target="_blank"
-                        class="btn btn-outline-main mb-2">
-                        Muat Turun Templat Poster
-                    </a> --}}
-
-                </div>
-            </div>
-
         </div>
 
+                <!-- Registration Banner -->
+        <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
+            <div class="col-12">
+                <div class="registration-banner">
+                    <div class="row align-items-center gy-4">
+
+                        <!-- Left Content -->
+                        <div class="col-lg-5">
+                            <div class="banner-left">
+                                <span class="banner-label">Pendaftaran SIIDEx 2026</span>
+                                <h3 class="banner-title">Daftar Sekarang</h3>
+                                <p class="banner-text">
+                                    Daftar sekarang dan lengkapkan penyertaan sebelum tarikh tutup.
+                                </p>
+
+                                <div class="banner-buttons">
+
+                                    <!-- Row 1: Register (full width) -->
+                                    <div class="mb-3">
+                                        <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank"
+                                            class="btn btn-main w-100">
+                                            <i class="bi bi-pencil-square me-2"></i>Daftar di Sini
+                                        </a>
+                                    </div>
+
+                                    <!-- Row 2: Download (2 column) -->
+                                    <div class="row g-2">
+                                        <div class="col-6">
+                                            <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
+                                                target="_blank" class="btn btn-outline-light w-100">
+                                                <i class="bi bi-file-earmark-text me-2"></i>Templat Abstrak
+                                            </a>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}"
+                                                target="_blank" class="btn btn-outline-light w-100">
+                                                <i class="bi bi-easel me-2"></i>Templat Poster
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Info -->
+                        <div class="col-lg-7">
+                            <div class="banner-info-list">
+
+                                <div class="banner-info-item">
+                                    <div class="banner-icon">
+                                        <i class="bi bi-globe2"></i>
+                                    </div>
+                                    <div class="banner-info-text">
+                                        Penyertaan secara <strong>virtual</strong> disediakan
+                                    </div>
+                                </div>
+
+                                <div class="banner-info-item">
+                                    <div class="banner-icon">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <div class="banner-info-text">
+                                        Pelajar & pensyarah UiTM Cawangan Sarawak
+                                        <strong>wajib hadir secara fizikal</strong>
+                                    </div>
+                                </div>
+
+                                <div class="banner-info-item">
+                                    <div class="banner-icon">
+                                        <i class="bi bi-box-seam"></i>
+                                    </div>
+                                    <div class="banner-info-text">
+                                        Penyertaan fizikal terhad kepada <strong>60 produk</strong>
+                                    </div>
+                                </div>
+
+                                <!-- NEW IMPORTANT -->
+                                <div class="banner-info-item highlight">
+                                    <div class="banner-icon">
+                                        <i class="bi bi-trophy-fill"></i>
+                                    </div>
+                                    <div class="banner-info-text">
+                                        Pemenang SiiDEX 2026 akan dihantar ke
+                                        <strong>pertandingan antarabangsa & IIDEX 2026</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- /Buy Tickets Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">
@@ -599,7 +680,7 @@
     <!-- /Faq Section -->
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
+    <section id="gallery" class="gallery section light-background">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -703,33 +784,57 @@
                 <div class="col-lg-6">
 
                     <div class="row gy-4">
-                        <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-building"></i>
-                                <h3>Alamat</h3>
-                                <p>Pejabat Bahagian PJI, UiTM Kampus Samarahan 2</p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row gy-4">
-                        <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-telephone"></i>
-                                <h3>Hubungi Kami</h3>
-                                <p>016-8001883</p>
+                        <!-- Person 1 -->
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div
+                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-person"></i>
+                                <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
+                                <p>016-xxxxxxx</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row gy-4">
-                        <div class="col-md-12 mb-2">
-                            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-                                <i class="bi bi-envelope"></i>
-                                <h3>Secretariat SIIDEX 2026</h3>
-                                <p>siidex2026@gmail.com</p>
+                        <!-- Person 2 -->
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div
+                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-person"></i>
+                                <h3>Dr Lee Wen Chiat</h3>
+                                <p>017-xxxxxxx</p>
                             </div>
                         </div>
+
+                        <!-- Person 3 -->
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div
+                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-person"></i>
+                                <h3>Ts. Dr. Mohd Rafiz Salji</h3>
+                                <p>013-xxxxxxx</p>
+                            </div>
+                        </div>
+
+                        <!-- Person 4 -->
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <div
+                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-person"></i>
+                                <h3>Puan Chrisna Pindah</h3>
+                                <p>019-xxxxxxx</p>
+                            </div>
+                        </div>
+
+                        <!-- Person 5 -->
+                        <div class="col-12 col-md-6 col-lg-12">
+                            <div
+                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                                <i class="bi bi-person"></i>
+                                <h3>Puan Hanita Tambi</h3>
+                                <p>019-xxxxxxx</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
@@ -741,9 +846,9 @@
     </section>
     <!-- /Contact Section -->
 
-    
+
     <!-- Hotels Section -->
-    <section id="committee" class="committee section">
+    <section id="committee" class="committee section light-background">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">

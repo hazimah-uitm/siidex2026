@@ -12,7 +12,6 @@ return [
     'gallery' => 'Gallery',
     'contact_us' => 'Contact Us',
     'register_now' => 'Register Now',
-
     'organizer' => 'Organizer',
     'co_organizer' => 'Co-Organizer',
     'supported_by' => 'Supported By',
