@@ -619,8 +619,7 @@
                         <!-- Left Content -->
                         <div class="col-lg-5">
                             <div class="banner-left">
-                                <span class="banner-label">Pendaftaran SIIDEx 2026</span>
-                                <h3 class="banner-title">Daftar Sekarang</h3>
+                                <h3 class="banner-title">PENDAFTARAN SIIDEx 2026</h3>
                                 <p class="banner-text">
                                     Lengkapkan penyertaan sebelum tarikh tutup.
                                 </p>
@@ -631,23 +630,23 @@
                                     <div class="mb-3">
                                         <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank"
                                             class="btn btn-main w-100">
-                                            <i class="bi bi-pencil-square me-2"></i>DAFTAR DI SINI
+                                            <i class="bi bi-pencil-square me-2"></i>DAFTAR SEKARANG
                                         </a>
                                     </div>
 
                                     <!-- Row 2: Download (2 column) -->
                                     <div class="row g-2">
-                                        <div class="col-6">
+                                        <div class="col-12 mb-2">
                                             <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
-                                                target="_blank" class="btn btn-outline-light w-100">
-                                                <i class="bi bi-file-earmark-text me-2"></i>Templat Abstrak
+                                                target="_blank" class="btn btn-light w-100">
+                                                <i class="bi bi-file-earmark-text me-2"></i>Muat Turun Templat Abstrak
                                             </a>
                                         </div>
 
-                                        <div class="col-6">
-                                            <a href="{{ asset('public/assets/frontend/files/template-poster.pptx') }}"
-                                                target="_blank" class="btn btn-outline-light w-100">
-                                                <i class="bi bi-easel me-2"></i>Templat Poster
+                                        <div class="col-12">
+                                            <a href="{{ asset('public/assets/frontend/files/SIIDEX2026.png') }}"
+                                                target="_blank" class="btn btn-light w-100">
+                                                <i class="bi bi-image me-2"></i>Muat Turun Poster Rasmi SIIDEx
                                             </a>
                                         </div>
                                     </div>
