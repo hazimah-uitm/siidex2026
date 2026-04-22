@@ -489,125 +489,124 @@
     </section>
 
     <!-- Buy Tickets Section -->
-    <section id="fee" class="fee section light-background">
+<section id="fee" class="fee section light-background">
 
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Yuran Penyertaan</h2>
-        </div>
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Yuran Penyertaan</h2>
+    </div>
 
-        <div class="container">
-            <div class="row gy-4">
+    <div class="container">
+        <div class="row gy-4">
 
-                <!-- Early Bird -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="pricing-column featured">
-                        <div class="pricing-header">
-                            <h3>Early Bird</h3>
-                            <p class="fw-bold">15/04/2026 - 31/05/2026</p>
+            <!-- Early Bird -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="pricing-column featured">
+                    <div class="pricing-header">
+                        <h3>Early Bird</h3>
+                        <p class="fw-bold">15 April 2026 - 31 Mei 2026</p>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-title">Pelajar</div>
+
+                        <div class="price-line">
+                            <span class="price-label">Tempatan</span>
+                            <span class="price-value">RM 200</span>
                         </div>
 
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Pelajar</div>
-                                <div class="price-desc">Tempatan</div>
-                                <div class="price-desc">Antarabangsa</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 200
-                                </div>
-                                <div class="price-value">
-                                    USD 60
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Staf UiTM</div>
-                                <div class="price-desc">(UiTM Sarawak &amp; UiTM Penang sahaja)</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 300
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Profesional</div>
-                                <div class="price-desc">Tempatan</div>
-                                <div class="price-desc">Antarabangsa</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 400
-                                </div>
-                                <div class="price-value">
-                                    USD 110
-                                </div>
-                            </div>
+                        <div class="price-line">
+                            <span class="price-label">Antarabangsa</span>
+                            <span class="price-value">USD 60</span>
                         </div>
                     </div>
-                </div>
 
-                <!-- Normal Price -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-                    <div class="pricing-column">
-                        <div class="pricing-header">
-                            <h3>Normal Price</h3>
-                            <p class="fw-bold">01/06/2026 - 31/07/2026</p>
+                    <div class="price-row">
+                        <div class="price-title">Staf UiTM</div>
+
+                        <div class="price-line single-price">
+                            <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
+                            <span class="price-value">RM 300</span>
+                        </div>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-title">Profesional</div>
+
+                        <div class="price-line">
+                            <span class="price-label">Tempatan</span>
+                            <span class="price-value">RM 400</span>
                         </div>
 
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Pelajar</div>
-                                <div class="price-desc">Tempatan</div>
-                                <div class="price-desc">Antarabangsa</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 300
-                                </div>
-                                <div class="price-value">
-                                    USD 80
-                                </div>
-                            </div>
+                        <div class="price-line">
+                            <span class="price-label">Antarabangsa</span>
+                            <span class="price-value">USD 110</span>
                         </div>
+                    </div>
 
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Staf UiTM</div>
-                                <div class="price-desc">(UiTM Sarawak &amp; UiTM Penang sahaja)</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 400
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="price-row row align-items-center">
-                            <div class="col-md-7">
-                                <div class="price-title">Profesional</div>
-                                <div class="price-desc">Tempatan</div>
-                                <div class="price-desc">Antarabangsa</div>
-                            </div>
-                            <div class="col-md-5 text-md-end">
-                                <div class="price-value">
-                                    RM 500
-                                </div>
-                                <div class="price-value">
-                                    USD 130
-                                </div>
-                            </div>
-                        </div>
+                    <div class="pricing-action">
+                        <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee btn-fee-light">
+                            Buat Pembayaran
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Normal Price -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="pricing-column">
+                    <div class="pricing-header">
+                        <h3>Normal Price</h3>
+                        <p class="fw-bold">1 Jun 2026 - 31 Julai 2026</p>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-title">Pelajar</div>
+
+                        <div class="price-line">
+                            <span class="price-label">Tempatan</span>
+                            <span class="price-value">RM 300</span>
+                        </div>
+
+                        <div class="price-line">
+                            <span class="price-label">Antarabangsa</span>
+                            <span class="price-value">USD 80</span>
+                        </div>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-title">Staf UiTM</div>
+
+                        <div class="price-line single-price">
+                            <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
+                            <span class="price-value">RM 400</span>
+                        </div>
+                    </div>
+
+                    <div class="price-row">
+                        <div class="price-title">Profesional</div>
+
+                        <div class="price-line">
+                            <span class="price-label">Tempatan</span>
+                            <span class="price-value">RM 500</span>
+                        </div>
+
+                        <div class="price-line">
+                            <span class="price-label">Antarabangsa</span>
+                            <span class="price-value">USD 130</span>
+                        </div>
+                    </div>
+
+                    <div class="pricing-action">
+                        <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
+                            Buat Pembayaran
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Registrations Section -->
     <section id="registrations" class="registrations section">
