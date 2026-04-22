@@ -1504,19 +1504,19 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# background-info Section
 --------------------------------------------------------------*/
-.speakers {
+.background-info {
   --default-color: #ffffff;
 }
 
-.speakers .member {
+.background-info .member {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.speakers .member .member-info {
+.background-info .member .member-info {
   position: absolute;
   padding: 15px 0;
   inset: auto 0 -44px 0;
@@ -1524,49 +1524,49 @@ section,
   transition: 0.4s;
 }
 
-.speakers .member .member-info-content h4 {
+.background-info .member .member-info-content h4 {
   color: var(--contrast-color);
   font-weight: 700;
   margin-bottom: 4px;
   font-size: 16px;
 }
 
-.speakers .member .member-info-content h4 a {
+.background-info .member .member-info-content h4 a {
   color: var(--contrast-color);
 }
 
-.speakers .member .member-info-content h4 a:hover {
+.background-info .member .member-info-content h4 a:hover {
   color: var(--accent-color);
 }
 
-.speakers .member .member-info-content span {
+.background-info .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.speakers .member .social {
+.background-info .member .social {
   text-align: center;
   padding-top: 10px;
 }
 
-.speakers .member .social a {
+.background-info .member .social a {
   transition: color 0.3s;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 0 4px;
   display: inline-block;
 }
 
-.speakers .member .social a:hover {
+.background-info .member .social a:hover {
   color: var(--default-color);
 }
 
-.speakers .member .social i {
+.background-info .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-.speakers .member:hover .member-info {
+.background-info .member:hover .member-info {
   bottom: 0;
 }
 
@@ -1820,27 +1820,27 @@ section,
 
 
 /*--------------------------------------------------------------
-# Venue Section
+# category Section
 --------------------------------------------------------------*/
-.venue .container-fluid {
+.category .container-fluid {
   margin-bottom: 3px;
 }
 
-.venue .venue-map iframe {
+.category .category-map iframe {
   width: 100%;
   height: 100%;
   min-height: 300px;
 }
 
-.venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+.category .category-info {
+  background: url("../img/category-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.venue .venue-info:before {
+.category .category-info:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -1850,38 +1850,38 @@ section,
   right: 0;
 }
 
-.venue .venue-info h3 {
+.category .category-info h3 {
   font-size: 36px;
   font-weight: 700;
   color: var(--contrast-color);
 }
 
 @media (max-width: 574px) {
-  .venue .venue-info h3 {
+  .category .category-info h3 {
     font-size: 24px;
   }
 }
 
-.venue .venue-info p {
+.category .category-info p {
   color: var(--contrast-color);
   margin-bottom: 0;
 }
 
-.venue .venue-gallery-container {
+.category .category-gallery-container {
   padding-right: 12px;
 }
 
-.venue .venue-gallery {
+.category .category-gallery {
   overflow: hidden;
   border-right: 3px solid var(--background-color);
   border-bottom: 3px solid var(--background-color);
 }
 
-.venue .venue-gallery img {
+.category .category-gallery img {
   transition: all ease-in-out 0.4s;
 }
 
-.venue .venue-gallery:hover img {
+.category .category-gallery:hover img {
   transform: scale(1.1);
 }
 
@@ -2074,9 +2074,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Faq Section
+# awards Section
 --------------------------------------------------------------*/
-.faq .faq-container .faq-item {
+.awards .awards-container .awards-item {
   background-color: var(--surface-color);
   position: relative;
   padding: 20px;
@@ -2086,11 +2086,11 @@ section,
   overflow: hidden;
 }
 
-.faq .faq-container .faq-item:last-child {
+.awards .awards-container .awards-item:last-child {
   margin-bottom: 0;
 }
 
-.faq .faq-container .faq-item h3 {
+.awards .awards-container .awards-item h3 {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -2101,16 +2101,16 @@ section,
   align-items: center;
 }
 
-.faq .faq-container .faq-item h3 .num {
+.awards .awards-container .awards-item h3 .num {
   color: var(--accent-color);
   padding-right: 5px;
 }
 
-.faq .faq-container .faq-item h3:hover {
+.awards .awards-container .awards-item h3:hover {
   color: var(--accent-color);
 }
 
-.faq .faq-container .faq-item .faq-content {
+.awards .awards-container .awards-item .awards-content {
   display: grid;
   grid-template-rows: 0fr;
   transition: 0.3s ease-in-out;
@@ -2118,12 +2118,12 @@ section,
   opacity: 0;
 }
 
-.faq .faq-container .faq-item .faq-content p {
+.awards .awards-container .awards-item .awards-content p {
   margin-bottom: 0;
   overflow: hidden;
 }
 
-.faq .faq-container .faq-item .faq-toggle {
+.awards .awards-container .awards-item .awards-toggle {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -2133,27 +2133,27 @@ section,
   cursor: pointer;
 }
 
-.faq .faq-container .faq-item .faq-toggle:hover {
+.awards .awards-container .awards-item .awards-toggle:hover {
   color: var(--accent-color);
 }
 
-.faq .faq-container .faq-active {
+.awards .awards-container .awards-active {
   background-color: color-mix(in srgb, var(--accent-color), transparent 97%);
   border-color: color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
-.faq .faq-container .faq-active h3 {
+.awards .awards-container .awards-active h3 {
   color: var(--accent-color);
 }
 
-.faq .faq-container .faq-active .faq-content {
+.awards .awards-container .awards-active .awards-content {
   grid-template-rows: 1fr;
   visibility: visible;
   opacity: 1;
   padding-top: 10px;
 }
 
-.faq .faq-container .faq-active .faq-toggle {
+.awards .awards-container .awards-active .awards-toggle {
   transform: rotate(90deg);
   color: var(--accent-color);
 }
@@ -2161,70 +2161,70 @@ section,
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
-.buy-tickets .pricing-column {
+.fee .pricing-column {
   background-color: var(--surface-color);
   box-shadow: 0 3px 20px -2px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
   height: 100%;
 }
 
-.buy-tickets .pricing-column.featured {
+.fee .pricing-column.featured {
   background: var(--accent-color);
 }
 
-.buy-tickets .pricing-header {
+.fee .pricing-header {
   text-align: center;
   margin-bottom: 25px;
 }
 
-.buy-tickets .pricing-header h3 {
+.fee .pricing-header h3 {
   font-weight: 700;
   margin-bottom: 8px;
   font-size: 28px;
 }
 
-.buy-tickets .pricing-header p {
+.fee .pricing-header p {
   margin-bottom: 0;
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 35%);
 }
 
-.buy-tickets .pricing-column.featured .pricing-header h3,
-.buy-tickets .pricing-column.featured .pricing-header p {
+.fee .pricing-column.featured .pricing-header h3,
+.fee .pricing-column.featured .pricing-header p {
   color: var(--contrast-color);
 }
 
-.buy-tickets .price-row {
+.fee .price-row {
   padding: 20px 0;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
 }
 
-.buy-tickets .price-row:first-of-type {
+.fee .price-row:first-of-type {
   border-top: 0;
 }
 
-.buy-tickets .pricing-column.featured .price-row {
+.fee .pricing-column.featured .price-row {
   border-top: 1px solid color-mix(in srgb, var(--contrast-color), transparent 75%);
 }
 
-.buy-tickets .price-title {
+.fee .price-title {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 6px;
 }
 
-.buy-tickets .price-desc {
+.fee .price-desc {
   font-size: 16px;
   margin-bottom: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 35%);
 }
 
-.buy-tickets .pricing-column.featured .price-title,
-.buy-tickets .pricing-column.featured .price-desc {
+.fee .pricing-column.featured .price-title,
+.fee .pricing-column.featured .price-desc {
   color: var(--contrast-color);
 }
 
-.buy-tickets .price-value {
+.fee .price-value {
   font-size: 28px;
   color: var(--accent-color);
   font-weight: 700;
@@ -2232,7 +2232,7 @@ section,
   margin-bottom: 0;
 }
 
-.buy-tickets .price-value small {
+.fee .price-value small {
   display: block;
   font-size: 14px;
   font-weight: 500;
@@ -2240,8 +2240,8 @@ section,
   margin-top: 4px;
 }
 
-.buy-tickets .pricing-column.featured .price-value,
-.buy-tickets .pricing-column.featured .price-value small {
+.fee .pricing-column.featured .price-value,
+.fee .pricing-column.featured .price-value small {
   color: var(--contrast-color);
 }
 

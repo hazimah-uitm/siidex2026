@@ -50,7 +50,7 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="#hero" class="active">{{ __('messages.home') }}</a></li>
-                    <li><a href="#speakers">{{ __('messages.background') }}</a></li>
+                    <li><a href="#background-info">{{ __('messages.background') }}</a></li>
                     <li class="dropdown">
                         <a href="#">
                             <span>{{ __('messages.participation_info') }}</span>
@@ -58,9 +58,9 @@
                         </a>
                         <ul>
                             <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
-                            <li><a href="#venue">{{ __('messages.participation_category') }}</a></li>
-                            <li><a href="#buy-tickets">{{ __('messages.fee') }}</a></li>
-                            <li><a href="#faq">{{ __('messages.awards') }}</a></li>
+                            <li><a href="#category">{{ __('messages.participation_category') }}</a></li>
+                            <li><a href="#fee">{{ __('messages.fee') }}</a></li>
+                            <li><a href="#awards">{{ __('messages.awards') }}</a></li>
                         </ul>
                     </li>
                     <li><a href="#gallery">{{ __('messages.gallery') }}</a></li>

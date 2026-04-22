@@ -235,8 +235,8 @@
     </section>
     <!-- /Schedule Section -->
 
-    <!-- Speakers Section -->
-    <section id="speakers" class="speakers section light-background">
+    <!-- background-info Section -->
+    <section id="background-info" class="background-info section light-background">
         <div class="container section-title" data-aos="fade-up">
             <h2>Latar Belakang</h2>
         </div>
@@ -326,10 +326,10 @@
             </div>
         </div>
     </section>
-    <!-- /Speakers Section -->
+    <!-- /background-info Section -->
 
-    <!-- Venue Section -->
-    <section id="venue" class="venue section">
+    <!-- category Section -->
+    <section id="category" class="category section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -398,7 +398,7 @@
     </section>
 
     <!-- Buy Tickets Section -->
-    <section id="buy-tickets" class="buy-tickets section light-background">
+    <section id="fee" class="fee section light-background">
 
         <div class="container section-title" data-aos="fade-up">
             <h2>Yuran Penyertaan</h2>
@@ -618,8 +618,8 @@
         </div>
     </section>
 
-    <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    <!-- awards Section -->
+    <section id="awards" class="awards section">
 
         <div class="container section-title" data-aos="fade-up">
             <h2>Anugerah</h2>
@@ -680,7 +680,7 @@
         </div>
 
     </section>
-    <!-- /Faq Section -->
+    <!-- /awards Section -->
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section light-background">
@@ -862,7 +862,7 @@
             <div class="row gy-4">
 
                 <!-- Pengerusi 1 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="committee-card text-center">
                         <h4 class="role">Pengerusi 1</h4>
                         <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
@@ -870,7 +870,7 @@
                 </div>
 
                 <!-- Pengerusi 2 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="committee-card text-center">
                         <h4 class="role">Pengerusi 2</h4>
                         <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
@@ -878,7 +878,7 @@
                 </div>
 
                 <!-- Timbalan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="committee-card text-center">
                         <h4 class="role">Timbalan Pengerusi</h4>
                         <h3 class="name">Dr. Lee Wen Chiat</h3>
@@ -886,7 +886,7 @@
                 </div>
 
                 <!-- Setiausaha -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="250">
+                <div class="col-lg-6 col-md-6" data-aos="fade-up">
                     <div class="committee-card text-center">
                         <h4 class="role">Setiausaha</h4>
                         <h3 class="name">Madam Hanita Tambi</h3>
@@ -894,7 +894,7 @@
                 </div>
 
                 <!-- Bendahari -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-6 col-md-6" data-aos="fade-up">
                     <div class="committee-card text-center">
                         <h4 class="role">Bendahari</h4>
                         <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
