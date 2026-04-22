@@ -516,9 +516,12 @@
                 </div>
             </div>
         </div>
+    </section>
 
-                <!-- Registration Banner -->
-        <div class="row mt-5" data-aos="fade-up" data-aos-delay="250">
+    <!-- Registrations Section -->
+    <section id="registrations" class="registrations section">
+        <!-- Registration Banner -->
+        <div class="row" data-aos="fade-up" data-aos-delay="250">
             <div class="col-12">
                 <div class="registration-banner">
                     <div class="row align-items-center gy-4">
@@ -529,7 +532,7 @@
                                 <span class="banner-label">Pendaftaran SIIDEx 2026</span>
                                 <h3 class="banner-title">Daftar Sekarang</h3>
                                 <p class="banner-text">
-                                    Daftar sekarang dan lengkapkan penyertaan sebelum tarikh tutup.
+                                    Lengkapkan penyertaan sebelum tarikh tutup.
                                 </p>
 
                                 <div class="banner-buttons">
@@ -538,7 +541,7 @@
                                     <div class="mb-3">
                                         <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank"
                                             class="btn btn-main w-100">
-                                            <i class="bi bi-pencil-square me-2"></i>Daftar di Sini
+                                            <i class="bi bi-pencil-square me-2"></i>DAFTAR DI SINI
                                         </a>
                                     </div>
 
@@ -572,7 +575,7 @@
                                         <i class="bi bi-globe2"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Penyertaan secara <strong>virtual</strong> disediakan
+                                        Penyertaan secara <strong>virtual.</strong>
                                     </div>
                                 </div>
 
@@ -582,7 +585,7 @@
                                     </div>
                                     <div class="banner-info-text">
                                         Pelajar & pensyarah UiTM Cawangan Sarawak
-                                        <strong>wajib hadir secara fizikal</strong>
+                                        <strong>wajib hadir secara fizikal.</strong>
                                     </div>
                                 </div>
 
@@ -591,7 +594,7 @@
                                         <i class="bi bi-box-seam"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Penyertaan fizikal terhad kepada <strong>60 produk</strong>
+                                        Penyertaan fizikal terhad kepada <strong>60 produk.</strong>
                                     </div>
                                 </div>
 
@@ -602,7 +605,7 @@
                                     </div>
                                     <div class="banner-info-text">
                                         Pemenang SiiDEX 2026 akan dihantar ke
-                                        <strong>pertandingan antarabangsa & IIDEX 2026</strong>
+                                        <strong>pertandingan antarabangsa & IIDEX 2026.</strong>
                                     </div>
                                 </div>
 

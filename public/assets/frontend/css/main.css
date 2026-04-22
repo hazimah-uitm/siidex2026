@@ -2245,7 +2245,14 @@ section,
   color: var(--contrast-color);
 }
 
-.buy-tickets .registration-banner {
+/*--------------------------------------------------------------
+# Registrations Section
+--------------------------------------------------------------*/
+#registrations {
+  padding: 0; 
+}
+
+.registrations .registration-banner {
   background: linear-gradient(135deg, #0f2747 0%, #183b63 100%);
   padding: 40px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
@@ -2253,7 +2260,7 @@ section,
   position: relative;
 }
 
-.buy-tickets .registration-banner::before {
+.registrations .registration-banner::before {
   content: "";
   position: absolute;
   top: 0;
@@ -2265,13 +2272,13 @@ section,
   transform: translate(30%, -30%);
 }
 
-.buy-tickets .banner-left,
-.buy-tickets .banner-info-list {
+.registrations .banner-left,
+.registrations .banner-info-list {
   position: relative;
   z-index: 2;
 }
 
-.buy-tickets .banner-label {
+.registrations .banner-label {
   display: inline-block;
   font-size: 13px;
   font-weight: 600;
@@ -2281,7 +2288,7 @@ section,
   margin-bottom: 12px;
 }
 
-.buy-tickets .banner-title {
+.registrations .banner-title {
   font-size: 40px;
   font-weight: 800;
   color: #fff;
@@ -2289,30 +2296,30 @@ section,
   line-height: 1.1;
 }
 
-.buy-tickets .banner-text {
+.registrations .banner-text {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.82);
   margin-bottom: 25px;
   max-width: 420px;
 }
 
-.buy-tickets .banner-buttons .btn {
+.registrations .banner-buttons .btn {
   padding: 12px 22px;
   font-weight: 600;
   border-radius: 8px;
 }
 
-.buy-tickets .banner-buttons .btn-outline-light {
+.registrations .banner-buttons .btn-outline-light {
   border-width: 1.5px;
 }
 
-.buy-tickets .banner-info-list {
+.registrations .banner-info-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.buy-tickets .banner-info-item {
+.registrations .banner-info-item {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -2323,7 +2330,7 @@ section,
   backdrop-filter: blur(4px);
 }
 
-.buy-tickets .banner-icon {
+.registrations .banner-icon {
   width: 50px;
   height: 50px;
   min-width: 50px;
@@ -2337,77 +2344,77 @@ section,
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
 }
 
-.buy-tickets .banner-info-text {
+.registrations .banner-info-text {
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
 }
 
-.buy-tickets .banner-info-text strong {
+.registrations .banner-info-text strong {
   color: #f8771b;
   font-weight: 700;
 }
 
 @media (max-width: 991.98px) {
-  .buy-tickets .registration-banner {
+  .registrations .registration-banner {
     padding: 30px 24px;
   }
 
-  .buy-tickets .banner-title {
+  .registrations .banner-title {
     font-size: 32px;
   }
 
-  .buy-tickets .banner-text {
+  .registrations .banner-text {
     max-width: 100%;
   }
 }
 
 @media (max-width: 575.98px) {
-  .buy-tickets .registration-banner {
+  .registrations .registration-banner {
     padding: 24px 18px;
     border-radius: 14px;
   }
 
-  .buy-tickets .banner-title {
+  .registrations .banner-title {
     font-size: 28px;
   }
 
-  .buy-tickets .banner-info-item {
+  .registrations .banner-info-item {
     padding: 14px;
     gap: 12px;
   }
 
-  .buy-tickets .banner-icon {
+  .registrations .banner-icon {
     width: 42px;
     height: 42px;
     min-width: 42px;
     font-size: 18px;
   }
 
-  .buy-tickets .banner-info-text {
+  .registrations .banner-info-text {
     font-size: 14px;
   }
 }
 
 /* Highlight special item */
-.buy-tickets .banner-info-item.highlight {
+.registrations .banner-info-item.highlight {
   background: linear-gradient(135deg, rgba(255, 211, 106, 0.15), rgba(255, 211, 106, 0.05));
   border: 1px solid rgba(255, 211, 106, 0.4);
 }
 
-.buy-tickets .banner-info-item.highlight .banner-icon {
+.registrations .banner-info-item.highlight .banner-icon {
   background: #f8771b;
   color: #0f2747;
 }
 
-.buy-tickets .banner-buttons .btn {
+.registrations .banner-buttons .btn {
   padding: 14px 18px;
   font-weight: 600;
   border-radius: 10px;
   font-size: 15px;
 }
 
-.buy-tickets .banner-buttons .row .btn {
+.registrations .banner-buttons .row .btn {
   font-size: 14px;
 }
 
