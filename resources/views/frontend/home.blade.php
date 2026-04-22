@@ -122,17 +122,17 @@
     <!-- Schedule Section -->
     <section id="schedule" class="schedule section">
 
-        <div class="container section-title" data-aos="fade-up">
-            <h2>Tarikh Penting<br></h2>
-        </div>
+        {{-- <div class="container section-title" data-aos="fade-up">
+            <h2>Tarikh Penting</h2>
+        </div> --}}
 
         <div class="container">
             <div class="row g-4 align-items-start">
 
-                <!-- LEFT: Tentatif -->
+                <!-- LEFT: Tarikh Penting -->
                 <div class="col-lg-4">
-                    <div class="important-dates-box" data-aos="fade-right" data-aos-delay="250">
-                        {{-- <h3 class="important-title">Tarikh Penting</h3> --}}
+                    <div class="important-dates-box compact-dates" data-aos="fade-right" data-aos-delay="100">
+                        <h3 class="important-title">Tarikh Penting</h3>
 
                         <div class="important-date-item">
                             <div class="date-icon">
@@ -140,7 +140,7 @@
                             </div>
                             <div class="date-content">
                                 <h4>15 April - 30 Jun 2026</h4>
-                                <p>Pendaftaran, Pembayaran dan Penghantaran Abstrak</p>
+                                <p>Pendaftaran, pembayaran dan penghantaran abstrak</p>
                             </div>
                         </div>
 
@@ -150,14 +150,14 @@
                             </div>
                             <div class="date-content">
                                 <h4>14 September 2026</h4>
-                                <p>SIIDEX 2026 (8.00 pagi – 5.00 petang)</p>
-                                <small>Hotel Waterfront, Kuching, Sarawak</small>
+                                <p>SIIDEX 2026</p>
+                                <small>8.00 pagi – 5.00 petang • Hotel Waterfront, Kuching</small>
                             </div>
                         </div>
 
                         <div class="important-date-item">
                             <div class="date-icon">
-                                <i class="bi bi-award"></i>
+                                <i class="bi bi-mic-fill"></i>
                             </div>
                             <div class="date-content">
                                 <h4>15 September 2026</h4>
@@ -172,67 +172,76 @@
                     </div>
                 </div>
 
-                <!-- RIGHT: Tarikh Penting -->
+                <!-- RIGHT: Tentatif Compact -->
                 <div class="col-lg-8">
-                    <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">
-                                14 September 2026
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="schedule-card" data-aos="fade-left" data-aos-delay="150">
 
-                    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-                        <div role="tabpanel" class="tab-pane fade show active" id="day-1">
+                        <div class="schedule-card-header">
+                            <div>
+                                <h3>Tentatif SIIDEx 2026</h3>
+                            </div>
+                            <span class="schedule-badge">14 SEPTEMBER 2026</span>
+                        </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>08:00 pagi</time></div>
-                                <div class="col-md-8">
+                        <div class="timeline-compact">
+
+                            <div class="timeline-item">
+                                <div class="timeline-time">08:00 pagi</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Pendaftaran Peserta</h4>
                                 </div>
                             </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>09:00 pagi</time></div>
-                                <div class="col-md-8">
+                            <div class="timeline-item">
+                                <div class="timeline-time">09:00 pagi</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Majlis Perasmian</h4>
                                 </div>
                             </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>10:00 pagi</time></div>
-                                <div class="col-md-8">
+                            <div class="timeline-item">
+                                <div class="timeline-time">10:00 pagi</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Sesi Penilaian Juri</h4>
                                 </div>
                             </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>12:30 tengah hari</time></div>
-                                <div class="col-md-8">
+                            <div class="timeline-item">
+                                <div class="timeline-time">12:30 tengah hari</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Rehat</h4>
                                 </div>
                             </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>02:00 petang</time></div>
-                                <div class="col-md-8">
+                            <div class="timeline-item">
+                                <div class="timeline-time">02:00 petang</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Pameran dan Penilaian</h4>
                                 </div>
                             </div>
 
-                            <div class="row schedule-item">
-                                <div class="col-md-4"><time>04:00 petang</time></div>
-                                <div class="col-md-8">
+                            <div class="timeline-item">
+                                <div class="timeline-time">04:00 petang</div>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
                                     <h4>Tamat Program</h4>
                                 </div>
                             </div>
 
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+    <!-- /Schedule Section -->
     <!-- /Schedule Section -->
 
     <!-- background-info Section -->
@@ -412,7 +421,7 @@
                     <div class="pricing-column featured">
                         <div class="pricing-header">
                             <h3>Early Bird</h3>
-                            <p>15/04/2026 - 31/05/2026</p>
+                            <p class="fw-bold">15/04/2026 - 31/05/2026</p>
                         </div>
 
                         <div class="price-row row align-items-center">
@@ -466,7 +475,7 @@
                     <div class="pricing-column">
                         <div class="pricing-header">
                             <h3>Normal Price</h3>
-                            <p>01/06/2026 - 31/07/2026</p>
+                            <p class="fw-bold">01/06/2026 - 31/07/2026</p>
                         </div>
 
                         <div class="price-row row align-items-center">
@@ -628,8 +637,8 @@
         <div class="container">
 
             <!-- =========================
-                 BEST AWARDS BY CATEGORY
-            ========================== -->
+                         BEST AWARDS BY CATEGORY
+                    ========================== -->
 
             <div class="row gy-4 mb-4">
 
@@ -704,8 +713,8 @@
 
 
             <!-- =========================
-                 MEDALS
-            ========================== -->
+                         MEDALS
+                    ========================== -->
 
             <div class="row gy-4">
 
@@ -852,88 +861,8 @@
     </section>
     <!-- /Gallery Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-        <div class="container section-title">
-            <h2>Hubungi Kami</h2>
-        </div>
-
-        <div class="container">
-
-            <!-- Secretariat Email -->
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-12">
-                    <div
-                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
-                        <i class="bi bi-envelope"></i>
-                        <h3>Secretariat SIIDEX 2026</h3>
-                        <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4 justify-content-center">
-
-                <!-- Person 1 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                        <i class="bi bi-person"></i>
-                        <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
-                        <p class="contact-role">Pengerusi 2</p>
-                        <p>019-8110064</p>
-                    </div>
-                </div>
-
-                <!-- Person 2 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                        <i class="bi bi-person"></i>
-                        <h3>Dr. Lee Wen Chiat</h3>
-                        <p class="contact-role">Timbalan Pengerusi</p>
-                        <p>016-8001883</p>
-                    </div>
-                </div>
-
-                <!-- Person 3 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                        <i class="bi bi-person"></i>
-                        <h3>Ts. Dr. Mohd Rafiz Salji</h3>
-                        <p class="contact-role">Bendahari</p>
-                        <p>019-3228539</p>
-                    </div>
-                </div>
-
-                <!-- Person 4 -->
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                        <i class="bi bi-person"></i>
-                        <h3>Puan Chrisna Pindah</h3>
-                        <p class="contact-role">Promosi & Publisiti</p>
-                        <p>014-3791534</p>
-                    </div>
-                </div>
-
-                <!-- Person 5 -->
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                        <i class="bi bi-person"></i>
-                        <h3>Puan Hanita Tambi</h3>
-                        <p class="contact-role">Setiausaha</p>
-                        <p>013-8397102</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-- /Contact Section -->
-
     <!-- Hotels Section -->
-    <section id="committee" class="committee section light-background">
+    <section id="committee" class="committee section">
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
@@ -1053,4 +982,84 @@
 
     </section>
     <!-- /Hotels Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+        <div class="container section-title">
+            <h2>Hubungi Kami</h2>
+        </div>
+
+        <div class="container">
+
+            <!-- Secretariat Email -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-12">
+                    <div
+                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
+                        <i class="bi bi-envelope"></i>
+                        <h3>Secretariat SIIDEX 2026</h3>
+                        <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 justify-content-center">
+
+                <!-- Person 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
+                        <p class="contact-role">Pengerusi 2</p>
+                        <p>019-8110064</p>
+                    </div>
+                </div>
+
+                <!-- Person 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Dr. Lee Wen Chiat</h3>
+                        <p class="contact-role">Timbalan Pengerusi</p>
+                        <p>016-8001883</p>
+                    </div>
+                </div>
+
+                <!-- Person 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Ts. Dr. Mohd Rafiz Salji</h3>
+                        <p class="contact-role">Bendahari</p>
+                        <p>019-3228539</p>
+                    </div>
+                </div>
+
+                <!-- Person 4 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Puan Chrisna Pindah</h3>
+                        <p class="contact-role">Promosi & Publisiti</p>
+                        <p>014-3791534</p>
+                    </div>
+                </div>
+
+                <!-- Person 5 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Puan Hanita Tambi</h3>
+                        <p class="contact-role">Setiausaha</p>
+                        <p>013-8397102</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Contact Section -->
 @endsection
