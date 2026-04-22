@@ -774,72 +774,68 @@
 
         <div class="container">
 
-            <div class="row gy-4">
+            <!-- Secretariat Email -->
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-12">
+                    <div
+                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
+                        <i class="bi bi-envelope"></i>
+                        <h3>Secretariat SIIDEX 2026</h3>
+                        <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
 
-                <div class="col-lg-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.541492842449!2d110.42655855882104!3d1.4495685796954996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba330de57a569%3A0x3f3010e46d089769!2sBangunan%20Pentadbiran%2C%20UiTM%20Cawangan%20Sarawak%2C%20Kampus%20Samarahan%202!5e0!3m2!1sen!2smy!4v1776070463137!5m2!1sen!2smy"
-                        frameborder="0" style="border:0; width: 100%; height: 100%; min-height: 400px;"
-                        allowfullscreen="" loading="lazy">
-                    </iframe>
+            <div class="row gy-4 justify-content-center">
+
+                <!-- Person 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
+                        <p class="contact-role">Pengerusi 2</p>
+                        <p>019-8110064</p>
+                    </div>
                 </div>
 
-                <div class="col-lg-6">
-
-                    <div class="row gy-4">
-
-                        <!-- Person 1 -->
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div
-                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="bi bi-person"></i>
-                                <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
-                                <p>016-xxxxxxx</p>
-                            </div>
-                        </div>
-
-                        <!-- Person 2 -->
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div
-                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="bi bi-person"></i>
-                                <h3>Dr Lee Wen Chiat</h3>
-                                <p>017-xxxxxxx</p>
-                            </div>
-                        </div>
-
-                        <!-- Person 3 -->
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div
-                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="bi bi-person"></i>
-                                <h3>Ts. Dr. Mohd Rafiz Salji</h3>
-                                <p>013-xxxxxxx</p>
-                            </div>
-                        </div>
-
-                        <!-- Person 4 -->
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div
-                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="bi bi-person"></i>
-                                <h3>Puan Chrisna Pindah</h3>
-                                <p>019-xxxxxxx</p>
-                            </div>
-                        </div>
-
-                        <!-- Person 5 -->
-                        <div class="col-12 col-md-6 col-lg-12">
-                            <div
-                                class="info-item d-flex flex-column justify-content-center align-items-center text-center">
-                                <i class="bi bi-person"></i>
-                                <h3>Puan Hanita Tambi</h3>
-                                <p>019-xxxxxxx</p>
-                            </div>
-                        </div>
-
+                <!-- Person 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Dr. Lee Wen Chiat</h3>
+                        <p class="contact-role">Timbalan Pengerusi</p>
+                        <p>016-8001883</p>
                     </div>
+                </div>
 
+                <!-- Person 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Ts. Dr. Mohd Rafiz Salji</h3>
+                        <p class="contact-role">Bendahari</p>
+                        <p>019-3228539</p>
+                    </div>
+                </div>
+
+                <!-- Person 4 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Puan Chrisna Pindah</h3>
+                        <p class="contact-role">Promosi & Publisiti</p>
+                        <p>014-3791534</p>
+                    </div>
+                </div>
+
+                <!-- Person 5 -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
+                        <i class="bi bi-person"></i>
+                        <h3>Puan Hanita Tambi</h3>
+                        <p class="contact-role">Setiausaha</p>
+                        <p>013-8397102</p>
+                    </div>
                 </div>
 
             </div>
@@ -848,7 +844,6 @@
 
     </section>
     <!-- /Contact Section -->
-
 
     <!-- Hotels Section -->
     <section id="committee" class="committee section light-background">
@@ -862,7 +857,7 @@
             <div class="row gy-4">
 
                 <!-- Pengerusi 1 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">Pengerusi 1</h4>
                         <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
@@ -870,7 +865,7 @@
                 </div>
 
                 <!-- Pengerusi 2 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">Pengerusi 2</h4>
                         <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
@@ -878,7 +873,7 @@
                 </div>
 
                 <!-- Timbalan -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">Timbalan Pengerusi</h4>
                         <h3 class="name">Dr. Lee Wen Chiat</h3>
@@ -886,7 +881,7 @@
                 </div>
 
                 <!-- Setiausaha -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">Setiausaha</h4>
                         <h3 class="name">Madam Hanita Tambi</h3>
@@ -894,7 +889,7 @@
                 </div>
 
                 <!-- Bendahari -->
-                <div class="col-lg-6 col-md-6" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">Bendahari</h4>
                         <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
