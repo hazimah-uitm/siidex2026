@@ -122,10 +122,6 @@
     <!-- Schedule Section -->
     <section id="schedule" class="schedule section">
 
-        {{-- <div class="container section-title" data-aos="fade-up">
-            <h2>Tarikh Penting</h2>
-        </div> --}}
-
         <div class="container">
             <div class="row g-4 align-items-start">
 
@@ -172,9 +168,9 @@
                     </div>
                 </div>
 
-                <!-- RIGHT: Tentatif Compact -->
+                <!-- RIGHT: Tentatif -->
                 <div class="col-lg-8">
-                    <div class="schedule-card" data-aos="fade-left" data-aos-delay="150">
+                    <div class="schedule-card timeline-style-card" data-aos="fade-left" data-aos-delay="150">
 
                         <div class="schedule-card-header">
                             <div>
@@ -183,53 +179,77 @@
                             <span class="schedule-badge">14 SEPTEMBER 2026</span>
                         </div>
 
-                        <div class="timeline-compact">
+                        <div class="schedule-timeline">
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">08:00 pagi</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Pendaftaran Peserta</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>08:00 pagi</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Pendaftaran Peserta</h4>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">09:00 pagi</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Majlis Perasmian</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>09:00 pagi</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Majlis Perasmian</h4>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">10:00 pagi</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Sesi Penilaian Juri</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>10:00 pagi</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Sesi Penilaian Juri</h4>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">12:30 tengah hari</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Rehat</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>12:30 tengah hari</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Rehat</h4>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">02:00 petang</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Pameran dan Penilaian</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>02:00 petang</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Pameran dan Penilaian</h4>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="timeline-item">
-                                <div class="timeline-time">04:00 petang</div>
-                                <div class="timeline-dot"></div>
-                                <div class="timeline-content">
-                                    <h4>Tamat Program</h4>
+                            <div class="schedule-timeline-item">
+                                <div class="schedule-time">
+                                    <span>04:00 petang</span>
+                                </div>
+                                <div class="schedule-line"></div>
+                                <div class="schedule-detail">
+                                    <div class="schedule-event-card">
+                                        <h4>Tamat Program</h4>
+                                    </div>
                                 </div>
                             </div>
 
@@ -252,82 +272,154 @@
         <div class="container">
 
             <!-- Intro -->
-            <div class="row mb-5">
-                <div class="col-lg-12" data-aos="fade-up">
-                    <div class="info-card highlight-card">
-                        <p>
-                            Sarawak Invention, Innovation & Design Expo (SIIDEx) 2026 adalah SIIDEx yang keempat dianjurkan
-                            oleh Universiti Teknologi MARA (UiTM) Cawangan Sarawak bersama UiTM Cawangan Pulau Pinang.
-                            SIIDEx 2026 akan berlangsung pada 14 September 2026 dan bertempat di Waterfront Hotel, Kuching
-                            Sarawak, Malaysia. Terdapat Ia merupakan pertandingan inovasi utama yang ditubuhkan untuk
-                            memupuk budaya kreativiti, inovasi, dan pengkomersialan pengetahuan di kalangan penyelidik,
-                            pendidik, pelajar, serta pengamal industri. Melalui SIIDEx, pameran produk inovasi dan ciptaan
-                            boleh dipamerkan kepada orang ramai dan dipertandingkan. Terdapat empat kategori pertandingan
-                            produk inovasi dan ciptaan iaitu Kategori A: Inovasi Pengajaran dan Pembelajaran, Kategori B:
-                            Inovasi, Kategori C: Produk Ciptaan dan Kategori D: Reka Bentuk (Design). Pertandingan pameran
-                            produk membolehkan peserta berpeluang mendapat anugerah yang diiktiraf oleh universiti dan
-                            menggunakan platform tersebut untuk berkomunikasi dengan peserta industri dan akademik.
-                        </p>
+            <div class="background-intro" data-aos="fade-up">
+                <div class="intro-card">
+                    <p>
+                        Sarawak Invention, Innovation & Design Expo (SIIDEx) 2026 adalah SIIDEx yang ke-5 dianjurkan
+                        oleh Universiti Teknologi MARA (UiTM) Cawangan Sarawak bersama UiTM Cawangan Pulau Pinang.
+                        SIIDEx 2026 akan berlangsung pada 14 September 2026 dan bertempat di Waterfront Hotel, Kuching
+                        Sarawak, Malaysia. Ia merupakan pertandingan inovasi utama yang ditubuhkan untuk
+                        memupuk budaya kreativiti, inovasi, dan pengkomersialan pengetahuan di kalangan penyelidik,
+                        pendidik, pelajar, serta pengamal industri. Melalui SIIDEx, pameran produk inovasi dan ciptaan
+                        boleh dipamerkan kepada orang ramai dan dipertandingkan.
+                        Pertandingan pameran produk membolehkan peserta berpeluang mendapat anugerah yang diiktiraf oleh
+                        universiti dan
+                        menggunakan platform tersebut untuk berkomunikasi dengan peserta industri dan akademik.
+                    </p>
+                </div>
+                <!-- Kategori Section -->
+                <div class="category-wrapper mt-4" data-aos="fade-up">
+
+                    <div class="category-header text-center mb-3">
+                        <h5>Kategori Pertandingan</h5>
+                    </div>
+
+                    <div class="category-grid">
+
+                        <div class="category-card">
+                            <div class="cat-icon">
+                                <i class="bi bi-mortarboard"></i>
+                            </div>
+                            <div class="cat-content">
+                                <div class="cat-label">Kategori A</div>
+                                <div class="cat-name">Inovasi Pengajaran dan Pembelajaran</div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="cat-icon">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                            <div class="cat-content">
+                                <div class="cat-label">Kategori B</div>
+                                <div class="cat-name">Inovasi</div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="cat-icon">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+                            <div class="cat-content">
+                                <div class="cat-label">Kategori C</div>
+                                <div class="cat-name">Produk Ciptaan</div>
+                            </div>
+                        </div>
+
+                        <div class="category-card">
+                            <div class="cat-icon">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <div class="cat-content">
+                                <div class="cat-label">Kategori D</div>
+                                <div class="cat-name">Reka Bentuk</div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
 
-            <!-- History Blocks -->
-            <div class="history-list">
+            <!-- Timeline -->
+            <div class="history-timeline">
 
-                <div class="history-row" data-aos="fade-up">
-                    <div class="history-year">2016</div>
-                    <div class="history-content info-card">
-                        <p>
-                            Sejarah SIIDEx bermula pada tahun 2016 dengan tujuan untuk membudayakan produk inovasi dan
-                            ciptaan cikgu dan pelajar. SIIDEx pertama melibatkan beberapa sekolah menengah dan bertempat di
-                            Dewan Jubli, kampus Samarahan UiTM dan berlangsung dari 29 hingga 30 January 2016. Pertandingan
-                            dan pameran ini adalah usaha Unit Penyelidikan dan Bisnes Inovasi (RIBU), Unit Industri,
-                            Komuniti, dan Jaringan Alumni (ICAN) dan Pasukan Gerakan Kualiti Pelajar (PGKP) UiTM Sarawak
-                            dengan kerjasama Invention and Design Association of Sarawak (IDEAS) dan Unit Pembangunana
-                            Sumber Manusia Sarawak (WDU). Dalam SiIDEx pertama, terdapat 410 peserta dengan 88 produk yang
-                            dibahagikan kepada 39 produk staf, 35 produk belia dan 14 produk ciptaan pelajar sekolah
-                            menengah.
-                        </p>
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-year">
+                        <span>2016</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <p>
+                                Sejarah SIIDEx bermula pada tahun 2016 dengan tujuan untuk membudayakan produk inovasi dan
+                                ciptaan cikgu dan pelajar. SIIDEx pertama melibatkan beberapa sekolah menengah dan bertempat
+                                di
+                                Dewan Jubli, kampus Samarahan UiTM dan berlangsung dari 29 hingga 30 January 2016.
+                                Pertandingan
+                                dan pameran ini adalah usaha Unit Penyelidikan dan Bisnes Inovasi (RIBU), Unit Industri,
+                                Komuniti, dan Jaringan Alumni (ICAN) dan Pasukan Gerakan Kualiti Pelajar (PGKP) UiTM Sarawak
+                                dengan kerjasama Invention and Design Association of Sarawak (IDEAS) dan Unit Pembangunana
+                                Sumber Manusia Sarawak (WDU). Dalam SiIDEx pertama, terdapat 410 peserta dengan 88 produk
+                                yang
+                                dibahagikan kepada 39 produk staf, 35 produk belia dan 14 produk ciptaan pelajar sekolah
+                                menengah.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="history-row" data-aos="fade-up">
-                    <div class="history-year">2018</div>
-                    <div class="history-content info-card">
-                        <p>
-                            Kejayaan SIIDEx pertama pada tahun 2016 telah mendapat banyak permintaan daripada
-                            sekolah-sekolah di Kuching dan Samarahan untuk mengadakan SIIDEx sekali lagi pada tahun yang
-                            seterusnya. Ekoran itu, SIIDEx yang kedua bertema “Empowerment throguh Invention, Innovation and
-                            Design” telah diadakan di Penview Convention Centre Demak, Kuching dari 2 March hingga 4 March
-                            2018. Terdapat 707 peserta dengan 154 produk telah dipamerkan. Antara aktiviti yang ditunjukkan
-                            pada SIIDEx 2018 adalah ucapan motivasi dan perkongsian cara komersialisasi produk, kuiz Sains,
-                            Teknologi, Kejuruteraan dan Matematik (STEM).
-                        </p>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-year">
+                        <span>2018</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <p>
+                                Kejayaan SIIDEx pertama pada tahun 2016 telah mendapat banyak permintaan daripada
+                                sekolah-sekolah di Kuching dan Samarahan untuk mengadakan SIIDEx sekali lagi pada tahun yang
+                                seterusnya. Ekoran itu, SIIDEx yang kedua bertema “Empowerment throguh Invention, Innovation
+                                and
+                                Design” telah diadakan di Penview Convention Centre Demak, Kuching dari 2 March hingga 4
+                                March
+                                2018. Terdapat 707 peserta dengan 154 produk telah dipamerkan. Antara aktiviti yang
+                                ditunjukkan
+                                pada SIIDEx 2018 adalah ucapan motivasi dan perkongsian cara komersialisasi produk, kuiz
+                                Sains,
+                                Teknologi, Kejuruteraan dan Matematik (STEM).
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="history-row" data-aos="fade-up">
-                    <div class="history-year">2019</div>
-                    <div class="history-content info-card">
-                        <p>
-                            Maklum balas daripada SIIDEx 2018 menunjukkan produk inovasi sekolah perlu dipertingkatkan dan
-                            inisiatif perlu diambil untuk menghasilkan produk yang berkualiti tinggi di antara pelajar.
-                            Justeru itu, UiTM Sarawak bersama MESTR, Jabatan Pendidikan Sarawak dan Sarawak Multimedia
-                            Authority (SMA) menganjurkan Sarawak Invention, Innovation and Design Expo (SIIDEx) 2019 sebagai
-                            satu platform untuk mempromosi dan meningkatkan minat pelajar sekolah menengah dalam bidang
-                            Sains dan Teknologi.
-                        </p>
-                        <p class="mt-3">
-                            Empat tahap aktiviti telah dirancang untuk SIIDEx 2019 untuk mencapai objektif tersebut. SIIDEx
-                            2019 bermula dengan bengkel Mentor. Terdapat 19 mentor telah terlibat dan diberi tanggungjawab
-                            untuk membimbing sekolah menghasilkan produk. Tahap yang kedua melibatkan bengkel Inovasi
-                            sekolah tang telah berlangsung di tiga zon di Sarawak. Seramai 183 sekolah di seluruh Sarawak
-                            telah menyertai bengkel ini. Bagi memastikan produk berkualiti telah dihasilkan, SIIDEx 2019
-                            mengadakan pertandingan Mini SIIDEx 2019 di setiap zon. Seramai 102 sekolah telah menyertai
-                            pertandingan dan 26 produk telah dipilih untuk dipertandingkan di SIIDEx 2019 utama yang
-                            bertempat di Pusat Konvensyen CIDB, Kuching dari 21 hingga 23 Oktober 2019.
-                        </p>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-year">
+                        <span>2019</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <p>
+                                Maklum balas daripada SIIDEx 2018 menunjukkan produk inovasi sekolah perlu dipertingkatkan
+                                dan
+                                inisiatif perlu diambil untuk menghasilkan produk yang berkualiti tinggi di antara pelajar.
+                                Justeru itu, UiTM Sarawak bersama MESTR, Jabatan Pendidikan Sarawak dan Sarawak Multimedia
+                                Authority (SMA) menganjurkan Sarawak Invention, Innovation and Design Expo (SIIDEx) 2019
+                                sebagai
+                                satu platform untuk mempromosi dan meningkatkan minat pelajar sekolah menengah dalam bidang
+                                Sains dan Teknologi.
+                            </p>
+                            <p class="mt-2">
+                                Empat tahap aktiviti telah dirancang untuk SIIDEx 2019 untuk mencapai objektif tersebut.
+                                SIIDEx
+                                2019 bermula dengan bengkel Mentor. Terdapat 19 mentor telah terlibat dan diberi
+                                tanggungjawab
+                                untuk membimbing sekolah menghasilkan produk. Tahap yang kedua melibatkan bengkel Inovasi
+                                sekolah tang telah berlangsung di tiga zon di Sarawak. Seramai 183 sekolah di seluruh
+                                Sarawak
+                                telah menyertai bengkel ini. Bagi memastikan produk berkualiti telah dihasilkan, SIIDEx 2019
+                                mengadakan pertandingan Mini SIIDEx 2019 di setiap zon. Seramai 102 sekolah telah menyertai
+                                pertandingan dan 26 produk telah dipilih untuk dipertandingkan di SIIDEx 2019 utama yang
+                                bertempat di Pusat Konvensyen CIDB, Kuching dari 21 hingga 23 Oktober 2019.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -636,8 +728,8 @@
         <div class="container">
 
             <!-- =========================
-                         BEST AWARDS BY CATEGORY
-                    ========================== -->
+                                             BEST AWARDS BY CATEGORY
+                                        ========================== -->
 
             <div class="row gy-4 mb-4">
 
@@ -712,8 +804,8 @@
 
 
             <!-- =========================
-                         MEDALS
-                    ========================== -->
+                                             MEDALS
+                                        ========================== -->
 
             <div class="row gy-4">
 
