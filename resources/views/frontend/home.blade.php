@@ -646,7 +646,7 @@
                                         <div class="col-12">
                                             <a href="{{ asset('public/assets/frontend/files/SIIDEX2026.png') }}"
                                                 target="_blank" class="btn btn-light w-100">
-                                                <i class="bi bi-image me-2"></i>Muat Turun Poster Rasmi SIIDEx
+                                                <i class="bi bi-image me-2"></i>Muat Turun Poster Rasmi SIIDEx 2026
                                             </a>
                                         </div>
                                     </div>
