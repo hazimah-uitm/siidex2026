@@ -242,7 +242,6 @@
         </div>
     </section>
     <!-- /Schedule Section -->
-    <!-- /Schedule Section -->
 
     <!-- background-info Section -->
     <section id="background-info" class="background-info section light-background">
@@ -865,7 +864,7 @@
     <section id="committee" class="committee section">
 
         <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div class="container section-title">
             <h2>Jawatankuasa Penganjur</h2>
         </div>
 
