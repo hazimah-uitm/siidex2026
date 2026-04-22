@@ -104,21 +104,111 @@ return [
     // category
     'participation_category_title' => 'Entry Categories',
 
-'category_a_label' => 'CATEGORY A',
-'category_a_title' => 'Teaching and Learning Innovation',
-'category_a_desc' => 'Refers to the development of a new method, tool, system, or approach that aims to improve the effectiveness of the teaching and learning process in field of education.',
+    'category_a_label' => 'CATEGORY A',
+    'category_a_title' => 'Teaching and Learning Innovation',
+    'category_a_desc' => 'Refers to the development of a new method, tool, system, or approach that aims to improve the effectiveness of the teaching and learning process in field of education.',
 
-'category_b_label' => 'CATEGORY B',
-'category_b_title' => 'Innovation',
-'category_b_desc' => 'Refers to improvements or modifications to products, processes, technologies, or existing services to improve functionality, efficiency, or the value of its use.',
+    'category_b_label' => 'CATEGORY B',
+    'category_b_title' => 'Innovation',
+    'category_b_desc' => 'Refers to improvements or modifications to products, processes, technologies, or existing services to improve functionality, efficiency, or the value of its use.',
 
-'category_c_label' => 'CATEGORY C',
-'category_c_title' => 'Invention',
-'category_c_desc' => 'Refers to the creation of a product, technology, or method that is truly new and original results from research and development.',
+    'category_c_label' => 'CATEGORY C',
+    'category_c_title' => 'Invention',
+    'category_c_desc' => 'Refers to the creation of a product, technology, or method that is truly new and original results from research and development.',
 
-'category_d_label' => 'CATEGORY D',
-'category_d_title' => 'Design',
-'category_d_desc' => 'Refers to the development of a concept or creative design that emphasizes aspects of function, aesthetics, ergonomics, and user experience in producing a product or system.',
+    'category_d_label' => 'CATEGORY D',
+    'category_d_title' => 'Design',
+    'category_d_desc' => 'Refers to the development of a concept or creative design that emphasizes aspects of function, aesthetics, ergonomics, and user experience in producing a product or system.',
 
+    // yuran
+    'fee_title' => 'Entry Fee',
 
+    'early_bird_title' => 'Early Bird',
+    'early_bird_date' => '15 April 2026 - 31 May 2026',
+
+    'normal_price_title' => 'Normal Price',
+    'normal_price_date' => '1 June 2026 - 31 July 2026',
+
+    'student_title' => 'Student',
+    'uitm_staff_title' => 'UiTM Staff',
+    'professional_title' => 'Professional',
+
+    'local_label' => 'Local',
+    'international_label' => 'International',
+
+    'uitm_staff_note' => 'UiTM Sarawak & UiTM Penang only',
+
+    'early_student_local_price' => 'RM 200',
+    'early_student_international_price' => 'USD 60',
+    'early_staff_price' => 'RM 300',
+    'early_professional_local_price' => 'RM 400',
+    'early_professional_international_price' => 'USD 110',
+
+    'normal_student_local_price' => 'RM 300',
+    'normal_student_international_price' => 'USD 80',
+    'normal_staff_price' => 'RM 400',
+    'normal_professional_local_price' => 'RM 500',
+    'normal_professional_international_price' => 'USD 130',
+
+    'make_payment' => 'Make Payment',
+
+    // registration
+    'registration_title' => 'SIIDEx 2026 Registration',
+    'registration_subtitle' => 'Complete your participation before the deadline.',
+
+    'download_abstract' => 'Download Abstract Template',
+    'download_poster' => 'Download Official SIIDEx 2026 Poster',
+
+    'info_virtual' => 'Participation is conducted <strong>virtually.</strong>',
+    'info_uitm_physical' => 'UiTM Sarawak students and lecturers are <strong>required to attend physically.</strong>',
+    'info_limit' => 'Physical participation is limited to <strong>60 products.</strong>',
+    'info_award' => 'SIIDEx 2026 winners will be sent to <strong>international competitions & IIDEX 2026.</strong>',
+
+    // awards
+    'awards_title' => 'Awards',
+
+    'award_teaching_best' => 'Best Teaching and Learning Innovation Award',
+    'award_innovation_best' => 'Best Innovation Award',
+    'award_invention_best' => 'Best Invention Product Award',
+    'award_design_best' => 'Best Design Award',
+
+    'awards_best_note' => 'Each Best Award by category will be presented during the <strong>Closing Ceremony on 15 September 2026</strong>.',
+
+    'gold_title' => 'Gold',
+    'silver_title' => 'Silver',
+    'bronze_title' => 'Bronze',
+
+    'gold_medal_alt' => 'Gold Medal',
+    'silver_medal_alt' => 'Silver Medal',
+    'bronze_medal_alt' => 'Bronze Medal',
+
+    'medal_desc' => 'Medals and certificates of participation based on the results of the jury\'s evaluation.',
+
+    'awards_medal_note' => 'For the <strong>Gold, Silver and Bronze Awards</strong>, the presentation will be conducted <strong>online only</strong>.',
+
+    // galeri
+    'gallery_title' => 'Gallery',
+    'gallery_image_alt' => 'Gallery Image',
+
+    // committee
+    'committee_title' => 'Organizing Committee',
+
+    'committee_chairperson_1' => 'Chairperson 1',
+    'committee_chairperson_2' => 'Chairperson 2',
+    'committee_deputy_chairperson' => 'Deputy Chairperson',
+    'committee_secretary' => 'Secretary',
+    'committee_treasurer' => 'Treasurer',
+
+    'committee_technical' => 'Technical',
+    'committee_promotion_publicity' => 'Promotion & Publicity',
+    'committee_registration' => 'Registration',
+    'committee_sponsorship' => 'Sponsorship',
+    'committee_logistics' => 'Logistics',
+    'committee_event_protocol' => 'Event & Protocol',
+    'committee_judging' => 'Judging',
+    'committee_publication' => 'Publication',
+
+    // Contact
+    'contact_title' => 'Contact Us',
+    'secretariat_title' => 'SIIDEx 2026 Secretariat',
 ];

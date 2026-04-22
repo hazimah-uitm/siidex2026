@@ -120,4 +120,95 @@ return [
     'category_d_title' => 'Reka Bentuk',
     'category_d_desc' => 'Merujuk kepada pembangunan konsep atau reka bentuk kreatif yang menekankan aspek fungsi, estetika, ergonomik, dan pengalaman pengguna dalam menghasilkan sesuatu produk atau sistem.',
 
+    // yuran
+    'fee_title' => 'Yuran Penyertaan',
+
+    'early_bird_title' => 'Kadar Tawaran Awal',
+    'early_bird_date' => '15 April 2026 - 31 Mei 2026',
+
+    'normal_price_title' => 'Kadar Standard',
+    'normal_price_date' => '1 Jun 2026 - 31 Julai 2026',
+
+    'student_title' => 'Pelajar',
+    'uitm_staff_title' => 'Staf UiTM',
+    'professional_title' => 'Profesional',
+
+    'local_label' => 'Tempatan',
+    'international_label' => 'Antarabangsa',
+
+    'uitm_staff_note' => 'UiTM Sarawak & UiTM Penang sahaja',
+
+    'early_student_local_price' => 'RM 200',
+    'early_student_international_price' => 'USD 60',
+    'early_staff_price' => 'RM 300',
+    'early_professional_local_price' => 'RM 400',
+    'early_professional_international_price' => 'USD 110',
+
+    'normal_student_local_price' => 'RM 300',
+    'normal_student_international_price' => 'USD 80',
+    'normal_staff_price' => 'RM 400',
+    'normal_professional_local_price' => 'RM 500',
+    'normal_professional_international_price' => 'USD 130',
+
+    'make_payment' => 'Buat Pembayaran',
+
+    // pendaftaran
+    'registration_title' => 'Pendaftaran SIIDEx 2026',
+    'registration_subtitle' => 'Sila lengkapkan penyertaan sebelum tarikh tutup.',
+
+    'download_abstract' => 'Muat Turun Templat Abstrak',
+    'download_poster' => 'Muat Turun Poster Rasmi SIIDEx 2026',
+
+    'info_virtual' => 'Penyertaan dilaksanakan secara <strong>atas talian.</strong>',
+    'info_uitm_physical' => 'Pelajar dan pensyarah UiTM Cawangan Sarawak <strong>diwajibkan hadir secara fizikal.</strong>',
+    'info_limit' => 'Penyertaan fizikal dihadkan kepada <strong>60 produk.</strong>',
+    'info_award' => 'Pemenang SIIDEx 2026 akan dihantar ke <strong>pertandingan antarabangsa & IIDEX 2026.</strong>',
+
+    // anugerah
+    'awards_title' => 'Anugerah',
+
+    'award_teaching_best' => 'Anugerah Inovasi Pengajaran dan Pembelajaran Terbaik',
+    'award_innovation_best' => 'Anugerah Inovasi Terbaik',
+    'award_invention_best' => 'Anugerah Produk Ciptaan Terbaik',
+    'award_design_best' => 'Anugerah Reka Bentuk Terbaik',
+
+    'awards_best_note' => 'Setiap Anugerah Terbaik mengikut kategori akan disampaikan semasa <strong>Majlis Penutupan pada 15 September 2026</strong>.',
+
+    'gold_title' => 'Emas',
+    'silver_title' => 'Perak',
+    'bronze_title' => 'Gangsa',
+
+    'gold_medal_alt' => 'Pingat Emas',
+    'silver_medal_alt' => 'Pingat Perak',
+    'bronze_medal_alt' => 'Pingat Gangsa',
+
+    'medal_desc' => 'Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.',
+
+    'awards_medal_note' => 'Bagi Anugerah <strong>Emas, Perak dan Gangsa</strong>, pemberian adalah <strong>secara dalam talian sahaja</strong>.',
+
+    // gallery
+    'gallery_title' => 'Galeri',
+    'gallery_image_alt' => 'Imej Galeri',
+
+    // Jawatankuasa
+    'committee_title' => 'Jawatankuasa Penganjur',
+
+    'committee_chairperson_1' => 'Pengerusi 1',
+    'committee_chairperson_2' => 'Pengerusi 2',
+    'committee_deputy_chairperson' => 'Timbalan Pengerusi',
+    'committee_secretary' => 'Setiausaha',
+    'committee_treasurer' => 'Bendahari',
+
+    'committee_technical' => 'Teknikal',
+    'committee_promotion_publicity' => 'Promosi & Publisiti',
+    'committee_registration' => 'Pendaftaran',
+    'committee_sponsorship' => 'Penajaan',
+    'committee_logistics' => 'Logistik',
+    'committee_event_protocol' => 'Acara & Protokol',
+    'committee_judging' => 'Penjurian',
+    'committee_publication' => 'Penerbitan',
+
+    // Hubungi
+    'contact_title' => 'Hubungi Kami',
+    'secretariat_title' => 'Sekretariat SIIDEx 2026',
 ];

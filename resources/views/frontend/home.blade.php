@@ -425,7 +425,7 @@
     <section id="fee" class="fee section light-background">
 
         <div class="container section-title" data-aos="fade-up">
-            <h2>Yuran Penyertaan</h2>
+            <h2>{{ __('messages.fee_title') }}</h2>
         </div>
 
         <div class="container">
@@ -435,50 +435,51 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="pricing-column featured">
                         <div class="pricing-header">
-                            <h3>Early Bird</h3>
-                            <p class="fw-bold">15 April 2026 - 31 Mei 2026</p>
+                            <h3>{{ __('messages.early_bird_title') }}</h3>
+                            <p class="fw-bold">{{ __('messages.early_bird_date') }}</p>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Pelajar</div>
+                            <div class="price-title">{{ __('messages.student_title') }}</div>
 
                             <div class="price-line">
-                                <span class="price-label">Tempatan</span>
-                                <span class="price-value">RM 200</span>
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.early_student_local_price') }}</span>
                             </div>
 
                             <div class="price-line">
-                                <span class="price-label">Antarabangsa</span>
-                                <span class="price-value">USD 60</span>
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span class="price-value">{{ __('messages.early_student_international_price') }}</span>
                             </div>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Staf UiTM</div>
+                            <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
 
                             <div class="price-line single-price">
-                                <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
-                                <span class="price-value">RM 300</span>
+                                <span class="price-label">{{ __('messages.uitm_staff_note') }}</span>
+                                <span class="price-value">{{ __('messages.early_staff_price') }}</span>
                             </div>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Profesional</div>
+                            <div class="price-title">{{ __('messages.professional_title') }}</div>
 
                             <div class="price-line">
-                                <span class="price-label">Tempatan</span>
-                                <span class="price-value">RM 400</span>
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.early_professional_local_price') }}</span>
                             </div>
 
                             <div class="price-line">
-                                <span class="price-label">Antarabangsa</span>
-                                <span class="price-value">USD 110</span>
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span
+                                    class="price-value">{{ __('messages.early_professional_international_price') }}</span>
                             </div>
                         </div>
 
                         <div class="pricing-action">
                             <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee btn-fee-light">
-                                Buat Pembayaran
+                                {{ __('messages.make_payment') }}
                             </a>
                         </div>
                     </div>
@@ -488,50 +489,51 @@
                 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
                     <div class="pricing-column">
                         <div class="pricing-header">
-                            <h3>Normal Price</h3>
-                            <p class="fw-bold">1 Jun 2026 - 31 Julai 2026</p>
+                            <h3>{{ __('messages.normal_price_title') }}</h3>
+                            <p class="fw-bold">{{ __('messages.normal_price_date') }}</p>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Pelajar</div>
+                            <div class="price-title">{{ __('messages.student_title') }}</div>
 
                             <div class="price-line">
-                                <span class="price-label">Tempatan</span>
-                                <span class="price-value">RM 300</span>
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.normal_student_local_price') }}</span>
                             </div>
 
                             <div class="price-line">
-                                <span class="price-label">Antarabangsa</span>
-                                <span class="price-value">USD 80</span>
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span class="price-value">{{ __('messages.normal_student_international_price') }}</span>
                             </div>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Staf UiTM</div>
+                            <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
 
                             <div class="price-line single-price">
-                                <span class="price-label">UiTM Sarawak &amp; UiTM Penang sahaja</span>
-                                <span class="price-value">RM 400</span>
+                                <span class="price-label">{{ __('messages.uitm_staff_note') }}</span>
+                                <span class="price-value">{{ __('messages.normal_staff_price') }}</span>
                             </div>
                         </div>
 
                         <div class="price-row">
-                            <div class="price-title">Profesional</div>
+                            <div class="price-title">{{ __('messages.professional_title') }}</div>
 
                             <div class="price-line">
-                                <span class="price-label">Tempatan</span>
-                                <span class="price-value">RM 500</span>
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.normal_professional_local_price') }}</span>
                             </div>
 
                             <div class="price-line">
-                                <span class="price-label">Antarabangsa</span>
-                                <span class="price-value">USD 130</span>
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span
+                                    class="price-value">{{ __('messages.normal_professional_international_price') }}</span>
                             </div>
                         </div>
 
                         <div class="pricing-action">
                             <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
-                                Buat Pembayaran
+                                {{ __('messages.make_payment') }}
                             </a>
                         </div>
                     </div>
@@ -543,43 +545,43 @@
 
     <!-- Registrations Section -->
     <section id="registrations" class="registrations section">
-        <!-- Registration Banner -->
         <div class="row" data-aos="fade-up" data-aos-delay="250">
             <div class="col-12">
                 <div class="registration-banner">
                     <div class="row align-items-center gy-4">
 
-                        <!-- Left Content -->
+                        <!-- Left -->
                         <div class="col-lg-5">
                             <div class="banner-left">
-                                <h3 class="banner-title">PENDAFTARAN SIIDEx 2026</h3>
+                                <h3 class="banner-title">{{ __('messages.registration_title') }}</h3>
                                 <p class="banner-text">
-                                    Lengkapkan penyertaan sebelum tarikh tutup.
+                                    {{ __('messages.registration_subtitle') }}
                                 </p>
 
                                 <div class="banner-buttons">
 
-                                    <!-- Row 1: Register (full width) -->
                                     <div class="mb-3">
                                         <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank"
                                             class="btn btn-main w-100">
-                                            <i class="bi bi-pencil-square me-2"></i>DAFTAR SEKARANG
+                                            <i class="bi bi-pencil-square me-2"></i>
+                                            {{ __('messages.register_now') }}
                                         </a>
                                     </div>
 
-                                    <!-- Row 2: Download (2 column) -->
                                     <div class="row g-2">
                                         <div class="col-12 mb-2">
                                             <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
                                                 target="_blank" class="btn btn-light w-100">
-                                                <i class="bi bi-file-earmark-text me-2"></i>Muat Turun Templat Abstrak
+                                                <i class="bi bi-file-earmark-text me-2"></i>
+                                                {{ __('messages.download_abstract') }}
                                             </a>
                                         </div>
 
                                         <div class="col-12">
                                             <a href="{{ asset('public/assets/frontend/files/SIIDEX2026.png') }}"
                                                 target="_blank" class="btn btn-light w-100">
-                                                <i class="bi bi-image me-2"></i>Muat Turun Poster Rasmi SIIDEx 2026
+                                                <i class="bi bi-image me-2"></i>
+                                                {{ __('messages.download_poster') }}
                                             </a>
                                         </div>
                                     </div>
@@ -588,7 +590,7 @@
                             </div>
                         </div>
 
-                        <!-- Right Info -->
+                        <!-- Right -->
                         <div class="col-lg-7">
                             <div class="banner-info-list">
 
@@ -597,7 +599,7 @@
                                         <i class="bi bi-globe2"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Penyertaan secara <strong>virtual.</strong>
+                                        {!! __('messages.info_virtual') !!}
                                     </div>
                                 </div>
 
@@ -606,8 +608,7 @@
                                         <i class="bi bi-people-fill"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Pelajar & pensyarah UiTM Cawangan Sarawak
-                                        <strong>wajib hadir secara fizikal.</strong>
+                                        {!! __('messages.info_uitm_physical') !!}
                                     </div>
                                 </div>
 
@@ -616,18 +617,16 @@
                                         <i class="bi bi-box-seam"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Penyertaan fizikal terhad kepada <strong>60 produk.</strong>
+                                        {!! __('messages.info_limit') !!}
                                     </div>
                                 </div>
 
-                                <!-- NEW IMPORTANT -->
                                 <div class="banner-info-item highlight">
                                     <div class="banner-icon">
                                         <i class="bi bi-trophy-fill"></i>
                                     </div>
                                     <div class="banner-info-text">
-                                        Pemenang SiiDEX 2026 akan dihantar ke
-                                        <strong>pertandingan antarabangsa & IIDEX 2026.</strong>
+                                        {!! __('messages.info_award') !!}
                                     </div>
                                 </div>
 
@@ -644,18 +643,13 @@
     <section id="awards" class="awards section">
 
         <div class="container section-title" data-aos="fade-up">
-            <h2>Anugerah</h2>
+            <h2>{{ __('messages.awards_title') }}</h2>
         </div>
 
         <div class="container">
 
-            <!-- =========================
-                                                                         BEST AWARDS BY CATEGORY
-                                                                    ========================== -->
-
             <div class="row gy-4 mb-4">
 
-                <!-- Category 1 -->
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
@@ -663,13 +657,12 @@
                                 <i class="bi bi-mortarboard-fill"></i>
                             </div>
                             <h4 class="fw-bold">
-                                Anugerah Inovasi Pengajaran dan Pembelajaran Terbaik
+                                {{ __('messages.award_teaching_best') }}
                             </h4>
                         </div>
                     </div>
                 </div>
 
-                <!-- Category 2 -->
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
@@ -677,13 +670,12 @@
                                 <i class="bi bi-lightbulb-fill"></i>
                             </div>
                             <h4 class="fw-bold">
-                                Anugerah Inovasi Terbaik
+                                {{ __('messages.award_innovation_best') }}
                             </h4>
                         </div>
                     </div>
                 </div>
 
-                <!-- Category 3 -->
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
@@ -691,13 +683,12 @@
                                 <i class="bi bi-box-seam"></i>
                             </div>
                             <h4 class="fw-bold">
-                                Anugerah Produk Ciptaan Terbaik
+                                {{ __('messages.award_invention_best') }}
                             </h4>
                         </div>
                     </div>
                 </div>
 
-                <!-- Category 4 -->
                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="250">
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
@@ -705,7 +696,7 @@
                                 <i class="bi bi-palette-fill"></i>
                             </div>
                             <h4 class="fw-bold">
-                                Anugerah Reka Bentuk Terbaik
+                                {{ __('messages.award_design_best') }}
                             </h4>
                         </div>
                     </div>
@@ -713,61 +704,51 @@
 
             </div>
 
-            <!-- Note for Best Awards -->
             <div class="row mb-5" data-aos="fade-up" data-aos-delay="280">
                 <div class="col-12">
                     <div class="awards-alert-note">
                         <i class="bi bi-megaphone-fill me-2"></i>
-                        Setiap Anugerah Terbaik mengikut kategori akan disampaikan semasa
-                        <strong>Majlis Penutupan pada 15 September 2026</strong>.
+                        {!! __('messages.awards_best_note') !!}
                     </div>
                 </div>
             </div>
 
-
-            <!-- =========================
-                                                                         MEDALS
-                                                                    ========================== -->
-
             <div class="row gy-4">
 
-                <!-- GOLD -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="350">
                     <div class="card text-center shadow-sm border-0 h-100 award-card">
                         <div class="p-4">
                             <img src="{{ asset('public/assets/frontend/img/award/emas.jpg') }}" class="img-fluid mb-3"
-                                alt="Gold Medal">
-                            <h4 class="fw-bold">Emas</h4>
+                                alt="{{ __('messages.gold_medal_alt') }}">
+                            <h4 class="fw-bold">{{ __('messages.gold_title') }}</h4>
                             <p class="text-muted mb-0">
-                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                                {{ __('messages.medal_desc') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- SILVER -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="card text-center shadow-sm border-0 h-100 award-card">
                         <div class="p-4">
                             <img src="{{ asset('public/assets/frontend/img/award/perak.jpg') }}" class="img-fluid mb-3"
-                                alt="Silver Medal">
-                            <h4 class="fw-bold">Perak</h4>
+                                alt="{{ __('messages.silver_medal_alt') }}">
+                            <h4 class="fw-bold">{{ __('messages.silver_title') }}</h4>
                             <p class="text-muted mb-0">
-                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                                {{ __('messages.medal_desc') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- BRONZE -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="450">
                     <div class="card text-center shadow-sm border-0 h-100 award-card">
                         <div class="p-4">
                             <img src="{{ asset('public/assets/frontend/img/award/gangsa.jpg') }}" class="img-fluid mb-3"
-                                alt="Bronze Medal">
-                            <h4 class="fw-bold">Gangsa</h4>
+                                alt="{{ __('messages.bronze_medal_alt') }}">
+                            <h4 class="fw-bold">{{ __('messages.bronze_title') }}</h4>
                             <p class="text-muted mb-0">
-                                Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.
+                                {{ __('messages.medal_desc') }}
                             </p>
                         </div>
                     </div>
@@ -775,13 +756,11 @@
 
             </div>
 
-            <!-- Note for medals -->
             <div class="row mt-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-12">
                     <div class="awards-alert-note online-note">
                         <i class="bi bi-info-circle-fill me-2"></i>
-                        Bagi Anugerah <strong>Emas, Perak dan Gangsa</strong>, pemberian adalah
-                        <strong>secara dalam talian sahaja</strong>.
+                        {!! __('messages.awards_medal_note') !!}
                     </div>
                 </div>
             </div>
@@ -794,77 +773,76 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section light-background">
 
-        <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <h2>Galeri</h2>
-        </div><!-- End Section Title -->
+            <h2>{{ __('messages.gallery_title') }}</h2>
+        </div>
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
 
             <div class="swiper init-swiper">
                 <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "centeredSlides": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 0
-                },
-                "768": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                },
-                "1200": {
-                  "slidesPerView": 5,
-                  "spaceBetween": 20
-                }
-              }
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "centeredSlides": true,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 0
+            },
+            "768": {
+              "slidesPerView": 3,
+              "spaceBetween": 20
+            },
+            "1200": {
+              "slidesPerView": 5,
+              "spaceBetween": 20
             }
-          </script>
+          }
+        }
+      </script>
                 <div class="swiper-wrapper align-items-center">
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-1.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-1.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 1"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-2.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-2.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 2"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-3.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-3.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 3"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-4.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-4.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 4"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-5.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-5.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 5"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-6.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-6.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 6"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-7.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-7.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 7"></a></div>
                     <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                             href="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-8.jpg') }}"><img
                                 src="{{ asset('public/assets/frontend/img/event-gallery/event-gallery-8.jpg') }}"
-                                class="img-fluid" alt=""></a></div>
+                                class="img-fluid" alt="{{ __('messages.gallery_image_alt') }} 8"></a></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -877,115 +855,104 @@
     <!-- Hotels Section -->
     <section id="committee" class="committee section">
 
-        <!-- Section Title -->
         <div class="container section-title">
-            <h2>Jawatankuasa Penganjur</h2>
+            <h2>{{ __('messages.committee_title') }}</h2>
         </div>
 
         <div class="container">
             <div class="row gy-4">
 
-                <!-- Pengerusi 1 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">Pengerusi 1</h4>
+                        <h4 class="role">{{ __('messages.committee_chairperson_1') }}</h4>
                         <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
                     </div>
                 </div>
 
-                <!-- Pengerusi 2 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">Pengerusi 2</h4>
+                        <h4 class="role">{{ __('messages.committee_chairperson_2') }}</h4>
                         <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
                     </div>
                 </div>
 
-                <!-- Timbalan -->
                 <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">Timbalan Pengerusi</h4>
+                        <h4 class="role">{{ __('messages.committee_deputy_chairperson') }}</h4>
                         <h3 class="name">Dr. Lee Wen Chiat</h3>
                     </div>
                 </div>
 
-                <!-- Setiausaha -->
                 <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">Setiausaha</h4>
+                        <h4 class="role">{{ __('messages.committee_secretary') }}</h4>
                         <h3 class="name">Madam Hanita Tambi</h3>
                     </div>
                 </div>
 
-                <!-- Bendahari -->
                 <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">Bendahari</h4>
+                        <h4 class="role">{{ __('messages.committee_treasurer') }}</h4>
                         <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Jawatankuasa Kecil -->
             <div class="row gy-4 mt-4">
-
-                {{-- <div class="col-12 text-center mb-3">
-                    <h3 class="sub-title">Jawatankuasa Kecil</h3>
-                </div> --}}
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Teknikal</h4>
+                        <h4 class="role">{{ __('messages.committee_technical') }}</h4>
                         <p class="name">Encik Mohd Shahrizi bin Razali</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Promosi & Publisiti</h4>
+                        <h4 class="role">{{ __('messages.committee_promotion_publicity') }}</h4>
                         <p class="name">Chrisna Pindah</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Pendaftaran</h4>
+                        <h4 class="role">{{ __('messages.committee_registration') }}</h4>
                         <p class="name">Dr. Lee Wen Chiat<br>Jenny Yap</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Penajaan</h4>
+                        <h4 class="role">{{ __('messages.committee_sponsorship') }}</h4>
                         <p class="name">Ts. Dr. Nurzawani Md Sofwan</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Logistik</h4>
+                        <h4 class="role">{{ __('messages.committee_logistics') }}</h4>
                         <p class="name">Dr. Hadi Jumaat</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Acara & Protokol</h4>
+                        <h4 class="role">{{ __('messages.committee_event_protocol') }}</h4>
                         <p class="name">Abdul Hafiz Abdul Khalid</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Penjurian</h4>
+                        <h4 class="role">{{ __('messages.committee_judging') }}</h4>
                         <p class="name">Dr. Rudy Tawie</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card small text-center">
-                        <h4 class="role">Penerbitan</h4>
+                        <h4 class="role">{{ __('messages.committee_publication') }}</h4>
                         <p class="name">AP Dr. Ting Siew King</p>
                     </div>
                 </div>
@@ -1000,18 +967,18 @@
     <section id="contact" class="contact section light-background">
 
         <div class="container section-title">
-            <h2>Hubungi Kami</h2>
+            <h2>{{ __('messages.contact_title') }}</h2>
         </div>
 
         <div class="container">
 
-            <!-- Secretariat Email -->
+            <!-- Email -->
             <div class="row justify-content-center mb-4">
                 <div class="col-lg-12">
                     <div
                         class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
                         <i class="bi bi-envelope"></i>
-                        <h3>Secretariat SIIDEX 2026</h3>
+                        <h3>{{ __('messages.secretariat_title') }}</h3>
                         <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
                     </div>
                 </div>
@@ -1019,52 +986,47 @@
 
             <div class="row gy-4 justify-content-center">
 
-                <!-- Person 1 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
-                        <p class="contact-role">Pengerusi 2</p>
+                        <p class="contact-role">{{ __('messages.committee_chairperson_2') }}</p>
                         <p>019-8110064</p>
                     </div>
                 </div>
 
-                <!-- Person 2 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Dr. Lee Wen Chiat</h3>
-                        <p class="contact-role">Timbalan Pengerusi</p>
+                        <p class="contact-role">{{ __('messages.committee_deputy_chairperson') }}</p>
                         <p>016-8001883</p>
                     </div>
                 </div>
 
-                <!-- Person 3 -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Ts. Dr. Mohd Rafiz Salji</h3>
-                        <p class="contact-role">Bendahari</p>
+                        <p class="contact-role">{{ __('messages.committee_treasurer') }}</p>
                         <p>019-3228539</p>
                     </div>
                 </div>
 
-                <!-- Person 4 -->
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Puan Chrisna Pindah</h3>
-                        <p class="contact-role">Promosi & Publisiti</p>
+                        <p class="contact-role">{{ __('messages.committee_promotion_publicity') }}</p>
                         <p>014-3791534</p>
                     </div>
                 </div>
 
-                <!-- Person 5 -->
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Puan Hanita Tambi</h3>
-                        <p class="contact-role">Setiausaha</p>
+                        <p class="contact-role">{{ __('messages.committee_secretary') }}</p>
                         <p>013-8397102</p>
                     </div>
                 </div>
