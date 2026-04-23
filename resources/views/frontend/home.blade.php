@@ -135,42 +135,33 @@
                         <h3 class="important-title">{{ __('messages.important_dates_title') }}</h3>
 
                         <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-calendar-event"></i>
-                            </div>
-                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 w-100">
                                 <div>
                                     <h4>{{ __('messages.early_bird_title') }}</h4>
                                 </div>
-                                <div class="text-end">
+                                <div class="ms-auto text-end">
                                     <p class="mb-0">{{ __('messages.early_bird_date_range') }}</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-calendar-event"></i>
-                            </div>
-                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 w-100">
                                 <div>
                                     <h4>{{ __('messages.normal_rate_title') }}</h4>
                                 </div>
-                                <div class="text-end">
+                                <div class="ms-auto text-end">
                                     <p class="mb-0">{{ __('messages.normal_rate_date_range') }}</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="important-date-item">
-                            <div class="date-icon">
-                                <i class="bi bi-calendar-event"></i>
-                            </div>
-                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 w-100">
                                 <div>
                                     <h4>{{ __('messages.virtual_rate_title') }}</h4>
                                 </div>
-                                <div class="text-end">
+                                <div class="ms-auto text-end">
                                     <p class="mb-0">{{ __('messages.virtual_rate_date_range') }}</p>
                                 </div>
                             </div>
