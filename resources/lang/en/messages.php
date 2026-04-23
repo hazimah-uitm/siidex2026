@@ -230,4 +230,5 @@ return [
     // Contact
     'contact_title' => 'Contact Us',
     'secretariat_title' => 'SIIDEx 2026 Secretariat',
+    'facebook' => 'Follow Us',
 ];

@@ -993,126 +993,126 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretary') }}</h4>
                         <h3 class="name">Hanita Tambi</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretary2') }}</h4>
                         <h3 class="name">Nur 'Aziera Basri</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_bursar_sponsorship') }}</h4>
                         <h3 class="name">Ts. Dr. Mohd Rafiz Salji</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_treasurer') }}</h4>
                         <h3 class="name">Azura Ahmad</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_technical') }}</h4>
                         <h3 class="name">Mohd Shahrizi bin Razali</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_promotion_publicity_k') }}</h4>
                         <h3 class="name">Chrisna indah</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_promotion_publicity_designer') }}</h4>
                         <h3 class="name">Ts. Noraziah Razali</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_promotion_publicity') }}</h4>
                         <h3 class="name">Mohd Syazwan Mohd Aris</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_logistics') }}</h4>
                         <h3 class="name">Dr. Hadi Jumaat</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_event_protocol') }}</h4>
                         <h3 class="name">Abdul Hafiz Abdul Khalid</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_judging') }}</h4>
                         <h3 class="name">Dr. Rudy Tawie</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_publication_k') }}</h4>
                         <h3 class="name">AP Dr. Ting Siew King</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_publication') }}</h4>
                         <h3 class="name">Ts. Dr. Nurzawani Md Sofwan</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
                         <h3 class="name">Jenny Yap Tze Kie</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
                         <h3 class="name">Kelvin Goh Tee Hiong</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
                         <h3 class="name">Dr. Tay Siew Ying</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
                         <h3 class="name">Nur Farah Fadhliah Mahmud</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_proofread') }}</h4>
                         <h3 class="name">Valerie Chan Sue Lin Abdullah</h3>
@@ -1134,20 +1134,8 @@
 
         <div class="container">
 
-            <!-- Email -->
-            <div class="row justify-content-center mb-4">
-                <div class="col-lg-12">
-                    <div
-                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
-                        <i class="bi bi-envelope"></i>
-                        <h3>{{ __('messages.secretariat_title') }}</h3>
-                        <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
-                    </div>
-                </div>
-            </div>
-
+            <!-- Contact -->
             <div class="row gy-4 justify-content-center">
-
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
@@ -1192,7 +1180,30 @@
                         <p>013-8397102</p>
                     </div>
                 </div>
+            </div>
 
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-6">
+                    <div
+                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
+                        <i class="bi bi-envelope"></i>
+                        <h3>{{ __('messages.secretariat_title') }}</h3>
+                        <p><a href="mailto:siidex2026@gmail.com">siidex2026@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div
+                        class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
+                        <i class="bi bi-facebook"></i>
+                        <h3>{{ __('messages.facebook') }}</h3>
+                        <p>
+                            <a href="https://web.facebook.com/pji.uitm.sarawak/" target="_blank">
+                                PJI UiTM Sarawak
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>

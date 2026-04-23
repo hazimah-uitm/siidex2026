@@ -214,4 +214,5 @@ return [
     // Hubungi
     'contact_title' => 'Hubungi Kami',
     'secretariat_title' => 'Sekretariat SIIDEx 2026',
+    'facebook' => 'Ikuti Kami',
 ];
