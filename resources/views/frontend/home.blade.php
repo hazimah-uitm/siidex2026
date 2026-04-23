@@ -477,10 +477,15 @@
                             </div>
                         </div>
 
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee btn-fee-light">
                                 {{ __('messages.make_payment') }}
                             </a>
+                        </div> --}}
+                        <div class="pricing-action">
+                            <button type="button" class="btn btn-fee btn-fee-light" disabled>
+                                {{ __('messages.coming_soon') }}
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -531,10 +536,15 @@
                             </div>
                         </div>
 
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
                                 {{ __('messages.make_payment') }}
                             </a>
+                        </div> --}}
+                        <div class="pricing-action">
+                            <button type="button" class="btn btn-fee" disabled>
+                                {{ __('messages.coming_soon') }}
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -585,10 +595,15 @@
                             </div>
                         </div>
 
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
                                 {{ __('messages.make_payment') }}
                             </a>
+                        </div> --}}
+                        <div class="pricing-action">
+                            <button type="button" class="btn btn-fee" disabled>
+                                {{ __('messages.coming_soon') }}
+                            </button>
                         </div>
                     </div>
                 </div>

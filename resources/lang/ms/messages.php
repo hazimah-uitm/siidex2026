@@ -142,6 +142,7 @@ return [
     'virtual_professional_international_price' => 'USD 65',
 
     'make_payment' => 'Buat Pembayaran',
+    'coming_soon' => 'Pautan Pembayaran Akan Dibuka Tidak Lama Lagi',
 
     // pendaftaran
     'registration_title' => 'PENDAFTARAN',

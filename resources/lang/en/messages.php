@@ -142,6 +142,7 @@ return [
     'virtual_professional_international_price' => 'USD 65',
 
     'make_payment' => 'Make Payment',
+    'coming_soon' => 'Payment Link Coming Soon',
 
     // registration
     'registration_title' => 'REGISTRATION',
