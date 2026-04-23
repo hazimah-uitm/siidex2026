@@ -3027,13 +3027,13 @@ section,
 }
 
 .contact .contact-email-box a {
-  color: var(--default-color);
+  color: var(--accent-color);
   text-decoration: none;
   font-weight: 500;
 }
 
 .contact .contact-email-box a:hover {
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 /*--------------------------------------------------------------
