@@ -727,11 +727,19 @@
                                             </a>
                                         </div>
 
-                                        <div class="col-12">
-                                            <a href="{{ asset('public/assets/frontend/files/SIIDEX2026.png') }}"
+                                        <div class="col-12 mb-2">
+                                            <a href="{{ asset('public/assets/frontend/files/poster') }}"
                                                 target="_blank" class="btn btn-light w-100">
                                                 <i class="bi bi-image me-2"></i>
-                                                {{ __('messages.download_poster') }}
+                                                {{ __('messages.download_template_poster') }}
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <a href="{{ asset('public/assets/frontend/files/banner') }}"
+                                                target="_blank" class="btn btn-light w-100">
+                                                <i class="bi bi-megaphone me-2"></i>
+                                                {{ __('messages.download_template_banner') }}
                                             </a>
                                         </div>
                                     </div>

@@ -160,7 +160,8 @@ return [
     'registration_subtitle' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan adalah diwajibkan untuk dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
 
     'download_abstract' => 'Muat Turun Templat Abstrak',
-    'download_poster' => 'Muat Turun Poster Rasmi SIIDEx 2026',
+    'download_template_poster' => 'Muat Turun Templat Poster',
+    'download_template_banner' => 'Muat Turun Templat Bunting',
 
     'info_virtual' => 'Penyertaan dilaksanakan secara <strong>atas talian.</strong>',
     'info_uitm_physical' => 'Pelajar dan pensyarah UiTM Cawangan Sarawak <strong>diwajibkan hadir secara fizikal.</strong>',

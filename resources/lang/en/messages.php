@@ -175,8 +175,9 @@ return [
     'registration_title' => 'REGISTRATION',
     'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
 
-    'download_abstract' => 'Download Abstract Template',
-    'download_poster' => 'Download Official SIIDEx 2026 Poster',
+    'download_abstract' => 'Download Extended Abstract Template',
+    'download_template_poster' => 'Download Poster Template',
+    'download_template_banner' => 'Download Banner Template',
 
     'info_virtual' => 'Participation is conducted <strong>virtually.</strong>',
     'info_uitm_physical' => 'UiTM Sarawak students and lecturers are <strong>required to attend physically.</strong>',
