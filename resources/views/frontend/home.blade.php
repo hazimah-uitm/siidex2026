@@ -172,6 +172,18 @@
                                 {{ __('messages.important_dates_note') }}
                             </p>
                         </div>
+
+                        <div class="schedule-promo-actions mt-4">
+                            <button type="button" class="btn btn-schedule-promo me-2 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#bannerModal">
+                                <i class="bi bi-image me-1"></i> {{ __('messages.view_banner') }}
+                            </button>
+
+                            <button type="button" class="btn btn-schedule-promo mb-2" data-bs-toggle="modal"
+                                data-bs-target="#posterModal">
+                                <i class="bi bi-file-earmark-image me-1"></i> {{ __('messages.view_poster') }}
+                            </button>
+                        </div>
                     </div>
 
                     <!-- Program Itinerary & Related Event -->
@@ -289,6 +301,50 @@
             </div>
         </div>
     </section>
+
+    <!-- Banner Modal -->
+    <div class="modal fade schedule-media-modal" id="bannerModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{{ __('messages.banner_preview_title') }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <img src="{{ asset('public/assets/frontend/img/banner.jpg') }}" class="img-fluid rounded shadow-sm">
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <a href="{{ asset('public/assets/frontend/img/banner.jpg') }}" download class="btn btn-download">
+                        <i class="bi bi-download me-1"></i> {{ __('messages.download_banner') }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Poster Modal -->
+    <div class="modal fade schedule-media-modal" id="posterModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{{ __('messages.poster_preview_title') }}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <img src="{{ asset('public/assets/frontend/img/poster.svg') }}" class="img-fluid rounded shadow-sm">
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <a href="{{ asset('public/assets/frontend/img/poster.svg') }}" download class="btn btn-download">
+                        <i class="bi bi-download me-1"></i> {{ __('messages.download_poster') }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- /Schedule Section -->
 
     <!-- background-info Section -->

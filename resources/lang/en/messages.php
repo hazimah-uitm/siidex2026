@@ -69,6 +69,12 @@ return [
     'date_seaim' => '15 September 2026',
     'date_desc_seaim' => 'SeAIM’26 – International Seminar',
     'seaim_official_site' => 'Official SeAIM’26 Website',
+    'view_banner' => 'View Banner',
+    'view_poster' => 'View Poster',
+    'banner_preview_title' => 'Banner Preview',
+    'poster_preview_title' => 'Poster Preview',
+    'download_banner' => 'Download Banner',
+    'download_poster' => 'Download Poster',
 
     // SCHEDULE
     'tentative_title' => 'SIIDEx 2026 TENTATIVE',

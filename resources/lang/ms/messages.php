@@ -53,6 +53,12 @@ return [
     'program_event_2' => 'SeAIM\'26 - Seminar Antarabangsa (Dianjurkan oleh UiTM Cawangan Pulau Pinang)',
     'program_location_2' => '',
     'seaim_official_site' => 'Laman Rasmi SeAIM',
+    'view_banner' => 'Lihat Banner',
+    'view_poster' => 'Lihat Poster',
+    'banner_preview_title' => 'Pratonton Banner',
+    'poster_preview_title' => 'Pratonton Poster',
+    'download_banner' => 'Muat Turun Banner',
+    'download_poster' => 'Muat Turun Poster',
 
     // TENTATIF
     'tentative_title' => 'TENTATIF SIIDEx 2026',
