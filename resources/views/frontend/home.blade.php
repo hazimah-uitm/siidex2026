@@ -432,7 +432,7 @@
             <div class="row gy-4">
 
                 <!-- Early Bird -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="pricing-column featured">
                         <div class="pricing-header">
                             <h3>{{ __('messages.early_bird_title') }}</h3>
@@ -457,7 +457,7 @@
                             <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
 
                             <div class="price-line single-price">
-                                <span class="price-label">{{ __('messages.uitm_staff_note') }}</span>
+                                <span class="price-label">{!! __('messages.uitm_staff_note') !!}</span>
                                 <span class="price-value">{{ __('messages.early_staff_price') }}</span>
                             </div>
                         </div>
@@ -486,7 +486,7 @@
                 </div>
 
                 <!-- Normal Price -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="pricing-column">
                         <div class="pricing-header">
                             <h3>{{ __('messages.normal_price_title') }}</h3>
@@ -511,7 +511,7 @@
                             <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
 
                             <div class="price-line single-price">
-                                <span class="price-label">{{ __('messages.uitm_staff_note') }}</span>
+                                <span class="price-label">{!! __('messages.uitm_staff_note') !!}</span>
                                 <span class="price-value">{{ __('messages.normal_staff_price') }}</span>
                             </div>
                         </div>
@@ -528,6 +528,60 @@
                                 <span class="price-label">{{ __('messages.international_label') }}</span>
                                 <span
                                     class="price-value">{{ __('messages.normal_professional_international_price') }}</span>
+                            </div>
+                        </div>
+
+                        <div class="pricing-action">
+                            <a href="https://example.com/fee-details" target="_blank" class="btn btn-fee">
+                                {{ __('messages.make_payment') }}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virtual Price -->
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="pricing-column">
+                        <div class="pricing-header">
+                            <h3>{{ __('messages.virtual_price_title') }}</h3>
+                            <p class="fw-bold">{{ __('messages.virtual_price_date') }}</p>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">{{ __('messages.student_title') }}</div>
+
+                            <div class="price-line">
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.virtual_student_local_price') }}</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span class="price-value">{{ __('messages.virtual_student_international_price') }}</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
+
+                            <div class="price-line single-price">
+                                <span class="price-label">{{ __('messages.uitm_staff_note1') }}</span>
+                                <span class="price-value">{{ __('messages.virtual_staff_price') }}</span>
+                            </div>
+                        </div>
+
+                        <div class="price-row">
+                            <div class="price-title">{{ __('messages.professional_title') }}</div>
+
+                            <div class="price-line">
+                                <span class="price-label">{{ __('messages.local_label') }}</span>
+                                <span class="price-value">{{ __('messages.virtual_professional_local_price') }}</span>
+                            </div>
+
+                            <div class="price-line">
+                                <span class="price-label">{{ __('messages.international_label') }}</span>
+                                <span
+                                    class="price-value">{{ __('messages.virtual_professional_international_price') }}</span>
                             </div>
                         </div>
 

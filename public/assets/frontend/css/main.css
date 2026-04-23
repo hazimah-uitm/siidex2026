@@ -2683,7 +2683,7 @@ section,
 .registrations .banner-title {
   font-size: 40px;
   font-weight: 800;
-  color: #fff;
+  color: var(--accent-color);
   margin-bottom: 12px;
   line-height: 1.1;
 }
