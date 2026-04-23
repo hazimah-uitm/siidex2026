@@ -130,45 +130,79 @@
 
                 <!-- LEFT: Tarikh Penting -->
                 <div class="col-lg-4">
-                    <div class="important-dates-box compact-dates" data-aos="fade-right" data-aos-delay="100">
+                    <!-- Important Dates -->
+                    <div class="important-dates-box compact-dates mb-4" data-aos="fade-right" data-aos-delay="100">
                         <h3 class="important-title">{{ __('messages.important_dates_title') }}</h3>
 
                         <div class="important-date-item">
                             <div class="date-icon">
                                 <i class="bi bi-calendar-event"></i>
                             </div>
-                            <div class="date-content">
-                                <h4>{{ __('messages.date_range_registration') }}</h4>
-                                <p>{{ __('messages.date_desc_registration') }}</p>
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                                <div>
+                                    <h4>{{ __('messages.early_bird_title') }}</h4>
+                                </div>
+                                <div class="text-end">
+                                    <p class="mb-0">{{ __('messages.early_bird_date_range') }}</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="important-date-item">
                             <div class="date-icon">
-                                <i class="bi bi-calendar-check"></i>
+                                <i class="bi bi-calendar-event"></i>
                             </div>
-                            <div class="date-content">
-                                <h4>{{ __('messages.date_siidex') }}</h4>
-                                <p>{{ __('messages.date_desc_siidex') }}</p>
-                                <small>{{ __('messages.date_siidex_time') }}</small>
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                                <div>
+                                    <h4>{{ __('messages.normal_rate_title') }}</h4>
+                                </div>
+                                <div class="text-end">
+                                    <p class="mb-0">{{ __('messages.normal_rate_date_range') }}</p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="important-date-item">
                             <div class="date-icon">
-                                <i class="bi bi-mic-fill"></i>
+                                <i class="bi bi-calendar-event"></i>
                             </div>
-                            <div class="date-content">
-                                <h4>{{ __('messages.date_seaim') }}</h4>
-                                <p>{{ __('messages.date_desc_seaim') }}</p>
-                                <small>
-                                    <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
-                                        {{ __('messages.seaim_official_site') }}
-                                    </a>
-                                </small>
+                            <div class="date-content d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                                <div>
+                                    <h4>{{ __('messages.virtual_rate_title') }}</h4>
+                                </div>
+                                <div class="text-end">
+                                    <p class="mb-0">{{ __('messages.virtual_rate_date_range') }}</p>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="important-date-note">
+                            <p class="mb-0">
+                                {{ __('messages.important_dates_note') }}
+                            </p>
                         </div>
                     </div>
+
+                    <!-- Program Itinerary & Related Event -->
+                    {{-- <div class="important-dates-box compact-dates related-event-box" data-aos="fade-right"
+                        data-aos-delay="150">
+                        <h3 class="important-title">{{ __('messages.program_itinerary_title') }}</h3>
+
+                        <div class="related-event-item">
+                            <h4>{{ __('messages.program_date_1') }}</h4>
+                            <p class="event-name mb-1">{{ __('messages.program_event_1') }}</p>
+                            <p class="event-location mb-0">{{ __('messages.program_location_1') }}</p>
+                        </div>
+
+                        <div class="related-event-item">
+                            <h4>{{ __('messages.program_date_2') }}</h4>
+                            <p class="event-name mb-1">{{ __('messages.program_event_2') }}</p>
+                            <p class="event-location mb-1">{{ __('messages.program_location_2') }}</p>
+                            <a href="https://sites.google.com/view/seaim-2026/main-page?authuser=1" target="_blank">
+                                {{ __('messages.seaim_official_site') }}
+                            </a>
+                        </div>
+                    </div> --}}
                 </div>
 
                 <!-- RIGHT: Tentatif -->
@@ -435,7 +469,7 @@
                 <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="pricing-column featured">
                         <div class="pricing-header">
-                            <h3>{{ __('messages.early_bird_title') }}</h3>
+                            <h3>{{ __('messages.early_bird_title1') }}</h3>
                             <p class="fw-bold">{{ __('messages.early_bird_date') }}</p>
                         </div>
 
@@ -931,21 +965,21 @@
         <div class="container">
             <div class="row gy-4">
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_chairperson_1') }}</h4>
                         <h3 class="name">Prof. Ir. Dr. Juferi Idris</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_chairperson_2') }}</h4>
-                        <h3 class="name">Ts. Dr. Norhisham Razali @ Ghazali</h3>
+                        <h3 class="name">Ts Dr. Mohd Norhisham Razali</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_deputy_chairperson') }}</h4>
                         <h3 class="name">Dr. Lee Wen Chiat</h3>
@@ -954,75 +988,134 @@
 
                 <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
-                        <h4 class="role">{{ __('messages.committee_secretary') }}</h4>
-                        <h3 class="name">Madam Hanita Tambi</h3>
+                        <h4 class="role">{{ __('messages.head_of_secretariat') }}</h4>
+                        <h3 class="name">Dr. Lee Wen Chiat</h3>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretary') }}</h4>
+                        <h3 class="name">Hanita Tambi</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretary2') }}</h4>
+                        <h3 class="name">Nur 'Aziera Basri</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_bursar_sponsorship') }}</h4>
+                        <h3 class="name">Ts. Dr. Mohd Rafiz Salji</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_treasurer') }}</h4>
-                        <h3 class="name">Ts. Dr. Mohd Rafiz Salji<br>Azura Ahmad</h3>
+                        <h3 class="name">Azura Ahmad</h3>
                     </div>
                 </div>
 
-            </div>
-
-            <div class="row gy-4 mt-4">
-
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_technical') }}</h4>
-                        <p class="name">Encik Mohd Shahrizi bin Razali</p>
+                        <h3 class="name">Mohd Shahrizi bin Razali</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_promotion_publicity_k') }}</h4>
+                        <h3 class="name">Chrisna indah</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_promotion_publicity_designer') }}</h4>
+                        <h3 class="name">Ts. Noraziah Razali</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_promotion_publicity') }}</h4>
-                        <p class="name">Chrisna Pindah</p>
+                        <h3 class="name">Mohd Syazwan Mohd Aris</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">{{ __('messages.committee_registration') }}</h4>
-                        <p class="name">Dr. Lee Wen Chiat<br>Jenny Yap</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
-                        <h4 class="role">{{ __('messages.committee_sponsorship') }}</h4>
-                        <p class="name">Ts. Dr. Nurzawani Md Sofwan</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_logistics') }}</h4>
-                        <p class="name">Dr. Hadi Jumaat</p>
+                        <h3 class="name">Dr. Hadi Jumaat</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_event_protocol') }}</h4>
-                        <p class="name">Abdul Hafiz Abdul Khalid</p>
+                        <h3 class="name">Abdul Hafiz Abdul Khalid</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_judging') }}</h4>
-                        <p class="name">Dr. Rudy Tawie</p>
+                        <h3 class="name">Dr. Rudy Tawie</h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <div class="committee-card small text-center">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_publication_k') }}</h4>
+                        <h3 class="name">AP Dr. Ting Siew King</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_publication') }}</h4>
-                        <p class="name">AP Dr. Ting Siew King</p>
+                        <h3 class="name">Ts. Dr. Nurzawani Md Sofwan</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
+                        <h3 class="name">Jenny Yap Tze Kie</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
+                        <h3 class="name">Kelvin Goh Tee Hiong</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
+                        <h3 class="name">Dr. Tay Siew Ying</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_secretariat') }}</h4>
+                        <h3 class="name">Nur Farah Fadhliah Mahmud</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="committee-card text-center">
+                        <h4 class="role">{{ __('messages.committee_proofread') }}</h4>
+                        <h3 class="name">Valerie Chan Sue Lin Abdullah</h3>
                     </div>
                 </div>
 

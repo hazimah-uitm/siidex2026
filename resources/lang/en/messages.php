@@ -38,6 +38,27 @@ return [
 
     // IMPORTANT DATES
     'important_dates_title' => 'Important Dates',
+    'early_bird_title1' => 'Early Bird',
+    'early_bird_date_range' => '23 April - 30 May 2026',
+
+    'normal_rate_title' => 'Normal Rate',
+    'normal_rate_date_range' => '01 June - 30 July 2026',
+
+    'virtual_rate_title' => 'Virtual Rate',
+    'virtual_rate_date_range' => '23 April - 30 June 2026',
+
+    'important_dates_note' => 'All registration, payment, video, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
+
+    'program_itinerary_title' => 'Program Itinerary & Related Event',
+    'program_date_1' => '14 September 2026',
+    'program_event_1' => 'SIIDEX 2026 - 8:00 AM - 5:00 PM',
+    'program_location_1' => 'Waterfront Hotel, Kuching, Sarawak',
+
+    'program_date_2' => '15 September 2026',
+    'program_event_2' => 'SeAIM\'26 - International Seminar (Hosted by UiTM Pulau Pinang Campus)',
+    'program_location_2' => '',
+    'seaim_official_site' => 'SeAIM Official Website',
+    'important_dates_title' => 'Important Dates',
     'date_range_registration' => '15 April - 30 June 2026',
     'date_desc_registration' => 'Registration, payment and abstract submission',
 
@@ -50,7 +71,7 @@ return [
     'seaim_official_site' => 'Official SeAIM’26 Website',
 
     // SCHEDULE
-    'tentative_title' => 'SIIDEx 2026 Tentative',
+    'tentative_title' => 'SIIDEx 2026 TENTATIVE',
     'tentative_badge_date' => '14 SEPTEMBER 2026',
 
     // TIMELINE
@@ -184,21 +205,27 @@ return [
 
     // committee
     'committee_title' => 'Organizing Committee',
-
     'committee_chairperson_1' => 'Chairperson 1',
     'committee_chairperson_2' => 'Chairperson 2',
     'committee_deputy_chairperson' => 'Deputy Chairperson',
-    'committee_secretary' => 'Secretary',
-    'committee_treasurer' => 'Treasurer',
-
+    'head_of_secretariat' => 'Head of Secretariat',
+    'committee_secretary' => 'Secretary 1',
+    'committee_secretary2' => 'Secretary 2',
+    'committee_bursar_sponsorship' => 'Bursar 1 & Sponsorship',
+    'committee_treasurer' => 'Bursar 2',
     'committee_technical' => 'Technical',
+    'committee_promotion_publicity_k' => 'Promotion & Publicity (K)',
+    'committee_promotion_publicity_designer' => 'Promotion & Publicity (Designer)',
     'committee_promotion_publicity' => 'Promotion & Publicity',
     'committee_registration' => 'Registration',
     'committee_sponsorship' => 'Sponsorship',
     'committee_logistics' => 'Logistics',
     'committee_event_protocol' => 'Event & Protocol',
     'committee_judging' => 'Judging',
+    'committee_publication_k' => 'Publication (K)',
     'committee_publication' => 'Publication',
+    'committee_secretariat' => 'Secretariat',
+    'committee_proofread' => 'Proofread & Language',
 
     // Contact
     'contact_title' => 'Contact Us',

@@ -1837,6 +1837,127 @@ section,
   text-decoration: underline;
 }
 
+.important-dates-box {
+    background: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    height: auto;
+}
+
+.important-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.important-date-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.important-date-item:last-of-type {
+    border-bottom: none;
+}
+
+.date-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: #fff3ee;
+    color: #f15a24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.date-content h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #f15a24;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.date-content p {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.important-date-note {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.important-date-note p {
+    font-size: 0.92rem;
+    font-style: italic;
+    color: #444;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.related-event-box {
+    margin-top: 0;
+}
+
+.related-event-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.related-event-item:last-child {
+    border-bottom: none;
+}
+
+.related-event-item h4 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.related-event-item .event-name {
+    font-size: 0.96rem;
+    font-weight: 700;
+    color: #111;
+    font-style: italic;
+}
+
+.related-event-item .event-location {
+    font-size: 0.93rem;
+    font-style: italic;
+    color: #555;
+}
+
+.related-event-item a {
+    font-size: 0.92rem;
+    word-break: break-word;
+}
+
+@media (max-width: 991.98px) {
+    .date-content {
+        width: 100%;
+    }
+
+    .date-content .text-end {
+        text-align: left !important;
+        width: 100%;
+    }
+}
+
 /* RIGHT CARD */
 .schedule .schedule-card {
   background: #fff;

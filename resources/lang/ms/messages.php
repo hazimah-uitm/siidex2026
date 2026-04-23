@@ -38,19 +38,24 @@ return [
 
     // TARIKH PENTING
     'important_dates_title' => 'Tarikh Penting',
-    'date_range_registration' => '15 April - 30 Jun 2026',
-    'date_desc_registration' => 'Pendaftaran, pembayaran dan penghantaran abstrak',
-
-    'date_siidex' => '14 September 2026',
-    'date_desc_siidex' => 'SIIDEx 2026',
-    'date_siidex_time' => '8.00 AM – 5.00 PM • Hotel Waterfront, Kuching',
-
-    'date_seaim' => '15 September 2026',
-    'date_desc_seaim' => 'SeAIM’26 – Seminar Antarabangsa',
-    'seaim_official_site' => 'Laman Rasmi SeAIM’26',
+    'early_bird_title' => 'Pendaftaran Awal',
+    'early_bird_date_range' => '23 April - 30 Mei 2026',
+    'normal_rate_title' => 'Kadar Biasa',
+    'normal_rate_date_range' => '01 Jun - 30 Julai 2026',
+    'virtual_rate_title' => 'Kadar Maya',
+    'virtual_rate_date_range' => '23 April - 30 Jun 2026',
+    'important_dates_note' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan hendaklah dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
+    'program_itinerary_title' => 'Atur Cara Program & Acara Berkaitan',
+    'program_date_1' => '14 September 2026',
+    'program_event_1' => 'SIIDEX 2026 - 8:00 Pagi - 5:00 Petang',
+    'program_location_1' => 'Waterfront Hotel, Kuching, Sarawak',
+    'program_date_2' => '15 September 2026',
+    'program_event_2' => 'SeAIM\'26 - Seminar Antarabangsa (Dianjurkan oleh UiTM Cawangan Pulau Pinang)',
+    'program_location_2' => '',
+    'seaim_official_site' => 'Laman Rasmi SeAIM',
 
     // TENTATIF
-    'tentative_title' => 'Tentatif SIIDEx 2026',
+    'tentative_title' => 'TENTATIF SIIDEx 2026',
     'tentative_badge_date' => '14 SEPTEMBER 2026',
 
     // MASA & AKTIVITI
@@ -109,11 +114,11 @@ return [
 
     // yuran
     'fee_title' => 'Yuran Penyertaan',
-    'early_bird_title' => 'Kadar Tawaran Awal',
+    'early_bird_title1' => 'Kadar Pendaftaran Awal',
     'early_bird_date' => '23 April 2026 - 31 Mei 2026',
-    'normal_price_title' => 'Kadar Standard',
+    'normal_price_title' => 'Kadar Biasa',
     'normal_price_date' => '1 Jun 2026 - 31 Julai 2026',
-    'virtual_price_title' => 'Kadar Virtual',
+    'virtual_price_title' => 'Kadar Maya',
     'virtual_price_date' => '23 April 2026 - 30 Jun 2026',
     'student_title' => 'Pelajar',
     'uitm_staff_title' => 'Staf UiTM',
@@ -184,21 +189,27 @@ return [
 
     // Jawatankuasa
     'committee_title' => 'Jawatankuasa Penganjur',
-
     'committee_chairperson_1' => 'Pengerusi 1',
     'committee_chairperson_2' => 'Pengerusi 2',
     'committee_deputy_chairperson' => 'Timbalan Pengerusi',
-    'committee_secretary' => 'Setiausaha',
-    'committee_treasurer' => 'Bendahari',
-
+    'head_of_secretariat' => 'Ketua Sekretariat',
+    'committee_secretary' => 'Setiausaha 1',
+    'committee_secretary2' => 'Setiausaha 2',
+    'committee_bursar_sponsorship' => 'Bendahari 1 & Penajaan',
+    'committee_treasurer' => 'Bendahari 2',
     'committee_technical' => 'Teknikal',
+    'committee_promotion_publicity_k' => 'Promosi & Publisiti (K)',
+    'committee_promotion_publicity_designer' => 'Promosi & Publisiti (Pereka)',
     'committee_promotion_publicity' => 'Promosi & Publisiti',
     'committee_registration' => 'Pendaftaran',
     'committee_sponsorship' => 'Penajaan',
     'committee_logistics' => 'Logistik',
     'committee_event_protocol' => 'Acara & Protokol',
-    'committee_judging' => 'Penjurian',
+    'committee_judging' => 'Penghakiman',
+    'committee_publication_k' => 'Penerbitan (K)',
     'committee_publication' => 'Penerbitan',
+    'committee_secretariat' => 'Sekretariat',
+    'committee_proofread' => 'Semakan & Bahasa',
 
     // Hubungi
     'contact_title' => 'Hubungi Kami',
