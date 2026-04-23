@@ -176,7 +176,7 @@ return [
 
     'medal_desc' => 'Medals and certificates of participation based on the results of the jury\'s evaluation.',
 
-    'awards_medal_note' => 'For the <strong>Gold, Silver and Bronze Awards</strong>, the presentation will be conducted <strong>online only</strong>.',
+    'awards_medal_note' => 'The <strong>Gold, Silver and Bronze Awards</strong> will be announced <strong>online</strong>.',
 
     // galeri
     'gallery_title' => 'Gallery',

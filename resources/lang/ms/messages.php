@@ -176,7 +176,7 @@ return [
 
     'medal_desc' => 'Pingat dan sijil penyertaan berdasarkan keputusan penilaian juri.',
 
-    'awards_medal_note' => 'Bagi Anugerah <strong>Emas, Perak dan Gangsa</strong>, pemberian adalah <strong>secara dalam talian sahaja</strong>.',
+    'awards_medal_note' => 'Anugerah <strong>Emas, Perak dan Gangsa</strong> akan diumumkan <strong>secara dalam talian</strong>.',
 
     // gallery
     'gallery_title' => 'Galeri',
