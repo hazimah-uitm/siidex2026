@@ -966,7 +966,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_chairperson_2') }}</h4>
-                        <h3 class="name">Ts Dr. Mohd Norhisham Razali</h3>
+                        <h3 class="name">Ts. Dr. Mohd Norhisham Razali</h3>
                     </div>
                 </div>
 
