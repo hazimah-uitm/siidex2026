@@ -1130,7 +1130,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
-                        <h3>Ts. Dr. Mohd Norhisham Razali @ Ghazali</h3>
+                        <h3>Ts. Dr. Mohd Norhisham Razali</h3>
                         <p class="contact-role">{{ __('messages.committee_chairperson_2') }}</p>
                         <p>019-8110064</p>
                     </div>
@@ -1157,7 +1157,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
-                        <h3>Puan Chrisna Pindah</h3>
+                        <h3>Chrisna Pindah</h3>
                         <p class="contact-role">{{ __('messages.committee_promotion_publicity') }}</p>
                         <p>014-3791534</p>
                     </div>
@@ -1166,7 +1166,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
-                        <h3>Puan Hanita Tambi</h3>
+                        <h3>Hanita Tambi</h3>
                         <p class="contact-role">{{ __('messages.committee_secretary') }}</p>
                         <p>013-8397102</p>
                     </div>
