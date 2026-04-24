@@ -60,6 +60,7 @@
                             <li><a href="#schedule">{{ __('messages.important_dates') }}</a></li>
                             <li><a href="#category">{{ __('messages.participation_category') }}</a></li>
                             <li><a href="#fee">{{ __('messages.fee') }}</a></li>
+                            <li><a href="#registrations">{{ __('messages.registration_info') }}</a></li>
                             <li><a href="#awards">{{ __('messages.awards') }}</a></li>
                         </ul>
                     </li>

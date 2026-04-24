@@ -8,6 +8,7 @@ return [
     'important_dates' => 'Important Dates',
     'participation_category' => 'Entry Categories',
     'fee' => 'Fee',
+    'registration_info' => 'Registration Info',
     'awards' => 'Awards',
     'gallery' => 'Gallery',
     'contact_us' => 'Contact Us',
@@ -173,7 +174,7 @@ return [
 
     // registration
     'registration_title' => 'REGISTRATION',
-    'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
+    'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed in a single online submission before the deadline. Participants are also required to prepare an abstract template and a presentation bunting in accordance with the given criteria. For those involved in the physical exhibition, the bunting must be printed and brought for display during the event.',
 
     'download_abstract' => 'Download Extended Abstract Template',
     'download_template_poster' => 'Download Bunting Template',

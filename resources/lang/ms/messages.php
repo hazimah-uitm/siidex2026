@@ -8,6 +8,7 @@ return [
     'important_dates' => 'Tarikh Penting',
     'participation_category' => 'Kategori Penyertaan',
     'fee' => 'Yuran',
+    'registration_info' => 'Info Pendaftaran',
     'awards' => 'Anugerah',
     'gallery' => 'Galeri',
     'contact_us' => 'Hubungi Kami',
@@ -157,7 +158,7 @@ return [
 
     // pendaftaran
     'registration_title' => 'PENDAFTARAN',
-    'registration_subtitle' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan adalah diwajibkan untuk dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
+    'registration_subtitle' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan hendaklah diselesaikan melalui satu proses penghantaran dalam talian sebelum tarikh akhir. Peserta juga dikehendaki menyediakan templat abstrak serta reka bentuk bunting pembentangan mengikut kriteria yang ditetapkan. Bagi peserta yang terlibat dalam pameran fizikal, bunting tersebut hendaklah dicetak dan dibawa untuk dipamerkan sepanjang acara berlangsung.',
 
     'download_abstract' => 'Muat Turun Templat Abstrak',
     'download_template_poster' => 'Muat Turun Templat Bunting',
