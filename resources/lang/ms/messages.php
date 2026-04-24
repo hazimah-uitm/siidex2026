@@ -3,7 +3,7 @@
 return [
     'home' => 'Utama',
     'background' => 'Latar Belakang',
-    'theme_text' => '“Mencipta, Berinovasi dan Merealisasikan Idea untuk Masa Depan yang Lebih Baik”',
+    'theme_text' => '“Creating, Innovating and Realising Ideas for a Better Future”',
     'participation_info' => 'Info Penyertaan',
     'important_dates' => 'Tarikh Penting',
     'participation_category' => 'Kategori Penyertaan',
@@ -25,7 +25,7 @@ return [
     'countdown_hours' => 'Jam',
     'countdown_minutes' => 'Minit',
     'countdown_seconds' => 'Saat',
-    'countdown_ended' => 'Acara sedang berlangsung!',
+    'countdown_ended' => 'Penyertaan telah ditutup. Terima kasih atas penyertaan anda!',
 
     'hero_organizer_text' => 'UiTM Cawangan Sarawak',
     'hero_co_organizer_text' => 'UiTM Cawangan Pulau Pinang',
@@ -160,7 +160,7 @@ return [
     'registration_subtitle' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan adalah diwajibkan untuk dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
 
     'download_abstract' => 'Muat Turun Templat Abstrak',
-    'download_template_poster' => 'Muat Turun Templat Poster & Bunting',
+    'download_template_poster' => 'Muat Turun Templat Bunting',
     'download_template_banner' => 'Muat Turun Templat Bunting',
 
     'info_virtual' => 'Penyertaan dilaksanakan secara <strong>atas talian.</strong>',

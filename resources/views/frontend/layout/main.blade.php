@@ -198,7 +198,7 @@
     <!-- Main JS File -->
     <script src="{{ asset('public/assets/frontend/js/main.js') }}"></script>
     <script>
-        var eventDate = new Date("2026-09-14T08:00:00").getTime();
+        var eventDate = new Date("2026-07-30T23:59:59").getTime();
 
         function animateNumber(id, value) {
             var el = document.getElementById(id);

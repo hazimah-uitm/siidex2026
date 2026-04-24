@@ -25,7 +25,7 @@ return [
     'countdown_hours' => 'Hours',
     'countdown_minutes' => 'Minutes',
     'countdown_seconds' => 'Seconds',
-    'countdown_ended' => 'The event is now taking place!',
+    'countdown_ended' => 'The submission period is now closed. Thank you for your participation!',
 
     'hero_organizer_text' => 'UiTM Sarawak Branch',
     'hero_co_organizer_text' => 'UiTM Pulau Pinang Branch',
@@ -176,7 +176,7 @@ return [
     'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
 
     'download_abstract' => 'Download Extended Abstract Template',
-    'download_template_poster' => 'Download Poster & Banner Template',
+    'download_template_poster' => 'Download Bunting Template',
     'download_template_banner' => 'Download Banner Template',
 
     'info_virtual' => 'Participation is conducted <strong>virtually.</strong>',
