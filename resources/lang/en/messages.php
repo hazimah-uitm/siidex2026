@@ -176,7 +176,7 @@ return [
     'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
 
     'download_abstract' => 'Download Extended Abstract Template',
-    'download_template_poster' => 'Download Poster Template',
+    'download_template_poster' => 'Download Poster & Banner Template',
     'download_template_banner' => 'Download Banner Template',
 
     'info_virtual' => 'Participation is conducted <strong>virtually.</strong>',
