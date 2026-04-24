@@ -223,7 +223,7 @@ return [
     'committee_technical' => 'Technical',
     'committee_promotion_publicity_k' => 'Promotion & Publicity (K)',
     'committee_promotion_publicity_designer' => 'Promotion & Publicity (Designer)',
-    'committee_promotion_publicity' => 'Promotion & Publicity',
+    'committee_promotion_publicity' => 'Promotion & Publicity (Website)',
     'committee_registration' => 'Registration',
     'committee_sponsorship' => 'Sponsorship',
     'committee_logistics' => 'Logistics',

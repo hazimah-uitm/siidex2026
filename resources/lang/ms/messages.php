@@ -207,7 +207,7 @@ return [
     'committee_technical' => 'Teknikal',
     'committee_promotion_publicity_k' => 'Promosi & Publisiti (K)',
     'committee_promotion_publicity_designer' => 'Promosi & Publisiti (Pereka)',
-    'committee_promotion_publicity' => 'Promosi & Publisiti',
+    'committee_promotion_publicity' => 'Promosi & Publisiti (Laman Web)',
     'committee_registration' => 'Pendaftaran',
     'committee_sponsorship' => 'Penajaan',
     'committee_logistics' => 'Logistik',
