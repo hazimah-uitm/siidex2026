@@ -1236,7 +1236,7 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-2 gy-4">
                 <div class="col-lg-6">
                     <div
                         class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
@@ -1249,7 +1249,8 @@
                 <div class="col-lg-6">
                     <div
                         class="info-item d-flex flex-column justify-content-center align-items-center text-center contact-email-box">
-                        <a href="https://web.facebook.com/pji.uitm.sarawak/" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://web.facebook.com/pji.uitm.sarawak/" target="_blank"><i
+                                class="bi bi-facebook"></i></a>
                         <h3>{{ __('messages.facebook') }}</h3>
                         <p>
                             <a href="https://web.facebook.com/pji.uitm.sarawak/" target="_blank">
