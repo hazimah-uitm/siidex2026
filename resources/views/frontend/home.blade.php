@@ -1212,7 +1212,7 @@
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Ts. Dr. Mohd Rafiz Salji</h3>
-                        <p class="contact-role">{{ __('messages.committee_treasurer') }}</p>
+                        <p class="contact-role">{{ __('messages.committee_bursar_sponsorship') }}</p>
                         <p>019-3228539</p>
                     </div>
                 </div>
@@ -1221,7 +1221,7 @@
                     <div class="info-item d-flex flex-column justify-content-center align-items-center text-center">
                         <i class="bi bi-person"></i>
                         <h3>Chrisna Pindah</h3>
-                        <p class="contact-role">{{ __('messages.committee_promotion_publicity') }}</p>
+                        <p class="contact-role">{{ __('messages.committee_promotion_publicity_k') }}</p>
                         <p>014-3791534</p>
                     </div>
                 </div>
