@@ -1078,7 +1078,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="committee-card text-center">
                         <h4 class="role">{{ __('messages.committee_promotion_publicity_k') }}</h4>
-                        <h3 class="name">Chrisna indah</h3>
+                        <h3 class="name">Chrisna Pindah</h3>
                     </div>
                 </div>
 
