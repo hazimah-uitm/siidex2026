@@ -721,7 +721,7 @@
                                     <div class="row g-2">
                                         <div class="col-12 mb-2">
                                             <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
-                                                target="_blank" class="btn btn-light w-100">
+                                                class="btn btn-light w-100">
                                                 <i class="bi bi-file-earmark-text me-2"></i>
                                                 {{ __('messages.download_abstract') }}
                                             </a>
