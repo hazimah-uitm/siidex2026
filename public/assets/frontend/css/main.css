@@ -2776,7 +2776,7 @@ section,
 
 .fee .pricing-action {
   margin-top: auto;
-  padding-top: 24px;
+  padding-top: 0px;
 }
 
 .fee .btn-fee {
@@ -2839,6 +2839,29 @@ section,
   }
 }
 
+.fee .btn-payment-inline {
+  margin-top: 12px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  background: #fff;
+  color: var(--accent-color);
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.fee .btn-payment-inline:hover {
+  background: #fff;
+  color: var(--accent-color);
+  opacity: 0.95;
+  transform: translateY(-2px);
+}
 /*--------------------------------------------------------------
 # Registrations Section
 --------------------------------------------------------------*/

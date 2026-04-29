@@ -532,6 +532,13 @@
                                 <span class="price-label">{{ __('messages.international_label') }}</span>
                                 <span class="price-value">{{ __('messages.early_student_international_price') }}</span>
                             </div>
+
+                            <div class="pricing-action">
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6370" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
+                            </div>
                         </div>
 
                         <div class="price-row">
@@ -540,6 +547,13 @@
                             <div class="price-line single-price">
                                 <span class="price-label">{!! __('messages.uitm_staff_note') !!}</span>
                                 <span class="price-value">{{ __('messages.early_staff_price') }}</span>
+                            </div>
+
+                            <div class="pricing-action">
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6372" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
                             </div>
                         </div>
 
@@ -556,6 +570,13 @@
                                 <span
                                     class="price-value">{{ __('messages.early_professional_international_price') }}</span>
                             </div>
+
+                            <div class="pricing-action">
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6393" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
+                            </div>
                         </div>
 
                         {{-- <div class="pricing-action">
@@ -563,11 +584,11 @@
                                 {{ __('messages.make_payment') }}
                             </a>
                         </div> --}}
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <button type="button" class="btn btn-fee btn-fee-light" disabled>
                                 {{ __('messages.coming_soon') }}
                             </button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -591,6 +612,12 @@
                                 <span class="price-label">{{ __('messages.international_label') }}</span>
                                 <span class="price-value">{{ __('messages.normal_student_international_price') }}</span>
                             </div>
+
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
+                            </div>
                         </div>
 
                         <div class="price-row">
@@ -599,6 +626,12 @@
                             <div class="price-line single-price">
                                 <span class="price-label">{!! __('messages.uitm_staff_note') !!}</span>
                                 <span class="price-value">{{ __('messages.normal_staff_price') }}</span>
+                            </div>
+
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
                             </div>
                         </div>
 
@@ -615,6 +648,12 @@
                                 <span
                                     class="price-value">{{ __('messages.normal_professional_international_price') }}</span>
                             </div>
+
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
+                            </div>
                         </div>
 
                         {{-- <div class="pricing-action">
@@ -622,11 +661,11 @@
                                 {{ __('messages.make_payment') }}
                             </a>
                         </div> --}}
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <button type="button" class="btn btn-fee" disabled>
                                 {{ __('messages.coming_soon') }}
                             </button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
@@ -650,6 +689,11 @@
                                 <span class="price-label">{{ __('messages.international_label') }}</span>
                                 <span class="price-value">{{ __('messages.virtual_student_international_price') }}</span>
                             </div>
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
+                            </div>
                         </div>
 
                         <div class="price-row">
@@ -658,6 +702,11 @@
                             <div class="price-line single-price">
                                 <span class="price-label">{{ __('messages.uitm_staff_note1') }}</span>
                                 <span class="price-value">{{ __('messages.virtual_staff_price') }}</span>
+                            </div>
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
                             </div>
                         </div>
 
@@ -674,6 +723,11 @@
                                 <span
                                     class="price-value">{{ __('messages.virtual_professional_international_price') }}</span>
                             </div>
+                            <div class="pricing-action">
+                                <button type="button" class="btn btn-fee" disabled>
+                                    {{ __('messages.coming_soon') }}
+                                </button>
+                            </div>
                         </div>
 
                         {{-- <div class="pricing-action">
@@ -681,11 +735,11 @@
                                 {{ __('messages.make_payment') }}
                             </a>
                         </div> --}}
-                        <div class="pricing-action">
+                        {{-- <div class="pricing-action">
                             <button type="button" class="btn btn-fee" disabled>
                                 {{ __('messages.coming_soon') }}
                             </button>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
