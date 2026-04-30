@@ -1877,7 +1877,7 @@ section,
     flex-shrink: 0;
 }
 
-.date-content h4 {
+/* .date-content h4 {
     font-size: 0.95rem;
     font-weight: 700;
     margin-bottom: 4px;
@@ -1887,7 +1887,7 @@ section,
     display: inline-block;
     padding: 4px 12px;
     border-radius: 8px;
-}
+} */
 
 .date-content p {
     font-size: 0.95rem;

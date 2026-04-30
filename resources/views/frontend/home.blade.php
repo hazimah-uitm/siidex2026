@@ -167,11 +167,11 @@
                             </div>
                         </div>
 
-                        <div class="important-date-note">
+                        {{-- <div class="important-date-note">
                             <p class="mb-0">
                                 {{ __('messages.important_dates_note') }}
                             </p>
-                        </div>
+                        </div> --}}
 
                         <div class="schedule-promo-actions mt-4">
                             <button type="button" class="btn btn-schedule-promo me-2 mb-2" data-bs-toggle="modal"
