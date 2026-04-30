@@ -701,7 +701,7 @@
                             <div class="price-title">{{ __('messages.uitm_staff_title') }}</div>
 
                             <div class="price-line single-price">
-                                <span class="price-label">{!! __('messages.uitm_staff_note') !!}</span>
+                                <span class="price-label">{{ __('messages.uitm_staff_note1') }}</span>
                                 <span class="price-value">{{ __('messages.virtual_staff_price') }}</span>
                             </div>
                             <div class="pricing-action">
