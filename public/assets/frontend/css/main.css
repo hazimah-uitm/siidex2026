@@ -321,7 +321,7 @@ h6 {
 
 .language-toggle span {
   font-size: 14px;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 500;
   transition: 0.3s;
 }
@@ -374,11 +374,11 @@ h6 {
   transition: .3s;
 }
 
-.switch input:checked + .slider {
+.switch input:checked+.slider {
   background-color: #ff6a00;
 }
 
-.switch input:checked + .slider:before {
+.switch input:checked+.slider:before {
   transform: translateX(20px);
 }
 
@@ -491,7 +491,7 @@ h6 {
     z-index: 9997;
   }
 
-  .mobile-nav-active .navmenu > ul {
+  .mobile-nav-active .navmenu>ul {
     display: block;
   }
 }
@@ -909,29 +909,33 @@ h6 {
 }
 
 .footer-logo img {
-    max-height: 60px;   /* control tinggi */
-    width: auto;        /* maintain ratio */
-    object-fit: contain;
+  max-height: 60px;
+  /* control tinggi */
+  width: auto;
+  /* maintain ratio */
+  object-fit: contain;
 }
 
 /* Footer top jadi putih */
 .footer .footer-top {
-  background-color: #ffffff !important; /* putih solid */
+  background-color: #ffffff !important;
+  /* putih solid */
   padding-top: 60px;
   padding-bottom: 40px;
 }
 
 /* Optional: tambah shadow sikit supaya nampak naik */
 .footer .footer-top {
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.03);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.03);
 }
 
 .footer .copyright {
-  padding: 40px 0 30px 0; /* tambah ruang atas */
+  padding: 40px 0 30px 0;
+  /* tambah ruang atas */
 }
 
 .siidex-logo img {
-    max-height: 120px;
+  max-height: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -1452,59 +1456,59 @@ section,
 }
 
 .history-list {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .history-row {
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    gap: 20px;
-    align-items: start;
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 20px;
+  align-items: start;
 }
 
 .history-year {
-    font-size: 32px;
-    font-weight: 700;
-    color: #e96722;
-    line-height: 1;
-    padding-top: 10px;
-    position: sticky;
-    top: 100px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #e96722;
+  line-height: 1;
+  padding-top: 10px;
+  position: sticky;
+  top: 100px;
 }
 
 .history-content,
 .highlight-card {
-    background: #fff;
-    border-radius: 18px;
-    padding: 28px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-    border: 1px solid rgba(0,0,0,0.05);
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .highlight-card {
-    background: linear-gradient(135deg, #f8fbff, #ffffff);
+  background: linear-gradient(135deg, #f8fbff, #ffffff);
 }
 
 .history-content p,
 .highlight-card p {
-    margin-bottom: 0;
-    line-height: 1.8;
-    text-align: justify;
+  margin-bottom: 0;
+  line-height: 1.8;
+  text-align: justify;
 }
 
 @media (max-width: 991px) {
-    .history-row {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
+  .history-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 
-    .history-year {
-        position: static;
-        font-size: 26px;
-        padding-top: 0;
-    }
+  .history-year {
+    position: static;
+    font-size: 26px;
+    padding-top: 0;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1538,7 +1542,7 @@ section,
   font-size: 15px;
 }
 
-.background-info .timeline-card p + p {
+.background-info .timeline-card p+p {
   margin-top: 10px;
 }
 
@@ -1663,7 +1667,7 @@ section,
   border-radius: 14px;
   padding: 20px;
   border: 1px solid #e5e7eb;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
 }
 
 /* Header */
@@ -1695,7 +1699,7 @@ section,
 .background-info .category-card:hover {
   background: #ffffff;
   border-color: var(--accent-color);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
   transform: translateY(-2px);
 }
 
@@ -1704,7 +1708,8 @@ section,
   width: 38px;
   height: 38px;
   border-radius: 8px;
-  background: rgba(59, 130, 246, 0.08); /* soft accent */
+  background: rgba(59, 130, 246, 0.08);
+  /* soft accent */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1838,43 +1843,43 @@ section,
 }
 
 .important-dates-box {
-    background: #fff;
-    border-radius: 20px;
-    padding: 24px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    height: auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: auto;
 }
 
 .important-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .important-date-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    padding: 14px 0;
-    border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
 }
 
 .important-date-item:last-of-type {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .date-icon {
-    width: 42px;
-    height: 42px;
-    border-radius: 10px;
-    background: #fff3ee;
-    color: #f15a24;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: #fff3ee;
+  color: #f15a24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
 }
 
 /* .date-content h4 {
@@ -1890,71 +1895,71 @@ section,
 } */
 
 .date-content p {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #222;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #222;
 }
 
 .important-date-note {
-    margin-top: 10px;
-    padding-top: 16px;
+  margin-top: 10px;
+  padding-top: 16px;
 }
 
 .important-date-note p {
-    font-size: 0.92rem;
-    font-style: italic;
-    color: #444;
-    line-height: 1.5;
-    text-align: center;
+  font-size: 0.92rem;
+  font-style: italic;
+  color: #444;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .related-event-box {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .related-event-item {
-    padding: 12px 0;
-    border-bottom: 1px solid #eee;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
 }
 
 .related-event-item:last-child {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .related-event-item h4 {
-    font-size: 1.1rem;
-    font-weight: 800;
-    margin-bottom: 6px;
-    color: #222;
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: #222;
 }
 
 .related-event-item .event-name {
-    font-size: 0.96rem;
-    font-weight: 700;
-    color: #111;
-    font-style: italic;
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: #111;
+  font-style: italic;
 }
 
 .related-event-item .event-location {
-    font-size: 0.93rem;
-    font-style: italic;
-    color: #555;
+  font-size: 0.93rem;
+  font-style: italic;
+  color: #555;
 }
 
 .related-event-item a {
-    font-size: 0.92rem;
-    word-break: break-word;
+  font-size: 0.92rem;
+  word-break: break-word;
 }
 
 @media (max-width: 991.98px) {
-    .date-content {
-        width: 100%;
-    }
+  .date-content {
+    width: 100%;
+  }
 
-    .date-content .text-end {
-        text-align: left !important;
-        width: 100%;
-    }
+  .date-content .text-end {
+    text-align: left !important;
+    width: 100%;
+  }
 }
 
 .schedule .schedule-promo-actions {
@@ -2267,7 +2272,8 @@ section,
   font-size: 1.15rem;
   line-height: 1.4;
   margin-bottom: 14px;
-  padding-right: 90px; /* elak heading terlalu rapat dgn label */
+  padding-right: 90px;
+  /* elak heading terlalu rapat dgn label */
 }
 
 .kategori-card p {
@@ -2449,19 +2455,21 @@ section,
   padding: 20px 10px;
   border-radius: 12px;
   transition: 0.3s;
-  border: 1px solid #e5e7eb; /* soft grey */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+  border: 1px solid #e5e7eb;
+  /* soft grey */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
 }
 
 .committee-card:hover {
   transform: translateY(-5px);
   border-color: var(--accent-color);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
 .committee-card .role {
   font-size: 13px;
-  color: var(--accent-color); /* ikut theme kau */
+  color: var(--accent-color);
+  /* ikut theme kau */
   font-weight: 600;
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -2471,7 +2479,8 @@ section,
 .committee-card .name {
   font-size: 18px;
   font-weight: 600;
-  color: #1f2937; /* dark grey (nice readable) */
+  color: #1f2937;
+  /* dark grey (nice readable) */
   line-height: 1.4;
 }
 
@@ -2862,16 +2871,27 @@ section,
   opacity: 0.95;
   transform: translateY(-2px);
 }
+
+/* Force Virtual column button jadi oren */
+.fee .col-lg-4:nth-child(3) .btn-payment-inline {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.fee .col-lg-4:nth-child(3) .btn-payment-inline:hover {
+  background: var(--accent-color);
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Registrations Section
 --------------------------------------------------------------*/
 #registrations {
-  padding: 0; 
+  padding: 0;
 }
 
 .registrations .registration-banner {
   background: linear-gradient(135deg, #0f2747 0%, #183b63 100%);
-  padding: 40px;
+  padding: 34px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   position: relative;
@@ -2880,142 +2900,285 @@ section,
 .registrations .registration-banner::before {
   content: "";
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -70px;
+  right: -70px;
   width: 220px;
   height: 220px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 50%;
-  transform: translate(30%, -30%);
 }
 
-.registrations .banner-left,
-.registrations .banner-info-list {
+.registrations .registration-banner::after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  width: 220px;
+  height: 220px;
+  background: rgba(248, 119, 27, 0.08);
+  border-radius: 50%;
+}
+
+.registrations .registration-intro-wrap,
+.registrations .registration-note-card,
+.registrations .download-checklist-card,
+.registrations .registration-side-clean {
   position: relative;
   z-index: 2;
 }
 
-.registrations .banner-label {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.75);
-  margin-bottom: 12px;
+/* Top */
+.registrations .registration-intro-wrap {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 24px;
+  align-items: center;
+}
+
+.registrations .registration-intro {
+  max-width: 980px;
 }
 
 .registrations .banner-title {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 800;
-  color: var(--accent-color);
-  margin-bottom: 12px;
+  color: #f8771b;
+  margin-bottom: 10px;
   line-height: 1.1;
 }
 
 .registrations .banner-text {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.82);
-  margin-bottom: 25px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.92);
 }
 
-.registrations .banner-buttons .btn {
-  padding: 12px 22px;
-  font-weight: 600;
+/* Register Button */
+.registrations .btn-main {
+  background: #f8771b;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 12px;
+  min-height: 58px;
+  box-shadow: 0 10px 20px rgba(248, 119, 27, 0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.registrations .btn-main:hover {
+  background: #ff8a33;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Note */
+.registrations .registration-note-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 4px solid #f8771b;
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.registrations .note-icon {
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  border-radius: 50%;
+  background: #f8771b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.registrations .note-text {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Stretch Layout */
+.registrations .row.align-items-stretch > [class*="col-"] {
+  display: flex;
+}
+
+.registrations .download-checklist-card,
+.registrations .registration-side-clean {
+  width: 100%;
+}
+
+/* Checklist Card */
+.registrations .download-checklist-card {
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  padding: 16px;
+  backdrop-filter: blur(4px);
+}
+
+.registrations .checklist-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.registrations .checklist-header-icon {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
   border-radius: 8px;
+  background: #f8771b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }
 
-.registrations .banner-buttons .btn-outline-light {
-  border-width: 1.5px;
+.registrations .checklist-header h5 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Download Buttons */
+.registrations .registration-download-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.registrations .download-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  min-height: 46px;
+  background: #fde7d6; /* light orange */
+  color: #0f2747;
+  border: 1.5px solid rgba(248, 119, 27, 0.65);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.registrations .download-card:hover {
+  background: #f8771b; /* bright orange */
+  color: #fff;
+  border-color: #f8771b;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(248, 119, 27, 0.35);
+}
+
+.registrations .download-arrow {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 7px;
+  background: rgba(248, 119, 27, 0.12);
+  color: #f8771b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.registrations .download-card:hover .download-arrow {
+  background: #f8771b;
+  color: #fff;
+}
+
+.registrations .download-card:hover .download-icon {
+  background: #f8771b;
+  color: #ffffff;
+}
+
+.registrations .download-card span:nth-child(2) {
+  flex: 1;
+}
+
+.registrations .download-icon {
+  margin-left: auto;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 7px;
+  background: #f8771b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* Right Info */
+.registrations .registration-side-clean {
+  height: 100%;
+  display: flex;
 }
 
 .registrations .banner-info-list {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
 
 .registrations .banner-info-item {
   display: flex;
   align-items: center;
-  gap: 16px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 16px 18px;
-  backdrop-filter: blur(4px);
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 12px;
 }
 
 .registrations .banner-icon {
-  width: 50px;
-  height: 50px;
-  min-width: 50px;
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
   border-radius: 50%;
   background: #fff;
   color: #0f2747;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  font-size: 16px;
 }
 
 .registrations .banner-info-text {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
   color: #fff;
 }
 
 .registrations .banner-info-text strong {
   color: #f8771b;
-  font-weight: 700;
+  font-weight: 800;
 }
 
-@media (max-width: 991.98px) {
-  .registrations .registration-banner {
-    padding: 30px 24px;
-  }
-
-  .registrations .banner-title {
-    font-size: 32px;
-  }
-
-  .registrations .banner-text {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .registrations .registration-banner {
-    padding: 24px 18px;
-    border-radius: 14px;
-  }
-
-  .registrations .banner-title {
-    font-size: 28px;
-  }
-
-  .registrations .banner-info-item {
-    padding: 14px;
-    gap: 12px;
-  }
-
-  .registrations .banner-icon {
-    width: 42px;
-    height: 42px;
-    min-width: 42px;
-    font-size: 18px;
-  }
-
-  .registrations .banner-info-text {
-    font-size: 14px;
-  }
-}
-
-/* Highlight special item */
 .registrations .banner-info-item.highlight {
-  background: linear-gradient(135deg, rgba(255, 211, 106, 0.15), rgba(255, 211, 106, 0.05));
-  border: 1px solid rgba(255, 211, 106, 0.4);
+  background: rgba(255, 211, 106, 0.12);
+  border: 1px solid rgba(255, 211, 106, 0.45);
 }
 
 .registrations .banner-info-item.highlight .banner-icon {
@@ -3023,17 +3186,82 @@ section,
   color: #0f2747;
 }
 
-.registrations .banner-buttons .btn {
-  padding: 14px 18px;
-  font-weight: 600;
-  border-radius: 10px;
-  font-size: 15px;
+/* Responsive */
+@media (max-width: 991.98px) {
+  .registrations .registration-banner {
+    padding: 30px 22px;
+  }
+
+  .registrations .registration-intro-wrap {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .registrations .banner-title {
+    font-size: 30px;
+  }
+
+  .registrations .btn-main {
+    min-height: auto;
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+
+  .registrations .row.align-items-stretch > [class*="col-"] {
+    display: block;
+  }
+
+  .registrations .banner-info-item {
+    min-height: 58px;
+  }
 }
 
-.registrations .banner-buttons .row .btn {
-  font-size: 14px;
-}
+@media (max-width: 575.98px) {
+  .registrations .registration-banner {
+    padding: 22px 16px;
+    border-radius: 14px;
+  }
 
+  .registrations .banner-title {
+    font-size: 26px;
+  }
+
+  .registrations .banner-text,
+  .registrations .note-text {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .registrations .registration-note-card {
+    align-items: flex-start;
+    padding: 13px;
+    gap: 10px;
+  }
+
+  .registrations .note-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    font-size: 13px;
+  }
+
+  .registrations .download-checklist-card {
+    padding: 14px;
+  }
+
+  .registrations .checklist-header h5 {
+    font-size: 15px;
+  }
+
+  .registrations .download-card {
+    font-size: 12px;
+    min-height: 44px;
+  }
+
+  .registrations .banner-info-text {
+    font-size: 12px;
+  }
+}
 /*--------------------------------------------------------------
 # Highlight Section
 --------------------------------------------------------------*/

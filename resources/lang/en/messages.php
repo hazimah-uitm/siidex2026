@@ -174,17 +174,23 @@ return [
 
     // registration
     'registration_title' => 'REGISTRATION',
-    'registration_subtitle' => 'All registration, payment, video submission, and extended abstract requirements must be completed in a single online submission before the deadline. Participants are also required to prepare an abstract template and a presentation bunting in accordance with the given criteria. For those involved in the physical exhibition, the bunting must be printed and brought for display during the event.',
 
-    'download_abstract' => 'Download Extended Abstract Template',
-    'download_template_poster' => 'Download Bunting Template',
-    'download_template_banner' => 'Download Banner Template',
+    'registration_subtitle' => 'All registration requirements, including payment, video submission, and extended abstract submission, must be completed through a single online submission before the stated deadline. Participants are advised to review and download all required documents and templates to ensure compliance with SIIDEX 2026 participation requirements.',
+
+    'registration_checklist_title' => 'Registration Download Checklist',
+
+    'registration_note' => 'Participants are required to prepare their extended abstract and presentation materials in accordance with the provided templates and guidelines. Physical exhibition participants must print and display their bunting during the event. Virtual participants are required to prepare their poster presentation based on the official SIIDEX 2026 poster template.',
+
+    'btn_terms' => 'SIIDEX 2026 Participant Terms and Conditions',
+    'btn_flow' => 'SIIDEX 2026 Participation Flow Chart',
+    'btn_abstract' => 'SIIDEX 2026 Extended Abstract Template',
+    'btn_bunting' => 'SIIDEX 2026 Bunting Template (For Physical Participants)',
+    'btn_poster' => 'SIIDEX 2026 Poster Template (For Virtual Participants)',
 
     'info_virtual' => 'Participation is conducted <strong>virtually.</strong>',
     'info_uitm_physical' => 'UiTM Sarawak students and lecturers are <strong>required to attend physically.</strong>',
     'info_limit' => 'Physical participation is limited to <strong>60 products.</strong>',
     'info_award' => 'SIIDEx 2026 winners will be sent to <strong>international competitions & IIDEX 2026.</strong>',
-
     // awards
     'awards_title' => 'Awards',
 

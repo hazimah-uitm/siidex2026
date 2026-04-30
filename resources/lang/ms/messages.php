@@ -158,17 +158,23 @@ return [
 
     // pendaftaran
     'registration_title' => 'PENDAFTARAN',
-    'registration_subtitle' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan hendaklah diselesaikan melalui satu proses penghantaran dalam talian sebelum tarikh akhir. Peserta juga dikehendaki menyediakan templat abstrak serta reka bentuk bunting pembentangan mengikut kriteria yang ditetapkan. Bagi peserta yang terlibat dalam pameran fizikal, bunting tersebut hendaklah dicetak dan dibawa untuk dipamerkan sepanjang acara berlangsung.',
 
-    'download_abstract' => 'Muat Turun Templat Abstrak',
-    'download_template_poster' => 'Muat Turun Templat Bunting',
-    'download_template_banner' => 'Muat Turun Templat Bunting',
+    'registration_subtitle' => 'Semua keperluan pendaftaran, termasuk pembayaran, penghantaran video, dan penghantaran abstrak lanjutan, hendaklah diselesaikan melalui satu penghantaran dalam talian sebelum tarikh tutup yang ditetapkan. Peserta dinasihatkan untuk menyemak dan memuat turun semua dokumen serta templat yang diperlukan bagi memastikan pematuhan terhadap keperluan penyertaan SIIDEX 2026.',
+
+    'registration_checklist_title' => 'Senarai Semak Muat Turun Pendaftaran',
+
+    'registration_note' => 'Peserta dikehendaki menyediakan abstrak lanjutan dan bahan pembentangan mengikut templat serta garis panduan yang disediakan. Peserta pameran fizikal hendaklah mencetak dan mempamerkan bunting semasa acara berlangsung. Peserta virtual pula dikehendaki menyediakan poster pembentangan berdasarkan templat poster rasmi SIIDEX 2026.',
+
+    'btn_terms' => 'Terma dan Syarat Peserta SIIDEX 2026',
+    'btn_flow' => 'Carta Alir Penyertaan SIIDEX 2026',
+    'btn_abstract' => 'Templat Abstrak Lanjutan SIIDEX 2026',
+    'btn_bunting' => 'Templat Bunting SIIDEX 2026 (Untuk Peserta Fizikal)',
+    'btn_poster' => 'Templat Poster SIIDEX 2026 (Untuk Peserta Virtual)',
 
     'info_virtual' => 'Penyertaan dilaksanakan secara <strong>atas talian.</strong>',
     'info_uitm_physical' => 'Pelajar dan pensyarah UiTM Cawangan Sarawak <strong>diwajibkan hadir secara fizikal.</strong>',
     'info_limit' => 'Penyertaan fizikal dihadkan kepada <strong>60 produk.</strong>',
     'info_award' => 'Pemenang SIIDEx 2026 akan dihantar ke <strong>pertandingan antarabangsa & IIDEX 2026.</strong>',
-
     // anugerah
     'awards_title' => 'Anugerah',
 

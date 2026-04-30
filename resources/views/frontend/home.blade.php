@@ -690,9 +690,10 @@
                                 <span class="price-value">{{ __('messages.virtual_student_international_price') }}</span>
                             </div>
                             <div class="pricing-action">
-                                <button type="button" class="btn btn-fee" disabled>
-                                    {{ __('messages.coming_soon') }}
-                                </button>
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6399" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
                             </div>
                         </div>
 
@@ -704,9 +705,10 @@
                                 <span class="price-value">{{ __('messages.virtual_staff_price') }}</span>
                             </div>
                             <div class="pricing-action">
-                                <button type="button" class="btn btn-fee" disabled>
-                                    {{ __('messages.coming_soon') }}
-                                </button>
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6400" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
                             </div>
                         </div>
 
@@ -724,9 +726,10 @@
                                     class="price-value">{{ __('messages.virtual_professional_international_price') }}</span>
                             </div>
                             <div class="pricing-action">
-                                <button type="button" class="btn btn-fee" disabled>
-                                    {{ __('messages.coming_soon') }}
-                                </button>
+                                <a href="https://uitmpay.uitm.edu.my/otherservices/products/AAW1/02/6401" target="_blank"
+                                    class="btn-payment-inline">
+                                    {{ __('messages.make_payment') }}
+                                </a>
                             </div>
                         </div>
 
@@ -752,92 +755,162 @@
         <div class="row" data-aos="fade-up" data-aos-delay="250">
             <div class="col-12">
                 <div class="registration-banner">
-                    <div class="row align-items-center gy-4">
 
-                        <!-- Left -->
-                        <div class="col-lg-5">
-                            <div class="banner-left">
-                                <h3 class="banner-title">{{ __('messages.registration_title') }}</h3>
-                                <p class="banner-text">
-                                    {{ __('messages.registration_subtitle') }}
-                                </p>
+                    <!-- Top: Title + Description + Register Button -->
+                    <div class="registration-intro-wrap">
+                        <div class="registration-intro">
+                            <h3 class="banner-title">{{ __('messages.registration_title') }}</h3>
 
-                                <div class="banner-buttons">
+                            <p class="banner-text mb-0">
+                                {{ __('messages.registration_subtitle') }}
+                            </p>
+                        </div>
 
-                                    <div class="mb-3">
-                                        <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank"
-                                            class="btn btn-main w-100">
-                                            <i class="bi bi-pencil-square me-2"></i>
-                                            {{ __('messages.register_now') }}
-                                        </a>
+                        <div class="registration-action">
+                            <a href="https://forms.gle/hBV9C2DXBJLkWjxg6" target="_blank" class="btn btn-main w-100">
+                                <i class="bi bi-pencil-square me-2"></i>
+                                {{ __('messages.register_now') }}
+                                <i class="bi bi-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Note: Under Description -->
+                    <div class="registration-note-card mt-4">
+                        <div class="note-icon">
+                            <i class="bi bi-info-lg"></i>
+                        </div>
+                        <div class="note-text">
+                            {{ __('messages.registration_note') }}
+                        </div>
+                    </div>
+
+                    <!-- Main Content -->
+                    <div class="row gy-4 align-items-stretch mt-2">
+
+                        <!-- Left: Download Checklist -->
+                        <div class="col-lg-7">
+                            <div class="download-checklist-card h-100">
+
+                                <div class="checklist-header">
+                                    <div class="checklist-header-icon">
+                                        <i class="bi bi-download"></i>
                                     </div>
 
-                                    <div class="row g-2">
-                                        <div class="col-12 mb-2">
-                                            <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
-                                                class="btn btn-light w-100">
-                                                <i class="bi bi-file-earmark-text me-2"></i>
-                                                {{ __('messages.download_abstract') }}
-                                            </a>
-                                        </div>
+                                    <h5>{{ __('messages.registration_checklist_title') }}</h5>
+                                </div>
 
-                                        <div class="col-12 mb-2">
-                                            <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026 Bunting and Poster Template.pdf') }}"
-                                                target="_blank" class="btn btn-light w-100">
-                                                <i class="bi bi-image me-2"></i>
-                                                {{ __('messages.download_template_poster') }}
-                                            </a>
-                                        </div>
-                                    </div>
+                                <div class="registration-download-list">
+
+                                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026 Participant Terms and Conditions.pdf') }}"
+                                        target="_blank" class="download-card">
+                                        <span class="download-arrow">
+                                            <i class="bi bi-file-earmark-check"></i>
+                                        </span>
+                                        <span>{{ __('messages.btn_terms') }}</span>
+                                        <span class="download-icon">
+                                            <i class="bi bi-download"></i>
+                                        </span>
+                                    </a>
+
+                                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026 PARTICIPATION FLOW CHART.svg') }}"
+                                        target="_blank" class="download-card">
+                                        <span class="download-arrow">
+                                            <i class="bi bi-diagram-3"></i>
+                                        </span>
+                                        <span>{{ __('messages.btn_flow') }}</span>
+                                        <span class="download-icon">
+                                            <i class="bi bi-download"></i>
+                                        </span>
+                                    </a>
+
+                                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026_Extended Abstract Template.docx') }}"
+                                        class="download-card">
+                                        <span class="download-arrow">
+                                            <i class="bi bi-file-earmark-word"></i>
+                                        </span>
+                                        <span>{{ __('messages.btn_abstract') }}</span>
+                                        <span class="download-icon">
+                                            <i class="bi bi-download"></i>
+                                        </span>
+                                    </a>
+
+                                    <a href="{{ asset('public/assets/frontend/files/SIIDEX 2026 Bunting and Poster Template.pdf') }}"
+                                        target="_blank" class="download-card">
+                                        <span class="download-arrow">
+                                            <i class="bi bi-layout-text-window"></i>
+                                        </span>
+                                        <span>{{ __('messages.btn_bunting') }}</span>
+                                        <span class="download-icon">
+                                            <i class="bi bi-download"></i>
+                                        </span>
+                                    </a>
+
+                                    <a href="{{ asset('public/assets/frontend/files/SIIDEX Poster for Virtual Participants.pdf') }}"
+                                        target="_blank" class="download-card">
+                                        <span class="download-arrow">
+                                            <i class="bi bi-file-earmark-image"></i>
+                                        </span>
+                                        <span>{{ __('messages.btn_poster') }}</span>
+                                        <span class="download-icon">
+                                            <i class="bi bi-download"></i>
+                                        </span>
+                                    </a>
 
                                 </div>
+
                             </div>
                         </div>
 
-                        <!-- Right -->
-                        <div class="col-lg-7">
-                            <div class="banner-info-list">
+                        <!-- Right: Info Items Only -->
+                        <div class="col-lg-5">
+                            <div class="registration-side-clean h-100">
 
-                                <div class="banner-info-item">
-                                    <div class="banner-icon">
-                                        <i class="bi bi-globe2"></i>
-                                    </div>
-                                    <div class="banner-info-text">
-                                        {!! __('messages.info_virtual') !!}
-                                    </div>
-                                </div>
+                                <div class="banner-info-list">
 
-                                <div class="banner-info-item">
-                                    <div class="banner-icon">
-                                        <i class="bi bi-people-fill"></i>
+                                    <div class="banner-info-item">
+                                        <div class="banner-icon">
+                                            <i class="bi bi-globe2"></i>
+                                        </div>
+                                        <div class="banner-info-text">
+                                            {!! __('messages.info_virtual') !!}
+                                        </div>
                                     </div>
-                                    <div class="banner-info-text">
-                                        {!! __('messages.info_uitm_physical') !!}
-                                    </div>
-                                </div>
 
-                                <div class="banner-info-item">
-                                    <div class="banner-icon">
-                                        <i class="bi bi-box-seam"></i>
+                                    <div class="banner-info-item">
+                                        <div class="banner-icon">
+                                            <i class="bi bi-people-fill"></i>
+                                        </div>
+                                        <div class="banner-info-text">
+                                            {!! __('messages.info_uitm_physical') !!}
+                                        </div>
                                     </div>
-                                    <div class="banner-info-text">
-                                        {!! __('messages.info_limit') !!}
-                                    </div>
-                                </div>
 
-                                <div class="banner-info-item highlight">
-                                    <div class="banner-icon">
-                                        <i class="bi bi-trophy-fill"></i>
+                                    <div class="banner-info-item">
+                                        <div class="banner-icon">
+                                            <i class="bi bi-box-seam"></i>
+                                        </div>
+                                        <div class="banner-info-text">
+                                            {!! __('messages.info_limit') !!}
+                                        </div>
                                     </div>
-                                    <div class="banner-info-text">
-                                        {!! __('messages.info_award') !!}
+
+                                    <div class="banner-info-item highlight">
+                                        <div class="banner-icon">
+                                            <i class="bi bi-trophy-fill"></i>
+                                        </div>
+                                        <div class="banner-info-text">
+                                            {!! __('messages.info_award') !!}
+                                        </div>
                                     </div>
+
                                 </div>
 
                             </div>
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>
