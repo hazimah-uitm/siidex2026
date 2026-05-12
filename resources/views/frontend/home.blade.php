@@ -518,7 +518,7 @@
                         <div class="pricing-header">
                             <h3>{{ __('messages.early_bird_title1') }}</h3>
                             <p class="fw-bold">{{ __('messages.early_bird_date') }}</p>
-                            <div class="early-countdown" data-deadline="2026-06-31 23:59:59">
+                            <div class="early-countdown" data-deadline="2026-05-31 23:59:59">
                                 <div class="count-box">
                                     <span id="eb-days">0</span>
                                     <small>{{ __('messages.days') }}</small>
