@@ -879,7 +879,7 @@
 
                                     <div class="banner-info-item">
                                         <div class="banner-icon">
-                                            <i class="bi bi-people-fill"></i>
+                                            <i class="bi bi-people"></i>
                                         </div>
                                         <div class="banner-info-text">
                                             {!! __('messages.info_uitm_physical') !!}
@@ -897,7 +897,7 @@
 
                                     <div class="banner-info-item highlight">
                                         <div class="banner-icon">
-                                            <i class="bi bi-trophy-fill"></i>
+                                            <i class="bi bi-trophy"></i>
                                         </div>
                                         <div class="banner-info-text">
                                             {!! __('messages.info_award') !!}
@@ -931,7 +931,7 @@
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
                             <div class="award-icon-wrap mb-3">
-                                <i class="bi bi-mortarboard-fill"></i>
+                                <i class="bi bi-mortarboard"></i>
                             </div>
                             <h4 class="fw-bold">
                                 {{ __('messages.award_teaching_best') }}
@@ -944,7 +944,7 @@
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
                             <div class="award-icon-wrap mb-3">
-                                <i class="bi bi-lightbulb-fill"></i>
+                                <i class="bi bi-lightbulb"></i>
                             </div>
                             <h4 class="fw-bold">
                                 {{ __('messages.award_innovation_best') }}
@@ -970,7 +970,7 @@
                     <div class="card text-center shadow-sm border-0 h-100 award-card special-award-card">
                         <div class="p-4">
                             <div class="award-icon-wrap mb-3">
-                                <i class="bi bi-palette-fill"></i>
+                                <i class="bi bi-palette"></i>
                             </div>
                             <h4 class="fw-bold">
                                 {{ __('messages.award_design_best') }}
@@ -984,7 +984,7 @@
             <div class="row mb-5" data-aos="fade-up" data-aos-delay="280">
                 <div class="col-12">
                     <div class="awards-alert-note">
-                        <i class="bi bi-megaphone-fill me-2"></i>
+                        <i class="bi bi-megaphone me-2"></i>
                         {!! __('messages.awards_best_note') !!}
                     </div>
                 </div>
@@ -1036,7 +1036,7 @@
             <div class="row mt-4" data-aos="fade-up" data-aos-delay="500">
                 <div class="col-12">
                     <div class="awards-alert-note online-note">
-                        <i class="bi bi-info-circle-fill me-2"></i>
+                        <i class="bi bi-info-circle me-2"></i>
                         {!! __('messages.awards_medal_note') !!}
                     </div>
                 </div>
