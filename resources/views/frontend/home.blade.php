@@ -518,6 +518,31 @@
                         <div class="pricing-header">
                             <h3>{{ __('messages.early_bird_title1') }}</h3>
                             <p class="fw-bold">{{ __('messages.early_bird_date') }}</p>
+                            <div class="early-countdown" data-deadline="2026-06-30 23:59:59">
+                                <div class="count-box">
+                                    <span id="eb-days">0</span>
+                                    <small>{{ __('messages.days') }}</small>
+                                </div>
+
+                                <div class="count-box">
+                                    <span id="eb-hours">0</span>
+                                    <small>{{ __('messages.hours') }}</small>
+                                </div>
+
+                                <div class="count-box">
+                                    <span id="eb-minutes">0</span>
+                                    <small>{{ __('messages.minutes') }}</small>
+                                </div>
+
+                                <div class="count-box">
+                                    <span id="eb-seconds">0</span>
+                                    <small>{{ __('messages.seconds') }}</small>
+                                </div>
+                            </div>
+
+                            <div id="eb-expired" class="early-expired d-none">
+                                {{ __('messages.early_bird_ended') }}
+                            </div>
                         </div>
 
                         <div class="price-row">
@@ -1392,4 +1417,40 @@
 
     </section>
     <!-- /Contact Section -->
+
+    {{-- js countdown early bird --}}
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var countdown = document.querySelector(".early-countdown");
+
+            if (!countdown) return;
+
+            var deadline = new Date(countdown.getAttribute("data-deadline")).getTime();
+
+            var daysEl = document.getElementById("eb-days");
+            var hoursEl = document.getElementById("eb-hours");
+            var minutesEl = document.getElementById("eb-minutes");
+            var secondsEl = document.getElementById("eb-seconds");
+            var expiredEl = document.getElementById("eb-expired");
+
+            function updateCountdown() {
+                var now = new Date().getTime();
+                var distance = deadline - now;
+
+                if (distance <= 0) {
+                    countdown.classList.add("d-none");
+                    expiredEl.classList.remove("d-none");
+                    return;
+                }
+
+                daysEl.innerHTML = Math.floor(distance / (1000 * 60 * 60 * 24));
+                hoursEl.innerHTML = Math.floor((distance / (1000 * 60 * 60)) % 24);
+                minutesEl.innerHTML = Math.floor((distance / (1000 * 60)) % 60);
+                secondsEl.innerHTML = Math.floor((distance / 1000) % 60);
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+        });
+    </script>
 @endsection

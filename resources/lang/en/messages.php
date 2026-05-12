@@ -150,6 +150,11 @@ return [
     'international_label' => 'International',
     'uitm_staff_note' => 'UiTM Sarawak &<br> UiTM Penang only',
     'uitm_staff_note1' => 'UiTM Penang only',
+    'days' => 'Days',
+    'hours' => 'Hours',
+    'minutes' => 'Minutes',
+    'seconds' => 'Seconds',
+    'early_bird_ended' => 'Early Bird Rate has ended',
 
     'early_student_local_price' => 'RM 200',
     'early_student_international_price' => 'USD 60',

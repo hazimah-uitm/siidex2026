@@ -134,6 +134,11 @@ return [
     'international_label' => 'Antarabangsa',
     'uitm_staff_note' => 'UiTM Sarawak &<br> UiTM Penang sahaja',
     'uitm_staff_note1' => 'UiTM Penang sahaja',
+    'days' => 'Hari',
+    'hours' => 'Jam',
+    'minutes' => 'Minit',
+    'seconds' => 'Saat',
+    'early_bird_ended' => 'Kadar pendaftaran awal telah tamat',
 
     'early_student_local_price' => 'RM 200',
     'early_student_international_price' => 'USD 60',
