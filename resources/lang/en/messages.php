@@ -48,7 +48,7 @@ return [
     'virtual_rate_title' => 'Virtual Rate',
     'virtual_rate_date_range' => '23 April - 30 June 2026',
 
-    'important_dates_note' => 'All registration, payment, video, and extended abstract requirements must be completed via a single online submission by the specified deadline.',
+    'important_dates_note' => 'All registration, payment, video (for Virtual Participants), and extended abstract requirements must be completed via a single online submission by the specified deadline.',
 
     'program_itinerary_title' => 'Program Itinerary & Related Event',
     'program_date_1' => '14 September 2026',
@@ -175,7 +175,7 @@ return [
     // registration
     'registration_title' => 'REGISTRATION',
 
-    'registration_subtitle' => 'All registration requirements, including payment, video submission, and extended abstract submission, must be completed through a single online submission before the stated deadline. Participants are advised to review and download all required documents and templates to ensure compliance with SIIDEX 2026 participation requirements.',
+    'registration_subtitle' => 'All registration requirements, including payment, video submission (for Virtual Participants), and extended abstract submission, must be completed through a single online submission before the stated deadline. Participants are advised to review and download all required documents and templates to ensure compliance with SIIDEX 2026 participation requirements.',
 
     'registration_checklist_title' => 'Registration Download Checklist',
 

@@ -45,7 +45,7 @@ return [
     'normal_rate_date_range' => '01 Jun - 30 Julai 2026',
     'virtual_rate_title' => 'Kadar Maya',
     'virtual_rate_date_range' => '23 April - 30 Jun 2026',
-    'important_dates_note' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video dan abstrak lanjutan hendaklah dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
+    'important_dates_note' => 'Semua keperluan pendaftaran, pembayaran, penghantaran video (untuk Peserta Virtual) dan abstrak lanjutan hendaklah dilengkapkan melalui satu penghantaran dalam talian sebelum tarikh akhir yang ditetapkan.',
     'program_itinerary_title' => 'Atur Cara Program & Acara Berkaitan',
     'program_date_1' => '14 September 2026',
     'program_event_1' => 'SIIDEX 2026 - 8:00 Pagi - 5:00 Petang',
@@ -159,7 +159,7 @@ return [
     // pendaftaran
     'registration_title' => 'PENDAFTARAN',
 
-    'registration_subtitle' => 'Semua keperluan pendaftaran, termasuk pembayaran, penghantaran video, dan penghantaran abstrak lanjutan, hendaklah diselesaikan melalui satu penghantaran dalam talian sebelum tarikh tutup yang ditetapkan. Peserta dinasihatkan untuk menyemak dan memuat turun semua dokumen serta templat yang diperlukan bagi memastikan pematuhan terhadap keperluan penyertaan SIIDEX 2026.',
+    'registration_subtitle' => 'Semua keperluan pendaftaran, termasuk pembayaran, penghantaran video (untuk Peserta Virtual), dan penghantaran abstrak lanjutan, hendaklah diselesaikan melalui satu penghantaran dalam talian sebelum tarikh tutup yang ditetapkan. Peserta dinasihatkan untuk menyemak dan memuat turun semua dokumen serta templat yang diperlukan bagi memastikan pematuhan terhadap keperluan penyertaan SIIDEX 2026.',
 
     'registration_checklist_title' => 'Senarai Semak Muat Turun Pendaftaran',
 
